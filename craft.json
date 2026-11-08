@@ -1,0 +1,575 @@
+{
+  "version": 2,
+  "name": "parsec-windows",
+  "request": "작동 원리를 파악해서 rust로 재구현 하고 싶다.\nhttps://github.com/rustdesk  엔진을 사용하고 parsec과 같은 사용자 경험을 가지게 하고 싶다.\n설치 웹과 온라인에서 등록된 원격 노드를 쉽게 접속 하게 만들고 싶다.\nparsec 분석을 통해서 서버 구성 장법을 배워 자체 서버를 구현 하고 싶다.",
+  "target": {
+    "kind": "local",
+    "path": "C:\\REA\\parsec-windows.exe"
+  },
+  "stack": "Rust + egui (eframe)",
+  "status": "ready",
+  "note": "Ready: all 3 checks pass, 27 of 27 claims hold. 3 questions about the original are still open.",
+  "created_ms": 1794115866526,
+  "updated_ms": 1794130629158,
+  "checks": [
+    {
+      "round": 1,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794117072916
+    },
+    {
+      "round": 1,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1180×740).",
+      "artifacts": [
+        "checks\\round-1\\screenshot.png"
+      ],
+      "at_ms": 1794117076006
+    },
+    {
+      "round": 1,
+      "check": "mechanics",
+      "passed": true,
+      "similarity": null,
+      "note": "app/mechanics.json has 23 values (17 with a source, 6 estimated).",
+      "artifacts": [],
+      "at_ms": 1794117076007,
+      "claims": [
+        {
+          "title": "hosts list refresh (20000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "max hosts in list (256) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll min (1800000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll max (2400000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "server connect timeout (10000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect start (30000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect long wait (3600000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect cap (300000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect tries before long wait (50) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "sdk version (393216) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun port (3478) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun magic cookie (554869826) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port base (21000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port range (2000) is used in the code",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794117612870
+    },
+    {
+      "round": 2,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1180×740).",
+      "artifacts": [
+        "checks\\round-2\\screenshot.png"
+      ],
+      "at_ms": 1794117615963
+    },
+    {
+      "round": 2,
+      "check": "mechanics",
+      "passed": true,
+      "similarity": null,
+      "note": "app/mechanics.json has 31 values (25 with a source, 6 estimated).",
+      "artifacts": [],
+      "at_ms": 1794117615964,
+      "claims": [
+        {
+          "title": "hosts list refresh (20000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "max hosts in list (256) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "hosts backoff factor (1.5) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "hosts refresh max (60000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "rate limited status (429) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll min (1800000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll max (2400000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "server connect timeout (10000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect start (30000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect long wait (3600000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect cap (300000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect doubling tries (51) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "sdk version (393216) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun port (3478) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun magic cookie (554869826) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port base (21000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port range (2000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "max relays (20) is used in the code",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794120025922
+    },
+    {
+      "round": 3,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1180×740).",
+      "artifacts": [
+        "checks\\round-3\\screenshot.png"
+      ],
+      "at_ms": 1794120029037
+    },
+    {
+      "round": 3,
+      "check": "mechanics",
+      "passed": true,
+      "similarity": null,
+      "note": "app/mechanics.json has 36 values (29 with a source, 7 estimated).",
+      "artifacts": [],
+      "at_ms": 1794120029038,
+      "claims": [
+        {
+          "title": "hosts list refresh (20000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "max hosts in list (256) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "hosts backoff factor (1.5) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "hosts refresh max (60000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "rate limited status (429) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll min (1800000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll max (2400000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "server connect timeout (10000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect start (30000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect long wait (3600000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect cap (300000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect doubling tries (51) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "sdk version (393216) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun port (3478) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun magic cookie (554869826) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port base (21000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port range (2000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "max relays (20) is used in the code",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794121904878
+    },
+    {
+      "round": 4,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1180×740).",
+      "artifacts": [
+        "checks\\round-4\\screenshot.png"
+      ],
+      "at_ms": 1794121908125
+    },
+    {
+      "round": 4,
+      "check": "mechanics",
+      "passed": true,
+      "similarity": null,
+      "note": "app/mechanics.json has 43 values (36 with a source, 7 estimated).",
+      "artifacts": [],
+      "at_ms": 1794121908126,
+      "claims": [
+        {
+          "title": "hosts list refresh (20000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "max hosts in list (256) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "hosts backoff factor (1.5) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "hosts refresh max (60000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "rate limited status (429) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "share secret min (2147483647) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "share secret max (4294967295) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "share link copied notice (10000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "share link stopped notice (5000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll min (1800000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll max (2400000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "server connect timeout (10000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect start (30000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect long wait (3600000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect cap (300000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect doubling tries (51) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "sdk version (393216) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun port (3478) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun magic cookie (554869826) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port base (21000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port range (2000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "max relays (20) is used in the code",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794130626079
+    },
+    {
+      "round": 5,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (1180×740).",
+      "artifacts": [
+        "checks\\round-5\\screenshot.png"
+      ],
+      "at_ms": 1794130629145
+    },
+    {
+      "round": 5,
+      "check": "mechanics",
+      "passed": true,
+      "similarity": null,
+      "note": "app/mechanics.json has 59 values (51 with a source, 8 estimated).",
+      "artifacts": [],
+      "at_ms": 1794130629146,
+      "claims": [
+        {
+          "title": "hosts list refresh (20000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "max hosts in list (256) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "hosts backoff factor (1.5) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "hosts refresh max (60000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "rate limited status (429) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "attempt id random bytes (24) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "access link id length (27) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "machine registration success status (201) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "session id max length (64) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "no connection error code (-800) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "share secret min (2147483647) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "share secret max (4294967295) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "share link copied notice (10000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "share link stopped notice (5000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll min (1800000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "me poll max (2400000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "server connect timeout (10000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect start (30000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect long wait (3600000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect cap (300000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "ws reconnect doubling tries (51) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "sdk version (393216) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun port (3478) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "stun magic cookie (554869826) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port base (21000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "host start port range (2000) is used in the code",
+          "passed": true
+        },
+        {
+          "title": "max relays (20) is used in the code",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "agent_session": "94a78adb-5aae-4177-961d-6c6d5dd1dac3",
+  "agent_session_by": "claude-code",
+  "allowed_actions": [
+    "tool:build_command_run"
+  ],
+  "last_reply": "The previous turn already read Parsec's team-registration code, so this time I'm reading the code behind the newest feature, the admin \"SigmaDesk로 제어\" button. That is Parsec's own Connect routine. I'll also try again to settle how its peer IDs are made.Server: store and show the attempts.Now the app reports each attempt. Parsec-style links that carry `host_secret=` pass the secret along, classified by the 27-character rule.Using the recorded attempt ID in the app's status line.Clean build. Testing the attempt recording and the admin control log on a temporary server, including the 27-character access-link rule and a forbidden attempt.All four tests pass. Refreshing the node package and the live server, then updating the mechanics sheet.I read Parsec's Connect code with Ghidra and used what it showed. Every SigmaDesk connection now gets an attempt ID in Parsec's format and is reported to the server, which keeps a new \"최근 제어 기록\" (who, which node, how, when) in the admin console and refuses connections from people without permission.\n\nShare links now carry their secret. Like Parsec, a secret of exactly 27 letters/digits counts as an access link and anything else as a share secret.\n\nThe build and check pass, four new automated tests pass, a test against a temporary server worked, and the live Docker server and node installer are updated. Two things are still waiting on you: running the install on 10.10.1.92 from your RDP session, and trying a real screen connection once RustDesk is on both PCs.",
+  "asset_budget_usd": 5.0,
+  "generate_assets": false
+}

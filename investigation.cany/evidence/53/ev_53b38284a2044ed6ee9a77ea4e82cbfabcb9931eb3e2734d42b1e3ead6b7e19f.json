@@ -1,0 +1,42 @@
+{
+  "id": "ev_53b38284a2044ed6ee9a77ea4e82cbfabcb9931eb3e2734d42b1e3ead6b7e19f",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_bytes_show",
+  "params": {
+    "address": "0x18027f720",
+    "length": 48
+  },
+  "result": {
+    "address": "0x18027f720",
+    "ascii": "host_peer_id....tfa...../v2/auth....POST........",
+    "file_offset": 2615072,
+    "hex": "686f73745f706565725f69640000000074666100000000002f76322f6175746800000000504f53540000000000000000",
+    "length": 48
+  },
+  "summary": "48 bytes at 0x18027f720.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 48,
+    "total": 48
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x18027f720"
+    }
+  ],
+  "links": []
+}

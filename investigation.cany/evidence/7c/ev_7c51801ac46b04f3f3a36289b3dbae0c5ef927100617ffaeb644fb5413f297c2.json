@@ -1,0 +1,134 @@
+{
+  "id": "ev_7c51801ac46b04f3f3a36289b3dbae0c5ef927100617ffaeb644fb5413f297c2",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 200,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "^(DELETE|PUT|PATCH|GET|POST)$"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x18027f6c8",
+        "references": [
+          {
+            "from": "0x18000775d",
+            "function": "sub_1800075c0"
+          },
+          {
+            "from": "0x18000d13e",
+            "function": "sub_18000d130"
+          },
+          {
+            "from": "0x1800309b4",
+            "function": "sub_180030150"
+          },
+          {
+            "from": "0x180031ec8",
+            "function": "sub_180031a8d"
+          }
+        ],
+        "section": ".rdata",
+        "text": "DELETE"
+      },
+      {
+        "address": "0x18027f744",
+        "references": [
+          {
+            "from": "0x180003f75",
+            "function": "sub_180003d20"
+          },
+          {
+            "from": "0x180004c0e",
+            "function": "sub_180004a50"
+          },
+          {
+            "from": "0x180005294",
+            "function": "sub_180004c70"
+          },
+          {
+            "from": "0x180005b2e",
+            "function": "sub_180005970"
+          },
+          {
+            "from": "0x180005efe",
+            "function": "sub_180005d60"
+          },
+          {
+            "from": "0x180007e43",
+            "function": "sub_180007c60"
+          },
+          {
+            "from": "0x18000dfde",
+            "function": "sub_18000dfd0"
+          },
+          {
+            "from": "0x18002e38e",
+            "function": "sub_18002e220"
+          },
+          {
+            "from": "0x1800aeb71",
+            "function": "sub_1800ae070"
+          }
+        ],
+        "section": ".rdata",
+        "text": "POST"
+      },
+      {
+        "address": "0x18027f7a0",
+        "references": [
+          {
+            "from": "0x1800055ea",
+            "function": "sub_180005400"
+          },
+          {
+            "from": "0x18002feb1",
+            "function": "sub_18002fd5a"
+          },
+          {
+            "from": "0x18003006e",
+            "function": "sub_18002fd5a"
+          }
+        ],
+        "section": ".rdata",
+        "text": "PATCH"
+      },
+      {
+        "address": "0x1802fa87c",
+        "references": [],
+        "section": ".rdata",
+        "text": "post"
+      }
+    ],
+    "total": 4
+  },
+  "summary": "4 strings match \"^(DELETE|PUT|PATCH|GET|POST)$\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 4,
+    "total": 4
+  },
+  "locations": [],
+  "links": []
+}

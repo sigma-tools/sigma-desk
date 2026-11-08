@@ -1,0 +1,109 @@
+{
+  "id": "ev_bf1521a2b1afb962aa21066341cb0901c7e6b39a14d579ff75503b97a566fa72",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_xrefs_list",
+  "params": {
+    "address": "0x18034b420",
+    "limit": 200,
+    "offset": 0
+  },
+  "result": {
+    "address": "0x18034b420",
+    "name": null,
+    "references_from": [],
+    "references_to": [
+      {
+        "from": "0x180018073",
+        "function": "sub_180012c50",
+        "kind": "string"
+      },
+      {
+        "from": "0x1800180ed",
+        "function": "sub_180012c50",
+        "kind": "string"
+      },
+      {
+        "from": "0x1800741e4",
+        "function": "sub_180074030",
+        "kind": "string"
+      },
+      {
+        "from": "0x1800741f8",
+        "function": "sub_180074030",
+        "kind": "string"
+      },
+      {
+        "from": "0x18007421d",
+        "function": "sub_180074030",
+        "kind": "string"
+      },
+      {
+        "from": "0x18008629f",
+        "function": "sub_1800856b0",
+        "kind": "string"
+      },
+      {
+        "from": "0x1800862b3",
+        "function": "sub_1800856b0",
+        "kind": "string"
+      },
+      {
+        "from": "0x1800862d8",
+        "function": "sub_1800856b0",
+        "kind": "string"
+      },
+      {
+        "from": "0x1800979ce",
+        "function": "sub_180097684",
+        "kind": "string"
+      },
+      {
+        "from": "0x1800979e2",
+        "function": "sub_180097684",
+        "kind": "string"
+      },
+      {
+        "from": "0x180097a07",
+        "function": "sub_180097684",
+        "kind": "string"
+      },
+      {
+        "from": "0x1803344e0",
+        "function": null,
+        "kind": "string"
+      }
+    ],
+    "total_to": 12
+  },
+  "summary": "0x18034b420 is referenced from 12 places and refers to 0.",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "static_references",
+      "message": "references made through computed pointers at run time are not seen"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 12,
+    "total": 12
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x18034b420"
+    }
+  ],
+  "links": []
+}

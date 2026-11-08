@@ -1,0 +1,45 @@
+{
+  "id": "ev_e6534cddea8b2700028edde7029fe15f3fda9dd25f12c4dd9b8371baa2b9645c",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x180005f6e"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x180005f6e",
+    "function": "FUN_180005f60",
+    "pseudo_code": "\r\nvoid FUN_180005f60(undefined4 *param_1,undefined1 *param_2)\r\n\r\n{\r\n  bool bVar1;\r\n  bool bVar2;\r\n  int iVar3;\r\n  longlong lVar4;\r\n  undefined8 uVar5;\r\n  char *pcVar6;\r\n  ushort local_res8 [4];\r\n  undefined8 local_res18;\r\n  longlong local_res20;\r\n  undefined8 local_28 [2];\r\n  \r\n  local_res18 = 0;\r\n  local_28[0] = 0;\r\n  local_res8[0] = 0;\r\n  bVar2 = false;\r\n  bVar1 = false;\r\n  iVar3 = FUN_1800d4600(*param_1,&local_res18,local_28,local_res8);\r\n  param_1[1] = (uint)local_res8[0];\r\n  param_1[2] = iVar3;\r\n  if (iVar3 == 0) {\r\n    if (local_res8[0] == 0xc9) {\r\n      local_res20 = FUN_1800d1ca0(local_res18);\r\n      if ((local_res20 == 0) || (lVar4 = FUN_1800d1c00(local_res20,&DAT_18027f644), lVar4 == 0)) {\r\n        FUN_1800d1960(&local_res20);\r\n      }\r\n      else {\r\n        uVar5 = FUN_1800d1c00(lVar4,&DAT_18027f69c);\r\n        lVar4 = FUN_1800d29c0(uVar5);\r\n        if (lVar4 != 0) {\r\n          FUN_180002a30(param_2,0x41,&DAT_18027f1c4,lVar4);\r\n        }\r\n        FUN_1800d1960(&local_res20);\r\n        if (lVar4 != 0) {\r\n          iVar3 = param_1[2];\r\n          goto LAB_180006045;\r\n        }\r\n      }\r\n      param_1[1] = 0xffffe0c0;\r\n      iVar3 = 3;\r\n      param_1[2] = 3;\r\n      goto LAB_180006045;\r\n    }\r\n    if (local_res8[0] == 0x191) {\r\n      local_res20 = FUN_1800d1ca0(local_res18);\r\n      if (local_res20 != 0) {\r\n        FUN_180002a30(param_1 + 0x103,0x20,\"Error [%d]\",param_1[1]);\r\n        uVar5 = FUN_1800d1c00(local_res20,\"error\");\r\n        lVar4 = FUN_1800d29c0(uVar5);\r\n        if (lVar4 != 0) {\r\n          FUN_180002a30(param_1 + 0x10b,0x80,&DAT_18027f1c4,lVar4);\r\n        }\r\n        bVar2 = true;\r\n      }\r\n      FUN_1800d1960(&local_res20);\r\n    }\r\n    param_1[2] = 3;\r\n  }\r\n  else {\r\nLAB_180006045:\r\n    if (iVar3 != 3) goto LAB_18000604e;\r\n  }\r\n  bVar1 = bVar2;\r\n  *param_2 = 0;\r\nLAB_18000604e:\r\n  if ((param_1[2] == 0) || (param_1[2] == 3)) {\r\n    FUN_1800d4550(param_1);\r\n  }\r\n  if ((!bVar1) && (param_1[2] == 3)) {\r\n    iVar3 = param_1[1];\r\n    if (iVar3 == 0) {\r\n      param_1[1] = 0xfffffce0;\r\n      iVar3 = -800;\r\n    }\r\n    FUN_180002a30(param_1 + 0x103,0x20,\"Error [%d]\",iVar3);\r\n    iVar3 = param_1[1];\r\n    if (iVar3 == -800) {\r\n      pcVar6 = \"Please check your internet connection.\";\r\n    }\r\n    else if ((iVar3 - 0x191U & 0xfffffffd) == 0) {\r\n      pcVar6 = \"Please try logging out and logging back in.\";\r\n    }\r\n    else {\r\n      pcVar6 = \"Please wait a moment and try again.\";\r\n      if (iVar3 == 0x19c) {\r\n        pcVar6 = \"You must re-authenticate.\";\r\n      }\r\n    }\r\n    FUN_180002a30(param_1 + 0x10b,0x80,\"Failed request to %s. %s\",param_1 + 3,pcVar6);\r\n  }\r\n  return;\r\n}\r\n\r\n",
+    "signature": "void FUN_180005f60(undefined4 *param_1,undefined1 *param_2);"
+  },
+  "summary": "Pseudo-C for FUN_180005f60 from the Deep engine (96 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x180005f6e"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

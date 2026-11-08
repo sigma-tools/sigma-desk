@@ -1,0 +1,45 @@
+{
+  "id": "ev_0cb15f5ce93f8b0b6adb6e76579534a615243c5b2ab5978d83c037d70ecfec19",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x180005d60"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x180005d60",
+    "function": "FUN_180005d60",
+    "pseudo_code": "\r\nvoid FUN_180005d60(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)\r\n\r\n{\r\n  uint uVar1;\r\n  char *pcVar2;\r\n  longlong lVar3;\r\n  undefined1 *puVar4;\r\n  undefined8 uVar5;\r\n  longlong lVar6;\r\n  char *pcVar7;\r\n  undefined8 local_res8;\r\n  undefined8 in_stack_fffffffffffffee8;\r\n  undefined4 uVar8;\r\n  undefined1 local_c8 [160];\r\n  \r\n  uVar8 = (undefined4)((ulonglong)in_stack_fffffffffffffee8 >> 0x20);\r\n  lVar3 = FUN_1800d3c50(local_c8);\r\n  pcVar2 = *(char **)(lVar3 + 0x20);\r\n  uVar1 = *(uint *)(lVar3 + 0x48);\r\n  puVar4 = *(undefined1 **)(lVar3 + 0x40);\r\n  if ((uVar1 & 0x20) == 0) {\r\n    if ((uVar1 & 0x10) == 0) {\r\n      puVar4 = &DAT_18027f1c2;\r\n    }\r\n    else {\r\n      puVar4 = (undefined1 *)\r\n               FUN_1800d5700(\"%d.%d.%d.%d\",*(ulonglong *)(lVar3 + 8),\r\n                             *(ulonglong *)(lVar3 + 8) >> 0x20,\r\n                             SUB168(*(undefined1 (*) [16])(lVar3 + 0x10),0),\r\n                             CONCAT44(uVar8,SUB164(*(undefined1 (*) [16])(lVar3 + 0x10),4)));\r\n    }\r\n  }\r\n  uVar5 = FUN_180003680();\r\n  pcVar7 = \"no-name\";\r\n  if ((uVar1 & 1) != 0) {\r\n    pcVar7 = pcVar2;\r\n  }\r\n  uVar5 = FUN_1800d5700(\"X-Parsec-OS: %s\\nX-Parsec-OS-Version: %s\\nX-Parsec-Platform: %s\\nX-Parsec-App-Version: %s\\nX-Parsec-Device-ID: %s\\n%s%s%s%s%s\"\r\n                        ,pcVar7,puVar4,\"windows\",\"150-104a\",&DAT_1805a5cd0,uVar5,\r\n                        \"Content-Type:application/json\\n\",&DAT_18027f1c2,&DAT_18027f1c2,\r\n                        &DAT_18027f1c2);\r\n  FUN_1800d5700(\"%sX-Machine-Key: %s\\n\",uVar5,param_3);\r\n  FUN_180002a30(param_1 + 0xc,0x400,\"/teams/%s/machines\",param_4);\r\n  local_res8 = FUN_1800d1bc0();\r\n  uVar5 = FUN_1800d3b10();\r\n  uVar5 = FUN_1800d2980(uVar5);\r\n  FUN_1800d1c40(local_res8,&DAT_18027f658,uVar5);\r\n  uVar5 = FUN_1800d1930(0);\r\n  FUN_1800d1c40(local_res8,\"team_guest_access\",uVar5);\r\n  lVar3 = FUN_1800d2920(local_res8);\r\n  lVar6 = -1;\r\n  do {\r\n    lVar6 = lVar6 + 1;\r\n  } while (*(char *)(lVar3 + lVar6) != '\\0');\r\n  FUN_180003380(param_1,param_2);\r\n  FUN_1800d5270(lVar3);\r\n  FUN_1800d1960(&local_res8);\r\n  return;\r\n}\r\n\r\n",
+    "signature": "void FUN_180005d60(longlong param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4);"
+  },
+  "summary": "Pseudo-C for FUN_180005d60 from the Deep engine (61 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x180005d60"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

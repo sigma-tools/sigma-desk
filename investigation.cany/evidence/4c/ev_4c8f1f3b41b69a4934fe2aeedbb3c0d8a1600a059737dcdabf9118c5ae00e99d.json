@@ -1,0 +1,59 @@
+{
+  "id": "ev_4c8f1f3b41b69a4934fe2aeedbb3c0d8a1600a059737dcdabf9118c5ae00e99d",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_bytes_find",
+  "params": {
+    "encoding": "both",
+    "limit": 100,
+    "offset": 0,
+    "path": null,
+    "pattern": "a0 26 36 80 01 00 00 00",
+    "text": null
+  },
+  "result": {
+    "file_size": 6207848,
+    "limit": 100,
+    "match_cap_reached": false,
+    "matches": [],
+    "native_container": "pe",
+    "offset": 0,
+    "path": "C:\\Users\\cmars\\AppData\\Local\\Temp\\rea_parsec_x\\b009_6207848.mz",
+    "searched_for": [
+      {
+        "kind": "pattern",
+        "length": 8
+      }
+    ],
+    "total_matches": 0
+  },
+  "summary": "0 match(es) for pattern in b009_6207848.mz.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "file_bytes_only",
+      "message": "The file's bytes are searched as stored: compressed, encrypted or packed regions and data built at run time are not seen, so no match is not proof of absence."
+    },
+    {
+      "code": "unmapped_regions",
+      "message": "Matches in headers, overlays or debug data that are not loaded into memory have no virtual address."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 0,
+    "total": 0
+  },
+  "locations": [],
+  "links": []
+}

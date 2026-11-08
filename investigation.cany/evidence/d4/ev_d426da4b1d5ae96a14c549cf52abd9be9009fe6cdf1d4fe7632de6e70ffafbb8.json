@@ -1,0 +1,45 @@
+{
+  "id": "ev_d426da4b1d5ae96a14c549cf52abd9be9009fe6cdf1d4fe7632de6e70ffafbb8",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x1800ceed0"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x1800ceed0",
+    "function": "FUN_1800cee50",
+    "pseudo_code": "\r\nundefined8 FUN_1800cee50(longlong param_1,undefined8 *param_2)\r\n\r\n{\r\n  char cVar1;\r\n  int iVar2;\r\n  undefined8 uVar3;\r\n  longlong lVar4;\r\n  longlong lVar5;\r\n  char *pcVar6;\r\n  longlong lVar7;\r\n  undefined *puVar8;\r\n  uint uVar9;\r\n  bool bVar10;\r\n  longlong local_res18;\r\n  char local_448 [32];\r\n  undefined8 local_428;\r\n  undefined8 uStack_420;\r\n  undefined8 local_418;\r\n  undefined8 uStack_410;\r\n  undefined1 local_408 [56];\r\n  undefined1 local_3d0 [72];\r\n  ushort local_388;\r\n  char local_386;\r\n  undefined1 local_385;\r\n  undefined1 local_384 [860];\r\n  \r\n  lVar7 = 0;\r\n  local_res18 = 0;\r\n  local_res18 = FUN_1800d1ca0(param_2);\r\n  if (local_res18 != 0) {\r\n    local_448[0] = '\\0';\r\n    local_448[1] = '\\0';\r\n    local_448[2] = '\\0';\r\n    local_448[3] = '\\0';\r\n    local_448[4] = '\\0';\r\n    local_448[5] = '\\0';\r\n    local_448[6] = '\\0';\r\n    local_448[7] = '\\0';\r\n    local_448[8] = '\\0';\r\n    local_448[9] = '\\0';\r\n    local_448[10] = '\\0';\r\n    local_448[0xb] = '\\0';\r\n    local_448[0xc] = '\\0';\r\n    local_448[0xd] = '\\0';\r\n    local_448[0xe] = '\\0';\r\n    local_448[0xf] = '\\0';\r\n    local_448[0x10] = '\\0';\r\n    local_448[0x11] = '\\0';\r\n    local_448[0x12] = '\\0';\r\n    local_448[0x13] = '\\0';\r\n    local_448[0x14] = '\\0';\r\n    local_448[0x15] = '\\0';\r\n    local_448[0x16] = '\\0';\r\n    local_448[0x17] = '\\0';\r\n    local_448[0x18] = '\\0';\r\n    local_448[0x19] = '\\0';\r\n    local_448[0x1a] = '\\0';\r\n    local_448[0x1b] = '\\0';\r\n    local_448[0x1c] = '\\0';\r\n    local_448[0x1d] = '\\0';\r\n    local_448[0x1e] = '\\0';\r\n    local_448[0x1f] = '\\0';\r\n    uVar3 = FUN_1800d1c00(local_res18,\"action\");\r\n    lVar4 = FUN_1800d29c0(uVar3);\r\n    if (lVar4 != 0) {\r\n      FUN_180002a30(local_448,0x20,&DAT_18027f1c4,lVar4);\r\n      lVar4 = lVar7;\r\n      do {\r\n        lVar5 = lVar4;\r\n        bVar10 = local_448[lVar5] == (&DAT_1803625a4)[lVar5];\r\n        if (!bVar10) goto LAB_1800cef1a;\r\n        lVar4 = lVar5 + 1;\r\n      } while (lVar5 + 1 != 4);\r\n      bVar10 = local_448[lVar5] == (&DAT_1803625a4)[lVar5];\r\nLAB_1800cef1a:\r\n      uVar9 = (uint)bVar10;\r\n      lVar4 = lVar7;\r\n      do {\r\n        lVar5 = lVar4;\r\n        bVar10 = local_448[lVar5] == \"close\"[lVar5];\r\n        if (!bVar10) goto LAB_1800cef49;\r\n        lVar4 = lVar5 + 1;\r\n      } while (lVar5 + 1 != 6);\r\n      bVar10 = local_448[lVar5] == \"close\"[lVar5];\r\nLAB_1800cef49:\r\n      if (bVar10) {\r\n        uVar9 = 2;\r\n      }\r\n      iVar2 = strcmp(local_448,\"offer_relay\");\r\n      if (iVar2 == 0) {\r\n        uVar9 = 3;\r\n      }\r\n      iVar2 = strcmp(local_448,\"offer_cancel_relay\");\r\n      if (iVar2 == 0) {\r\n        uVar9 = 4;\r\n      }\r\n      iVar2 = strcmp(local_448,\"answer_relay\");\r\n      if (iVar2 == 0) {\r\n        uVar9 = 5;\r\n      }\r\n      iVar2 = strcmp(local_448,\"candex_relay\");\r\n      if (iVar2 != 0) {\r\n                    /* WARNING: Could not recover jumptable at 0x0001800cefd1. Too many branches */\r\n                    /* WARNING: Treating indirect jump as call */\r\n        uVar3 = (*(code *)((ulonglong)*(uint *)(&UNK_1800cf878 + (longlong)(int)uVar9 * 4) +\r\n                          0x180000000))\r\n                          ((code *)((ulonglong)*(uint *)(&UNK_1800cf878 + (longlong)(int)uVar9 * 4)\r\n                                   + 0x180000000));\r\n        return uVar3;\r\n      }\r\n      FUN_18023a6e0(&local_428,0,0xa6);\r\n      lVar4 = FUN_1800d1c00(local_res18,\"payload\");\r\n      if (lVar4 == 0) {\r\nLAB_1800cf75a:\r\n        lVar7 = 0xffffe0c0;\r\n      }\r\n      else {\r\n        uVar3 = FUN_1800d1c00(lVar4,&DAT_180362564);\r\n        lVar5 = FUN_1800d29c0(uVar3);\r\n        if (lVar5 == 0) goto LAB_1800cf75a;\r\n        FUN_180002a30(&local_428,0x20,&DAT_18027f1c4,lVar5);\r\n        lVar5 = FUN_1800d1c00(lVar4,&DAT_18027f644);\r\n        if (lVar5 == 0) goto LAB_1800cf75a;\r\n        uVar3 = FUN_1800d1c00(lVar4,\"attempt_id\");\r\n        lVar4 = FUN_1800d29c0(uVar3);\r\n        if (lVar4 == 0) goto LAB_1800cf75a;\r\n        FUN_180002a30(local_408,0x38,&DAT_18027f1c4,lVar4);\r\n        uVar3 = FUN_1800d1c00(lVar5,&DAT_18036256c);\r\n        lVar4 = FUN_1800d29c0(uVar3);\r\n        if (lVar4 == 0) goto LAB_1800cf75a;\r\n        FUN_180002a30(local_3d0,0x48,&DAT_18027f1c4,lVar4);\r\n        uVar3 = FUN_1800d1c00(lVar5,&DAT_180362580);\r\n        cVar1 = FUN_1800d1a40(uVar3,&local_388);\r\n        if (cVar1 == '\\0') goto LAB_1800cf75a;\r\n        uVar3 = FUN_1800d1c00(lVar5,&DAT_18036257c);\r\n        cVar1 = FUN_1800d1910(uVar3,&local_386);\r\n        if (cVar1 == '\\0') goto LAB_1800cf75a;\r\n        uVar3 = FUN_1800d1c00(lVar5,\"from_stun\");\r\n        cVar1 = FUN_1800d1910(uVar3,&local_385);\r\n        if (cVar1 == '\\0') goto LAB_1800cf75a;\r\n        uVar3 = FUN_1800d1c00(lVar5,&DAT_180362588);\r\n        cVar1 = FUN_1800d1910(uVar3,local_384);\r\n        if (cVar1 == '\\0') goto LAB_1800cf75a;\r\n        if (*(longlong *)(param_1 + 0x1a0) != 0) {\r\n          puVar8 = &DAT_180358cb8;\r\n          if (local_386 != '\\0') {\r\n            puVar8 = &DAT_180358cb4;\r\n          }\r\n          FUN_180068120(3,\"CANDEX: %s %s:%d\",puVar8,local_3d0,local_388);\r\n          (**(code **)(param_1 + 0x1a0))\r\n                    (local_408,local_3d0,local_388,local_386,local_385,local_384[0],\r\n                     *(undefined8 *)(param_1 + 0x1b0));\r\n          FUN_1800d1960(&local_res18);\r\n          return 0;\r\n        }\r\n      }\r\n      iVar2 = (int)lVar7;\r\n      if (*(longlong *)(param_1 + 0x1a0) != 0) {\r\n        FUN_180068120(3,\"CANDEX ERR: %d\",lVar7);\r\n      }\r\n      FUN_1800d1960(&local_res18);\r\n      if (iVar2 == 0) {\r\n        return 0;\r\n      }\r\n      goto LAB_1800cf836;\r\n    }\r\n  }\r\n  local_res18 = FUN_1800d1ca0(param_2);\r\n  if (local_res18 == 0) {\r\n    FUN_180068120(3,\"signal_event_dispatch: Not a valid JSON String %s.\",param_2);\r\n  }\r\n  else {\r\n    local_428 = 0;\r\n    uStack_420 = 0;\r\n    local_418 = 0;\r\n    uStack_410 = 0;\r\n    uVar3 = FUN_1800d1c00(local_res18,\"action\");\r\n    lVar7 = FUN_1800d29c0(uVar3);\r\n    if (lVar7 == 0) {\r\n      pcVar6 = \"signal_event_dispatch: action not found in JSON %s\";\r\n    }\r\n    else {\r\n      FUN_180002a30(&local_428,0x20,&DAT_18027f1c4,lVar7);\r\n      pcVar6 = \"signal_event_dispatch: Unknown action: %s\";\r\n      param_2 = &local_428;\r\n    }\r\n    FUN_180068120(3,pcVar6,param_2);\r\n    FUN_1800d1960(&local_res18);\r\n  }\r\n  iVar2 = -8000;\r\n  FUN_1800d1960(&local_res18);\r\nLAB_1800cf836:\r\n  FUN_180068120(1,\"* %s[%d] = %d\",\"signal_event_dispatch\",0x1d3,iVar2);\r\n  return 0;\r\n}\r\n\r\n",
+    "signature": "undefined8 FUN_1800cee50(longlong param_1,undefined8 *param_2);"
+  },
+  "summary": "Pseudo-C for FUN_1800cee50 from the Deep engine (197 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x1800ceed0"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

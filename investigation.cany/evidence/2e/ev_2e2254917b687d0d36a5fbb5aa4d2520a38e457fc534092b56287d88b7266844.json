@@ -1,0 +1,45 @@
+{
+  "id": "ev_2e2254917b687d0d36a5fbb5aa4d2520a38e457fc534092b56287d88b7266844",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x180031a8d"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x180031a8d",
+    "function": "FUN_180031a60",
+    "pseudo_code": "\r\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\r\n\r\nvoid FUN_180031a60(longlong param_1,longlong param_2,char param_3)\r\n\r\n{\r\n  char cVar1;\r\n  uint uVar2;\r\n  undefined1 *puVar3;\r\n  int iVar4;\r\n  longlong lVar5;\r\n  char *pcVar6;\r\n  undefined8 uVar7;\r\n  undefined1 *puVar8;\r\n  undefined8 uVar9;\r\n  longlong lVar10;\r\n  char *pcVar11;\r\n  char *pcVar12;\r\n  undefined1 *puVar13;\r\n  char cVar14;\r\n  undefined4 uVar15;\r\n  undefined4 uVar16;\r\n  undefined8 in_stack_fffffffffffffe78;\r\n  undefined4 uVar17;\r\n  undefined8 in_stack_fffffffffffffe80;\r\n  undefined4 uVar18;\r\n  undefined8 in_stack_fffffffffffffe88;\r\n  undefined4 uVar20;\r\n  undefined8 uVar19;\r\n  undefined8 *puVar21;\r\n  undefined8 in_stack_fffffffffffffe98;\r\n  undefined4 uVar23;\r\n  undefined8 uVar22;\r\n  undefined8 local_148;\r\n  undefined8 local_140;\r\n  undefined8 local_138;\r\n  undefined *local_130;\r\n  undefined4 local_128;\r\n  undefined4 local_124;\r\n  undefined1 local_120;\r\n  undefined8 local_118;\r\n  undefined8 local_110;\r\n  undefined8 local_108;\r\n  char *local_100;\r\n  int local_f8;\r\n  undefined4 local_f4;\r\n  undefined1 local_f0;\r\n  undefined8 local_e8;\r\n  undefined8 local_e0;\r\n  undefined8 local_d8;\r\n  char *local_d0;\r\n  undefined4 local_c8;\r\n  undefined4 local_c4;\r\n  undefined1 local_c0;\r\n  undefined1 local_b8 [144];\r\n  \r\n  uVar17 = (undefined4)((ulonglong)in_stack_fffffffffffffe78 >> 0x20);\r\n  uVar18 = (undefined4)((ulonglong)in_stack_fffffffffffffe80 >> 0x20);\r\n  uVar20 = (undefined4)((ulonglong)in_stack_fffffffffffffe88 >> 0x20);\r\n  uVar23 = (undefined4)((ulonglong)in_stack_fffffffffffffe98 >> 0x20);\r\n  cVar14 = '\\0';\r\n  if ((DAT_1805a6378 == 0) || (DAT_1805a6370 == 0)) {\r\n    FUN_1800d5090(\"CONFIG\",\"Attempted to access the config before it was created\");\r\n  }\r\n  else {\r\n    lVar5 = FUN_1800d63e0(DAT_1805a6370,\"app_can_logout\");\r\n    if (lVar5 == 0) {\r\n      FUN_1800d5090(\"CONFIG\",\"A bad key \\'%s\\' was provided.\",\"app_can_logout\");\r\n    }\r\n    else if (*(int *)(lVar5 + 8) == 2) {\r\n      FUN_1800d79b0(DAT_1805a6378);\r\n      iVar4 = 6;\r\n      pcVar6 = (char *)(lVar5 + 0x1c0);\r\n      lVar10 = 6;\r\n      do {\r\n        if (*pcVar6 != '\\0') break;\r\n        iVar4 = iVar4 + -1;\r\n        lVar10 = lVar10 + -1;\r\n        pcVar6 = pcVar6 + -0x30;\r\n      } while (0 < lVar10);\r\n      lVar5 = (longlong)iVar4 * 0x30 + 0xa0 + lVar5;\r\n      if (lVar5 != 0) {\r\n        cVar14 = *(char *)(lVar5 + 8);\r\n      }\r\n      FUN_1800d7a40(DAT_1805a6378);\r\n    }\r\n    else {\r\n      FUN_1800d5090(\"CONFIG\",\"A bad type \\'%u\\' was used for key \\'%s\\'.\",2,\"app_can_logout\");\r\n    }\r\n  }\r\n  cVar1 = *(char *)(param_1 + 0x1a0);\r\n  if ((cVar1 != '\\0') || (iVar4 = 1, cVar14 == '\\0')) {\r\n    iVar4 = 0;\r\n  }\r\n  local_130 = &DAT_18034c714;\r\n  local_148 = DAT_1805a6168;\r\n  local_140 = 0;\r\n  local_100 = \"Log Out\";\r\n  local_138 = 0;\r\n  if (cVar1 != '\\0') {\r\n    local_100 = \"Disable client-mode to log out\";\r\n  }\r\n  local_128 = 1;\r\n  local_f8 = iVar4 * 2;\r\n  local_124 = 0xfffcfaf9;\r\n  local_f4 = 0xffb7b4b4;\r\n  if (iVar4 != 0) {\r\n    local_f4 = 0xfffcfaf9;\r\n  }\r\n  local_120 = 1;\r\n  local_d0 = \"Cancel\";\r\n  local_118 = DAT_1805a6168;\r\n  local_110 = 0;\r\n  local_108 = 0;\r\n  local_f0 = 1;\r\n  local_e8 = DAT_1805a6168;\r\n  local_e0 = 0;\r\n  local_d8 = 0;\r\n  local_c8 = 3;\r\n  local_c4 = 0xfffcfaf9;\r\n  local_c0 = 1;\r\n  FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * DAT_180362cf8);\r\n  FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * DAT_180362cd4);\r\n  if (param_3 == '\\0') {\r\n    FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * _DAT_180362d30);\r\n  }\r\n  uVar15 = FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * DAT_180362b98);\r\n  uVar16 = FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * DAT_180362b00);\r\n  iVar4 = 100;\r\n  if (cVar1 != '\\0') {\r\n    iVar4 = 0xf0;\r\n  }\r\n  FUN_180205190((float)iVar4 * *(float *)(DAT_1805a72d8 + 0x80));\r\n  uVar22 = CONCAT44(uVar23,3);\r\n  puVar21 = &local_148;\r\n  uVar19 = CONCAT44(uVar20,uVar15);\r\n  uVar9 = CONCAT44(uVar18,uVar16);\r\n  iVar4 = FUN_18000a600(\"LOGOUT_POPUP\");\r\n  if (iVar4 == 1) {\r\n    (**(code **)(param_2 + 0x18))(*(undefined8 *)(param_2 + 0x20),8,0);\r\n  }\r\n  else if (iVar4 == 2) {\r\n    uVar7 = FUN_18004c820();\r\n    lVar5 = FUN_1800d3c50(local_b8);\r\n    pcVar12 = \"\";\r\n    uVar2 = *(uint *)(lVar5 + 0x48);\r\n    pcVar6 = *(char **)(lVar5 + 0x20);\r\n    puVar8 = *(undefined1 **)(lVar5 + 0x40);\r\n    if ((uVar2 & 0x20) == 0) {\r\n      if ((uVar2 & 0x10) == 0) {\r\n        puVar8 = &DAT_18027f1c2;\r\n      }\r\n      else {\r\n        puVar8 = (undefined1 *)\r\n                 FUN_1800d5700(\"%d.%d.%d.%d\",*(ulonglong *)(lVar5 + 8),\r\n                               *(ulonglong *)(lVar5 + 8) >> 0x20,\r\n                               SUB168(*(undefined1 (*) [16])(lVar5 + 0x10),0),\r\n                               CONCAT44(uVar17,SUB164(*(undefined1 (*) [16])(lVar5 + 0x10),4)),uVar9\r\n                               ,uVar19,puVar21,uVar22);\r\n      }\r\n    }\r\n    puVar13 = &DAT_18027f1c2;\r\n    puVar3 = &DAT_18027f1c2;\r\n    if ((undefined1 *)(param_1 + 0x10) != (undefined1 *)0x0) {\r\n      puVar13 = &DAT_18027f4bc;\r\n      pcVar12 = \"Authorization: Bearer \";\r\n      puVar3 = (undefined1 *)(param_1 + 0x10);\r\n    }\r\n    uVar9 = FUN_180003680();\r\n    pcVar11 = \"no-name\";\r\n    if ((uVar2 & 1) != 0) {\r\n      pcVar11 = pcVar6;\r\n    }\r\n    FUN_1800d5700(\"X-Parsec-OS: %s\\nX-Parsec-OS-Version: %s\\nX-Parsec-Platform: %s\\nX-Parsec-App-Version: %s\\nX-Parsec-Device-ID: %s\\n%s%s%s%s%s\"\r\n                  ,pcVar11,puVar8,\"windows\",\"150-104a\",&DAT_1805a5cd0,uVar9,&DAT_18027f1c2,pcVar12,\r\n                  puVar3,puVar13);\r\n    FUN_180002a30(param_1 + 0x1b3524,0x400,\"/auth/sessions\");\r\n    FUN_180003380(param_1 + 0x1b3518,uVar7);\r\n    DAT_1805a6108 = 0x100000010000000;\r\n  }\r\n  return;\r\n}\r\n\r\n",
+    "signature": "void FUN_180031a60(longlong param_1,longlong param_2,char param_3);"
+  },
+  "summary": "Pseudo-C for FUN_180031a60 from the Deep engine (183 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x180031a8d"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

@@ -1,0 +1,5489 @@
+{
+  "id": "ev_f988a050019297659c2a40d0c7b78f434ff18bf5bb41b8375dcd8be2265d18b7",
+  "subject": {
+    "kind": "pe",
+    "sha256": "b8a9cd519010666def0ef6e119eb42b33b5b811216f34e4f6c8e2e25ac290fbc",
+    "name": "parsec-windows.exe"
+  },
+  "operation": "firmware_regions_list",
+  "params": {
+    "entropy_block": 4096,
+    "limit": 100,
+    "max_regions": 2000,
+    "offset": 0,
+    "path": "C:\\REA\\parsec-windows.exe",
+    "range": null
+  },
+  "result": {
+    "by_family": {
+      "executable": 1
+    },
+    "by_kind": {
+      "pe": 1
+    },
+    "entropy": {
+      "block_size": 4096,
+      "blocks": [
+        {
+          "class": "code-or-data",
+          "entropy": 5.723999977111816,
+          "offset": 0
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 6.166999816894531,
+          "offset": 4096
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 6.3470001220703125,
+          "offset": 8192
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 6.26200008392334,
+          "offset": 12288
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 6.250999927520752,
+          "offset": 16384
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 6.485000133514404,
+          "offset": 20480
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 6.09499979019165,
+          "offset": 24576
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 5.209000110626221,
+          "offset": 28672
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 3.809000015258789,
+          "offset": 32768
+        },
+        {
+          "class": "sparse",
+          "entropy": 1.8229999542236328,
+          "offset": 36864
+        },
+        {
+          "class": "sparse",
+          "entropy": 1.6540000438690186,
+          "offset": 40960
+        },
+        {
+          "class": "sparse",
+          "entropy": 1.9040000438690186,
+          "offset": 45056
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.0920000076293945,
+          "offset": 49152
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.5239999294281006,
+          "offset": 53248
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.7950000762939453,
+          "offset": 57344
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.7160000801086426,
+          "offset": 61440
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.4130001068115234,
+          "offset": 65536
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.375999927520752,
+          "offset": 69632
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.503999948501587,
+          "offset": 73728
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.7100000381469727,
+          "offset": 77824
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.627000093460083,
+          "offset": 81920
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.4210000038146973,
+          "offset": 86016
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.2300000190734863,
+          "offset": 90112
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.01200008392334,
+          "offset": 94208
+        },
+        {
+          "class": "sparse",
+          "entropy": 1.5140000581741333,
+          "offset": 98304
+        },
+        {
+          "class": "sparse",
+          "entropy": 1.7419999837875366,
+          "offset": 102400
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.492000102996826,
+          "offset": 106496
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 3.055000066757202,
+          "offset": 110592
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 3.071000099182129,
+          "offset": 114688
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.380000114440918,
+          "offset": 118784
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.811000108718872,
+          "offset": 122880
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 3.065000057220459,
+          "offset": 126976
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 7.006999969482422,
+          "offset": 131072
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.88100004196167,
+          "offset": 135168
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 5.591000080108643,
+          "offset": 139264
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 3.815000057220459,
+          "offset": 143360
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 4.822999954223633,
+          "offset": 147456
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.771999835968018,
+          "offset": 151552
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 155648
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 159744
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 163840
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 167936
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 172032
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9029998779296875,
+          "offset": 176128
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.915999889373779,
+          "offset": 180224
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.931000232696533,
+          "offset": 184320
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.932000160217285,
+          "offset": 188416
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 192512
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.875,
+          "offset": 196608
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.854000091552734,
+          "offset": 200704
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.873000144958496,
+          "offset": 204800
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9079999923706055,
+          "offset": 208896
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 212992
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 217088
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 221184
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 225280
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 229376
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 233472
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 237568
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 241664
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 245760
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 249856
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 253952
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 258048
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 262144
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 266240
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 270336
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 274432
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 278528
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 282624
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 286720
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 290816
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 294912
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 299008
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 303104
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 307200
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 311296
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 315392
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 319488
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.923999786376953,
+          "offset": 323584
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927999973297119,
+          "offset": 327680
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921999931335449,
+          "offset": 331776
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 335872
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 339968
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 344064
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 348160
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 352256
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 356352
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 360448
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 364544
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 368640
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 372736
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 376832
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 380928
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 385024
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 389120
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.931000232696533,
+          "offset": 393216
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 397312
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 401408
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 405504
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 409600
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 413696
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 417792
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 421888
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 425984
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 430080
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 434176
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 438272
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 442368
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 446464
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 450560
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 454656
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 458752
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 462848
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 466944
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.925000190734863,
+          "offset": 471040
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 475136
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 479232
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 483328
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 487424
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 491520
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 495616
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 499712
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 503808
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.933000087738037,
+          "offset": 507904
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 512000
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.931000232696533,
+          "offset": 516096
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 520192
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 524288
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 528384
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 532480
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 536576
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 540672
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 544768
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 548864
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.931000232696533,
+          "offset": 552960
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.931000232696533,
+          "offset": 557056
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 561152
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934000015258789,
+          "offset": 565248
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 569344
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 573440
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 577536
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 581632
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 585728
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 589824
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 593920
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 598016
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 602112
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.920000076293945,
+          "offset": 606208
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927999973297119,
+          "offset": 610304
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 614400
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 618496
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 622592
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 626688
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 630784
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 634880
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 638976
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 643072
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 647168
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 651264
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 655360
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 659456
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 663552
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 667648
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.933000087738037,
+          "offset": 671744
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 675840
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 679936
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 684032
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 688128
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 692224
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 696320
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 700416
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.956999778747559,
+          "offset": 704512
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 708608
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 712704
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 716800
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 720896
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927999973297119,
+          "offset": 724992
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.888999938964844,
+          "offset": 729088
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.890999794006348,
+          "offset": 733184
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 737280
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 741376
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 745472
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 749568
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 753664
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 757760
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 761856
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 765952
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 770048
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 774144
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 778240
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 782336
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 786432
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.935999870300293,
+          "offset": 790528
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 794624
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 798720
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 802816
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 806912
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 811008
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 815104
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 819200
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 823296
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 827392
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 831488
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 835584
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 839680
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 843776
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 847872
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 851968
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.929999828338623,
+          "offset": 856064
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.886000156402588,
+          "offset": 860160
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 864256
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 868352
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 872448
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 876544
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9039998054504395,
+          "offset": 880640
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8979997634887695,
+          "offset": 884736
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.795000076293945,
+          "offset": 888832
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 892928
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 897024
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 901120
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 905216
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 909312
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 913408
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 917504
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 921600
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 925696
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 929792
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 933888
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934000015258789,
+          "offset": 937984
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.918000221252441,
+          "offset": 942080
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.860000133514404,
+          "offset": 946176
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 950272
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 954368
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.923999786376953,
+          "offset": 958464
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 962560
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9120001792907715,
+          "offset": 966656
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921000003814697,
+          "offset": 970752
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.88700008392334,
+          "offset": 974848
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9079999923706055,
+          "offset": 978944
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921999931335449,
+          "offset": 983040
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921000003814697,
+          "offset": 987136
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.922999858856201,
+          "offset": 991232
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9029998779296875,
+          "offset": 995328
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.876999855041504,
+          "offset": 999424
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.870999813079834,
+          "offset": 1003520
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.866000175476074,
+          "offset": 1007616
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 1011712
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 1015808
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 1019904
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1024000
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89900016784668,
+          "offset": 1028096
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1032192
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1036288
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 1040384
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 1044480
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1048576
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 1052672
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.956999778747559,
+          "offset": 1056768
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.926000118255615,
+          "offset": 1060864
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 1064960
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.913000106811523,
+          "offset": 1069056
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.906000137329102,
+          "offset": 1073152
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.919000148773193,
+          "offset": 1077248
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 1081344
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9120001792907715,
+          "offset": 1085440
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.932000160217285,
+          "offset": 1089536
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.888000011444092,
+          "offset": 1093632
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.88100004196167,
+          "offset": 1097728
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.883999824523926,
+          "offset": 1101824
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.802000045776367,
+          "offset": 1105920
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.853000164031982,
+          "offset": 1110016
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1114112
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1118208
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1122304
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1126400
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 1130496
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 1134592
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1138688
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 1142784
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 1146880
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 1150976
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1155072
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 1159168
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1163264
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1167360
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 1171456
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1175552
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 1179648
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 1183744
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1187840
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.919000148773193,
+          "offset": 1191936
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.933000087738037,
+          "offset": 1196032
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1200128
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 1204224
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1208320
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 1212416
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 1216512
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 1220608
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1224704
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 1228800
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 1232896
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1236992
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1241088
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1245184
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1249280
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1253376
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.933000087738037,
+          "offset": 1257472
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1261568
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 1265664
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 1269760
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1273856
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 1277952
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 1282048
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1286144
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.958000183105469,
+          "offset": 1290240
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 1294336
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 1298432
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1302528
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1306624
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1310720
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 1314816
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1318912
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1323008
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 1327104
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.932000160217285,
+          "offset": 1331200
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 1335296
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 1339392
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1343488
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1347584
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 1351680
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 1355776
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.959000110626221,
+          "offset": 1359872
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1363968
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 1368064
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 1372160
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.922999858856201,
+          "offset": 1376256
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1380352
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 1384448
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 1388544
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1392640
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 1396736
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1400832
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 1404928
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1409024
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 1413120
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 1417216
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 1421312
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.923999786376953,
+          "offset": 1425408
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 1429504
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 1433600
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1437696
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.960999965667725,
+          "offset": 1441792
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1445888
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 1449984
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.919000148773193,
+          "offset": 1454080
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 1458176
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 1462272
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.931000232696533,
+          "offset": 1466368
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 1470464
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.890999794006348,
+          "offset": 1474560
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9019999504089355,
+          "offset": 1478656
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1482752
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 1486848
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.915999889373779,
+          "offset": 1490944
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9029998779296875,
+          "offset": 1495040
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921999931335449,
+          "offset": 1499136
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.933000087738037,
+          "offset": 1503232
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.918000221252441,
+          "offset": 1507328
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 1511424
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.888000011444092,
+          "offset": 1515520
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.876999855041504,
+          "offset": 1519616
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.875999927520752,
+          "offset": 1523712
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.85699987411499,
+          "offset": 1527808
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.914999961853027,
+          "offset": 1531904
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 1536000
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1540096
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 1544192
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.933000087738037,
+          "offset": 1548288
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 1552384
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 1556480
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1560576
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1564672
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1568768
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 1572864
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 1576960
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1581056
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 1585152
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1589248
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 1593344
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 1597440
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 1601536
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1605632
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 1609728
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1613824
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 1617920
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 1622016
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 1626112
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 1630208
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 1634304
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 1638400
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.836999893188477,
+          "offset": 1642496
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.835000038146973,
+          "offset": 1646592
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.923999786376953,
+          "offset": 1650688
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8520002365112305,
+          "offset": 1654784
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.913000106811523,
+          "offset": 1658880
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921999931335449,
+          "offset": 1662976
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.817999839782715,
+          "offset": 1667072
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.836999893188477,
+          "offset": 1671168
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.76200008392334,
+          "offset": 1675264
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.888999938964844,
+          "offset": 1679360
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.925000190734863,
+          "offset": 1683456
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1687552
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921999931335449,
+          "offset": 1691648
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1695744
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1699840
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1703936
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1708032
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1712128
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 1716224
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1720320
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.932000160217285,
+          "offset": 1724416
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1728512
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1732608
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1736704
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 1740800
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 1744896
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 1748992
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 1753088
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1757184
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 1761280
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 1765376
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 1769472
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 1773568
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 1777664
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 1781760
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 1785856
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 1789952
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 1794048
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 1798144
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.875,
+          "offset": 1802240
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.824999809265137,
+          "offset": 1806336
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.864999771118164,
+          "offset": 1810432
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.77400016784668,
+          "offset": 1814528
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.919000148773193,
+          "offset": 1818624
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927000045776367,
+          "offset": 1822720
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.864999771118164,
+          "offset": 1826816
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.901000022888184,
+          "offset": 1830912
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.752999782562256,
+          "offset": 1835008
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.867000102996826,
+          "offset": 1839104
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.796000003814697,
+          "offset": 1843200
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89900016784668,
+          "offset": 1847296
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927000045776367,
+          "offset": 1851392
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.913000106811523,
+          "offset": 1855488
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921000003814697,
+          "offset": 1859584
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.906000137329102,
+          "offset": 1863680
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.809999942779541,
+          "offset": 1867776
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.925000190734863,
+          "offset": 1871872
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 1875968
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.929999828338623,
+          "offset": 1880064
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1884160
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 1888256
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 1892352
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 1896448
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1900544
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 1904640
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1908736
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.958000183105469,
+          "offset": 1912832
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1916928
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 1921024
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 1925120
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1929216
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 1933312
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 1937408
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1941504
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 1945600
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 1949696
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.882999897003174,
+          "offset": 1953792
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.801000118255615,
+          "offset": 1957888
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.870999813079834,
+          "offset": 1961984
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.813000202178955,
+          "offset": 1966080
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.894000053405762,
+          "offset": 1970176
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9079999923706055,
+          "offset": 1974272
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.915999889373779,
+          "offset": 1978368
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.791999816894531,
+          "offset": 1982464
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.85699987411499,
+          "offset": 1986560
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.656000137329102,
+          "offset": 1990656
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8979997634887695,
+          "offset": 1994752
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9070000648498535,
+          "offset": 1998848
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9029998779296875,
+          "offset": 2002944
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.910999774932861,
+          "offset": 2007040
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 2011136
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8470001220703125,
+          "offset": 2015232
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.922999858856201,
+          "offset": 2019328
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921999931335449,
+          "offset": 2023424
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.926000118255615,
+          "offset": 2027520
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.914999961853027,
+          "offset": 2031616
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2035712
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.933000087738037,
+          "offset": 2039808
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2043904
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 2048000
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2052096
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2056192
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2060288
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2064384
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 2068480
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2072576
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2076672
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2080768
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 2084864
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2088960
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2093056
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 2097152
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2101248
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 2105344
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2109440
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 2113536
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 2117632
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2121728
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.935999870300293,
+          "offset": 2125824
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2129920
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2134016
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2138112
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2142208
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2146304
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 2150400
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 2154496
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2158592
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2162688
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2166784
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 2170880
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.925000190734863,
+          "offset": 2174976
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 2179072
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2183168
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2187264
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 2191360
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 2195456
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9029998779296875,
+          "offset": 2199552
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 2203648
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2207744
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2211840
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.828999996185303,
+          "offset": 2215936
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2220032
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2224128
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2228224
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2232320
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 2236416
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2240512
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2244608
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89900016784668,
+          "offset": 2248704
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2252800
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2256896
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2260992
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2265088
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 2269184
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921000003814697,
+          "offset": 2273280
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 2277376
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 2281472
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2285568
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 2289664
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2293760
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2297856
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 2301952
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2306048
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 2310144
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 2314240
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.935999870300293,
+          "offset": 2318336
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2322432
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2326528
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2330624
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2334720
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2338816
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 2342912
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2347008
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2351104
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 2355200
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2359296
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2363392
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2367488
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2371584
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934000015258789,
+          "offset": 2375680
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2379776
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2383872
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2387968
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2392064
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 2396160
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 2400256
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2404352
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2408448
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2412544
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 2416640
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2420736
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2424832
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2428928
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 2433024
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2437120
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2441216
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 2445312
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2449408
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 2453504
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2457600
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2461696
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2465792
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 2469888
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2473984
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2478080
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 2482176
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 2486272
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 2490368
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2494464
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2498560
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2502656
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2506752
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2510848
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2514944
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2519040
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9019999504089355,
+          "offset": 2523136
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2527232
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.913000106811523,
+          "offset": 2531328
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 2535424
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.926000118255615,
+          "offset": 2539520
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2543616
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.960000038146973,
+          "offset": 2547712
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2551808
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2555904
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2560000
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2564096
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.925000190734863,
+          "offset": 2568192
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2572288
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2576384
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2580480
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2584576
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2588672
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2592768
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2596864
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2600960
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 2605056
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.919000148773193,
+          "offset": 2609152
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 2613248
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.935999870300293,
+          "offset": 2617344
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2621440
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.932000160217285,
+          "offset": 2625536
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 2629632
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934000015258789,
+          "offset": 2633728
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.931000232696533,
+          "offset": 2637824
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2641920
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 2646016
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2650112
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.956999778747559,
+          "offset": 2654208
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 2658304
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2662400
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2666496
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2670592
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 2674688
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2678784
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2682880
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2686976
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 2691072
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2695168
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2699264
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.935999870300293,
+          "offset": 2703360
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2707456
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.935999870300293,
+          "offset": 2711552
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2715648
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2719744
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2723840
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 2727936
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2732032
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2736128
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2740224
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 2744320
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2748416
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 2752512
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2756608
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2760704
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2764800
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2768896
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 2772992
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 2777088
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2781184
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 2785280
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 2789376
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2793472
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2797568
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2801664
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2805760
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2809856
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 2813952
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.918000221252441,
+          "offset": 2818048
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 2822144
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.925000190734863,
+          "offset": 2826240
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 2830336
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2834432
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2838528
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.959000110626221,
+          "offset": 2842624
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2846720
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2850816
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2854912
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.961999893188477,
+          "offset": 2859008
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 2863104
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 2867200
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 2871296
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2875392
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2879488
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 2883584
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2887680
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 2891776
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2895872
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2899968
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2904064
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2908160
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 2912256
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2916352
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 2920448
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 2924544
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 2928640
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 2932736
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 2936832
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.935999870300293,
+          "offset": 2940928
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2945024
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2949120
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.956999778747559,
+          "offset": 2953216
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2957312
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 2961408
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 2965504
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 2969600
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 2973696
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2977792
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 2981888
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 2985984
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 2990080
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 2994176
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 2998272
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3002368
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3006464
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3010560
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 3014656
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3018752
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 3022848
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 3026944
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3031040
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934000015258789,
+          "offset": 3035136
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3039232
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 3043328
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 3047424
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.958000183105469,
+          "offset": 3051520
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 3055616
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 3059712
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3063808
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 3067904
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 3072000
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 3076096
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 3080192
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.955999851226807,
+          "offset": 3084288
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 3088384
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3092480
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3096576
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 3100672
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3104768
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 3108864
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 3112960
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.956999778747559,
+          "offset": 3117056
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.956999778747559,
+          "offset": 3121152
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 3125248
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 3129344
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 3133440
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.935999870300293,
+          "offset": 3137536
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 3141632
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 3145728
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 3149824
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 3153920
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 3158016
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3162112
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3166208
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.933000087738037,
+          "offset": 3170304
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3174400
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 3178496
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3182592
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 3186688
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 3190784
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3194880
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 3198976
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 3203072
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 3207168
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 3211264
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 3215360
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3219456
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3223552
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 3227648
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3231744
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 3235840
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3239936
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.933000087738037,
+          "offset": 3244032
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 3248128
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 3252224
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9039998054504395,
+          "offset": 3256320
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8379998207092285,
+          "offset": 3260416
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8979997634887695,
+          "offset": 3264512
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.830999851226807,
+          "offset": 3268608
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.894000053405762,
+          "offset": 3272704
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.875,
+          "offset": 3276800
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.910999774932861,
+          "offset": 3280896
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89900016784668,
+          "offset": 3284992
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934000015258789,
+          "offset": 3289088
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.880000114440918,
+          "offset": 3293184
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.894000053405762,
+          "offset": 3297280
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89300012588501,
+          "offset": 3301376
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9120001792907715,
+          "offset": 3305472
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.882999897003174,
+          "offset": 3309568
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.910999774932861,
+          "offset": 3313664
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.926000118255615,
+          "offset": 3317760
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.85699987411499,
+          "offset": 3321856
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.835000038146973,
+          "offset": 3325952
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.85699987411499,
+          "offset": 3330048
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.873000144958496,
+          "offset": 3334144
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.864999771118164,
+          "offset": 3338240
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8379998207092285,
+          "offset": 3342336
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 3346432
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.922999858856201,
+          "offset": 3350528
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 3354624
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.900000095367432,
+          "offset": 3358720
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.802999973297119,
+          "offset": 3362816
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.889999866485596,
+          "offset": 3366912
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89300012588501,
+          "offset": 3371008
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.888000011444092,
+          "offset": 3375104
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8420000076293945,
+          "offset": 3379200
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.877999782562256,
+          "offset": 3383296
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9079999923706055,
+          "offset": 3387392
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.75,
+          "offset": 3391488
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 3395584
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 3399680
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 3403776
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3407872
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 3411968
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 3416064
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3420160
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3424256
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3428352
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 3432448
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 3436544
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 3440640
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 3444736
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 3448832
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 3452928
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 3457024
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.867000102996826,
+          "offset": 3461120
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.86299991607666,
+          "offset": 3465216
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.876999855041504,
+          "offset": 3469312
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934000015258789,
+          "offset": 3473408
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.896999835968018,
+          "offset": 3477504
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89300012588501,
+          "offset": 3481600
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921999931335449,
+          "offset": 3485696
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9039998054504395,
+          "offset": 3489792
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 3493888
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 3497984
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 3502080
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 3506176
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947999954223633,
+          "offset": 3510272
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3514368
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 3518464
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3522560
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3526656
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 3530752
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 3534848
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 3538944
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 3543040
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3547136
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.908999919891357,
+          "offset": 3551232
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.923999786376953,
+          "offset": 3555328
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9029998779296875,
+          "offset": 3559424
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.918000221252441,
+          "offset": 3563520
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9039998054504395,
+          "offset": 3567616
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9070000648498535,
+          "offset": 3571712
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 3575808
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 3579904
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.935999870300293,
+          "offset": 3584000
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 3588096
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3592192
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 3596288
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927000045776367,
+          "offset": 3600384
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3604480
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.908999919891357,
+          "offset": 3608576
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.908999919891357,
+          "offset": 3612672
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89300012588501,
+          "offset": 3616768
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.892000198364258,
+          "offset": 3620864
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 3624960
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.881999969482422,
+          "offset": 3629056
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.900000095367432,
+          "offset": 3633152
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 3637248
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 3641344
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3645440
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3649536
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 3653632
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3657728
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 3661824
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3665920
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3670016
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 3674112
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3678208
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 3682304
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 3686400
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3690496
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 3694592
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953999996185303,
+          "offset": 3698688
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.892000198364258,
+          "offset": 3702784
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3706880
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.922999858856201,
+          "offset": 3710976
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 3715072
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.881999969482422,
+          "offset": 3719168
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.939000129699707,
+          "offset": 3723264
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921000003814697,
+          "offset": 3727360
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 3731456
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3735552
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 3739648
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3743744
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.925000190734863,
+          "offset": 3747840
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921000003814697,
+          "offset": 3751936
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.922999858856201,
+          "offset": 3756032
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927000045776367,
+          "offset": 3760128
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.931000232696533,
+          "offset": 3764224
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3768320
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 3772416
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3776512
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3780608
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 3784704
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 3788800
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3792896
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 3796992
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.934999942779541,
+          "offset": 3801088
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89900016784668,
+          "offset": 3805184
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.931000232696533,
+          "offset": 3809280
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 3813376
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.876999855041504,
+          "offset": 3817472
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8480000495910645,
+          "offset": 3821568
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.929999828338623,
+          "offset": 3825664
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.859000205993652,
+          "offset": 3829760
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.883999824523926,
+          "offset": 3833856
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.875,
+          "offset": 3837952
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.932000160217285,
+          "offset": 3842048
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.925000190734863,
+          "offset": 3846144
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3850240
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.953000068664551,
+          "offset": 3854336
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 3858432
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3862528
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3866624
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3870720
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 3874816
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3878912
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 3883008
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940000057220459,
+          "offset": 3887104
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927999973297119,
+          "offset": 3891200
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3895296
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3899392
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 3903488
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 3907584
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3911680
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.881999969482422,
+          "offset": 3915776
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 3919872
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 3923968
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9120001792907715,
+          "offset": 3928064
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.916999816894531,
+          "offset": 3932160
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 3936256
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.940999984741211,
+          "offset": 3940352
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 3944448
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.938000202178955,
+          "offset": 3948544
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 3952640
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.932000160217285,
+          "offset": 3956736
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.888000011444092,
+          "offset": 3960832
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.877999782562256,
+          "offset": 3964928
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921999931335449,
+          "offset": 3969024
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.894000053405762,
+          "offset": 3973120
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9079999923706055,
+          "offset": 3977216
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.881999969482422,
+          "offset": 3981312
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.888000011444092,
+          "offset": 3985408
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.863999843597412,
+          "offset": 3989504
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89900016784668,
+          "offset": 3993600
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.908999919891357,
+          "offset": 3997696
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.913000106811523,
+          "offset": 4001792
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.906000137329102,
+          "offset": 4005888
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89900016784668,
+          "offset": 4009984
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.85699987411499,
+          "offset": 4014080
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.915999889373779,
+          "offset": 4018176
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.86899995803833,
+          "offset": 4022272
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8979997634887695,
+          "offset": 4026368
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.876999855041504,
+          "offset": 4030464
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.793000221252441,
+          "offset": 4034560
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.716000080108643,
+          "offset": 4038656
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 2.23799991607666,
+          "offset": 4042752
+        },
+        {
+          "class": "code-or-data",
+          "entropy": 6.61899995803833,
+          "offset": 4046848
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.89900016784668,
+          "offset": 4050944
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.890999794006348,
+          "offset": 4055040
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.882999897003174,
+          "offset": 4059136
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.894000053405762,
+          "offset": 4063232
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.88700008392334,
+          "offset": 4067328
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.861000061035156,
+          "offset": 4071424
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.88100004196167,
+          "offset": 4075520
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.875999927520752,
+          "offset": 4079616
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9039998054504395,
+          "offset": 4083712
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.929999828338623,
+          "offset": 4087808
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.915999889373779,
+          "offset": 4091904
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.906000137329102,
+          "offset": 4096000
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921999931335449,
+          "offset": 4100096
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.916999816894531,
+          "offset": 4104192
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9079999923706055,
+          "offset": 4108288
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.875999927520752,
+          "offset": 4112384
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.919000148773193,
+          "offset": 4116480
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.864999771118164,
+          "offset": 4120576
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.556000232696533,
+          "offset": 4124672
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.683000087738037,
+          "offset": 4128768
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.765999794006348,
+          "offset": 4132864
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.793000221252441,
+          "offset": 4136960
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.815000057220459,
+          "offset": 4141056
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.839000225067139,
+          "offset": 4145152
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.802999973297119,
+          "offset": 4149248
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.78000020980835,
+          "offset": 4153344
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.802999973297119,
+          "offset": 4157440
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.796999931335449,
+          "offset": 4161536
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.8460001945495605,
+          "offset": 4165632
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.769999980926514,
+          "offset": 4169728
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.868000030517578,
+          "offset": 4173824
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.815000057220459,
+          "offset": 4177920
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.918000221252441,
+          "offset": 4182016
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921000003814697,
+          "offset": 4186112
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9120001792907715,
+          "offset": 4190208
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.923999786376953,
+          "offset": 4194304
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.926000118255615,
+          "offset": 4198400
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.828999996185303,
+          "offset": 4202496
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927000045776367,
+          "offset": 4206592
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.929999828338623,
+          "offset": 4210688
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9019999504089355,
+          "offset": 4214784
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927999973297119,
+          "offset": 4218880
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 4222976
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.942999839782715,
+          "offset": 4227072
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 4231168
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.951000213623047,
+          "offset": 4235264
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.927000045776367,
+          "offset": 4239360
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 4243456
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 4247552
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 4251648
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.945000171661377,
+          "offset": 4255744
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 4259840
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 4263936
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.954999923706055,
+          "offset": 4268032
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.947000026702881,
+          "offset": 4272128
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.946000099182129,
+          "offset": 4276224
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.941999912261963,
+          "offset": 4280320
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.952000141143799,
+          "offset": 4284416
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.914000034332275,
+          "offset": 4288512
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.881999969482422,
+          "offset": 4292608
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.835999965667725,
+          "offset": 4296704
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9070000648498535,
+          "offset": 4300800
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.860000133514404,
+          "offset": 4304896
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.84499979019165,
+          "offset": 4308992
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.918000221252441,
+          "offset": 4313088
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.9029998779296875,
+          "offset": 4317184
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.882999897003174,
+          "offset": 4321280
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.90500020980835,
+          "offset": 4325376
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.928999900817871,
+          "offset": 4329472
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.936999797821045,
+          "offset": 4333568
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.921000003814697,
+          "offset": 4337664
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 4341760
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.915999889373779,
+          "offset": 4345856
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.781000137329102,
+          "offset": 4349952
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.824999809265137,
+          "offset": 4354048
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.859000205993652,
+          "offset": 4358144
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.881999969482422,
+          "offset": 4362240
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.918000221252441,
+          "offset": 4366336
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 4370432
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.949999809265137,
+          "offset": 4374528
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.958000183105469,
+          "offset": 4378624
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.943999767303467,
+          "offset": 4382720
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.948999881744385,
+          "offset": 4386816
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.863999843597412,
+          "offset": 4390912
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.535999774932861,
+          "offset": 4395008
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.59499979019165,
+          "offset": 4399104
+        },
+        {
+          "class": "compressed-or-encrypted",
+          "entropy": 7.566999912261963,
+          "offset": 4403200
+        }
+      ],
+      "classes": {
+        "code-or-data": 33,
+        "compressed-or-encrypted": 1038,
+        "sparse": 5
+      },
+      "mean": 7.776
+    },
+    "layout": {
+      "gaps": [],
+      "high_entropy_unrecognised": [],
+      "recognised_bytes": 4403720,
+      "recognised_percent": 100.0,
+      "spans_truncated": false,
+      "total_bytes": 4403720,
+      "unknown_length_regions": 0
+    },
+    "path": "C:\\REA\\parsec-windows.exe",
+    "probes_exhausted": [],
+    "regions": [
+      {
+        "confidence": "high",
+        "description": "PE 32 executable (x86)",
+        "details": {
+          "architecture": "x86",
+          "machine": 332,
+          "sections": 5,
+          "truncated": false
+        },
+        "end_hex": "0x433208",
+        "family": "executable",
+        "kind": "pe",
+        "length": 4403720,
+        "offset": 0,
+        "offset_hex": "0x0",
+        "unpack": "carve"
+      }
+    ],
+    "regions_total": 1,
+    "scanned": {
+      "length": 4403720,
+      "offset": 0
+    },
+    "size": 4403720,
+    "truncated": false
+  },
+  "summary": "parsec-windows.exe: 1 region(s) (1 pe); 100.0% of 4403720 bytes recognised; 0 unexplained high-entropy span(s).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "signature_scan",
+      "message": "Regions are found by known signatures checked against their headers; formats we don't know, encrypted or vendor-specific containers are not recognised, and absence of a region is not proof."
+    },
+    {
+      "code": "nested_hidden",
+      "message": "Content inside a region of confirmed length (for example the compressed kernel inside a boot image) is not listed here; firmware_image_extract unpacks and scans it."
+    },
+    {
+      "code": "entropy_heuristic",
+      "message": "Entropy classes (text, code-or-data, compressed-or-encrypted, padding) are statistical hints, not proof of content."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "file_offset",
+      "value": "0x0",
+      "label": "pe"
+    }
+  ],
+  "links": []
+}

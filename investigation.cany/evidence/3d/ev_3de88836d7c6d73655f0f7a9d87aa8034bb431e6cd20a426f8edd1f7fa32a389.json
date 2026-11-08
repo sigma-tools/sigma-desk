@@ -1,0 +1,45 @@
+{
+  "id": "ev_3de88836d7c6d73655f0f7a9d87aa8034bb431e6cd20a426f8edd1f7fa32a389",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x180034680"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x180034680",
+    "function": "FUN_180034680",
+    "pseudo_code": "\r\nint FUN_180034680(longlong param_1,undefined8 param_2,undefined8 param_3,longlong param_4,\r\n                 longlong param_5,longlong param_6,code *param_7,undefined8 param_8)\r\n\r\n{\r\n  undefined4 uVar1;\r\n  undefined4 uVar2;\r\n  undefined4 uVar3;\r\n  undefined4 uVar4;\r\n  undefined4 uVar5;\r\n  undefined4 uVar6;\r\n  undefined4 uVar7;\r\n  undefined4 uVar8;\r\n  undefined8 uVar9;\r\n  undefined8 uVar10;\r\n  int iVar11;\r\n  char *pcVar12;\r\n  undefined8 *puVar13;\r\n  undefined8 *puVar14;\r\n  undefined8 *puVar15;\r\n  undefined8 uVar16;\r\n  undefined8 uVar17;\r\n  longlong lVar18;\r\n  undefined8 *puVar19;\r\n  undefined1 local_res20 [8];\r\n  undefined8 local_2a8 [42];\r\n  undefined1 local_158 [336];\r\n  \r\n  if (param_4 != 0) {\r\n    if (DAT_1805a6378 == 0) {\r\n      FUN_1800d5090(\"CONFIG\",\"Attempted to access the config in a bad state (key \\'%s\\')\",\"peer_id\")\r\n      ;\r\n    }\r\n    else {\r\n      FUN_1800d7ab0();\r\n      FUN_18004fdc0(3,\"peer_id\",0,param_4);\r\n      FUN_18004bcf0();\r\n    }\r\n  }\r\n  pcVar12 = (char *)FUN_18004fa60(7,\"peer_id\",0);\r\n  if (*pcVar12 == '\\0') {\r\n    iVar11 = 0;\r\n  }\r\n  else {\r\n    if (param_6 != 0) {\r\n      if (DAT_1805a6378 == 0) {\r\n        FUN_1800d5090(\"CONFIG\",\"Attempted to access the config in a bad state (key \\'%s\\')\",\r\n                      \"host_secret\");\r\n      }\r\n      else {\r\n        FUN_1800d7ab0();\r\n        FUN_18004fdc0(3,\"host_secret\",0,param_6);\r\n        FUN_18004bcf0();\r\n      }\r\n    }\r\n    lVar18 = 2;\r\n    if (DAT_1805a6378 == 0) {\r\n      FUN_1800d5090(\"CONFIG\",\"Attempted to access the config in a bad state (key \\'%s\\')\",\r\n                    \"client_png_cursor\");\r\n    }\r\n    else {\r\n      FUN_1800d7ab0();\r\n      if ((DAT_1805a6378 == 0) || (DAT_1805a6370 == 0)) {\r\n        FUN_1800d5090(\"CONFIG\",\"Attempted to access the config before it was created\");\r\n      }\r\n      else {\r\n        puVar13 = (undefined8 *)FUN_1800d63e0(DAT_1805a6370,\"client_png_cursor\");\r\n        if (puVar13 == (undefined8 *)0x0) {\r\n          FUN_1800d5090(\"CONFIG\",\"A bad key \\'%s\\' was provided.\",\"client_png_cursor\");\r\n        }\r\n        else if (*(int *)(puVar13 + 1) == 2) {\r\n          if (*(char *)((longlong)puVar13 + 0xd) == '\\0') {\r\n            pcVar12 = (char *)(puVar13 + 0x26);\r\n            if ((pcVar12 != (char *)0x0) &&\r\n               ((*pcVar12 == '\\0' || (*(char *)(puVar13 + 0x27) != '\\x01')))) {\r\n              *(undefined1 *)(puVar13 + 0x27) = 1;\r\n              *pcVar12 = '\\x01';\r\n              FUN_18004bc40(3,\"client_png_cursor\",0);\r\n            }\r\n          }\r\n          else {\r\n            FUN_1800d5090(\"CONFIG\",\"A bad config layer \\'%u\\' was provided for key \\'%s\\'.\",3,\r\n                          *puVar13);\r\n          }\r\n        }\r\n        else {\r\n          FUN_1800d5090(\"CONFIG\",\"A bad type \\'%u\\' was used for key \\'%s\\'.\",2,\"client_png_cursor\")\r\n          ;\r\n        }\r\n      }\r\n      FUN_18004bcf0();\r\n    }\r\n    puVar14 = (undefined8 *)FUN_180050350(local_158);\r\n    puVar13 = local_2a8;\r\n    do {\r\n      puVar19 = puVar14;\r\n      puVar15 = puVar13;\r\n      uVar16 = puVar19[1];\r\n      uVar17 = puVar19[2];\r\n      uVar9 = puVar19[3];\r\n      *puVar15 = *puVar19;\r\n      puVar15[1] = uVar16;\r\n      uVar16 = puVar19[4];\r\n      uVar10 = puVar19[5];\r\n      puVar15[2] = uVar17;\r\n      puVar15[3] = uVar9;\r\n      uVar17 = puVar19[6];\r\n      uVar9 = puVar19[7];\r\n      puVar15[4] = uVar16;\r\n      puVar15[5] = uVar10;\r\n      uVar16 = puVar19[8];\r\n      uVar10 = puVar19[9];\r\n      puVar15[6] = uVar17;\r\n      puVar15[7] = uVar9;\r\n      uVar17 = puVar19[10];\r\n      uVar9 = puVar19[0xb];\r\n      puVar15[8] = uVar16;\r\n      puVar15[9] = uVar10;\r\n      uVar16 = puVar19[0xc];\r\n      uVar10 = puVar19[0xd];\r\n      puVar15[10] = uVar17;\r\n      puVar15[0xb] = uVar9;\r\n      uVar17 = puVar19[0xe];\r\n      uVar9 = puVar19[0xf];\r\n      puVar15[0xc] = uVar16;\r\n      puVar15[0xd] = uVar10;\r\n      puVar15[0xe] = uVar17;\r\n      puVar15[0xf] = uVar9;\r\n      lVar18 = lVar18 + -1;\r\n      puVar13 = puVar15 + 0x10;\r\n      puVar14 = puVar19 + 0x10;\r\n    } while (lVar18 != 0);\r\n    uVar16 = puVar19[0x18];\r\n    uVar17 = puVar19[0x11];\r\n    uVar9 = puVar19[0x12];\r\n    uVar10 = puVar19[0x13];\r\n    puVar15[0x10] = puVar19[0x10];\r\n    puVar15[0x11] = uVar17;\r\n    uVar1 = *(undefined4 *)(puVar19 + 0x14);\r\n    uVar2 = *(undefined4 *)((longlong)puVar19 + 0xa4);\r\n    uVar3 = *(undefined4 *)(puVar19 + 0x15);\r\n    uVar4 = *(undefined4 *)((longlong)puVar19 + 0xac);\r\n    puVar15[0x12] = uVar9;\r\n    puVar15[0x13] = uVar10;\r\n    uVar5 = *(undefined4 *)(puVar19 + 0x16);\r\n    uVar6 = *(undefined4 *)((longlong)puVar19 + 0xb4);\r\n    uVar7 = *(undefined4 *)(puVar19 + 0x17);\r\n    uVar8 = *(undefined4 *)((longlong)puVar19 + 0xbc);\r\n    *(undefined4 *)(puVar15 + 0x14) = uVar1;\r\n    *(undefined4 *)((longlong)puVar15 + 0xa4) = uVar2;\r\n    *(undefined4 *)(puVar15 + 0x15) = uVar3;\r\n    *(undefined4 *)((longlong)puVar15 + 0xac) = uVar4;\r\n    *(undefined4 *)(puVar15 + 0x16) = uVar5;\r\n    *(undefined4 *)((longlong)puVar15 + 0xb4) = uVar6;\r\n    *(undefined4 *)(puVar15 + 0x17) = uVar7;\r\n    *(undefined4 *)((longlong)puVar15 + 0xbc) = uVar8;\r\n    puVar15[0x18] = uVar16;\r\n    *(undefined4 *)(puVar15 + 0x19) = *(undefined4 *)(puVar19 + 0x19);\r\n    uVar16 = FUN_18004fa60(7,\"peer_id\",0);\r\n    uVar17 = FUN_18004fa60(7,\"host_secret\",0);\r\n    iVar11 = FUN_1800d0800(param_2,param_3,local_2a8,uVar16,param_1 + 0x10,uVar17);\r\n    if ((iVar11 + 4U & 0xfffffffb) != 0) {\r\n      uVar16 = FUN_18004c820();\r\n      FUN_180037eb0(param_1,uVar16,iVar11);\r\n    }\r\n    if (param_5 != 0) {\r\n      if (DAT_1805a6378 == 0) {\r\n        FUN_1800d5090(\"CONFIG\",\"Attempted to access the config in a bad state (key \\'%s\\')\",\r\n                      \"connection_name\");\r\n      }\r\n      else {\r\n        FUN_1800d7ab0();\r\n        FUN_18004fdc0(3,\"connection_name\",0,param_5);\r\n        FUN_18004bcf0();\r\n      }\r\n    }\r\n    FUN_18004f930(\"peer_id\",0);\r\n    FUN_18004f930(\"host_secret\",0);\r\n    local_res20[0] = 0;\r\n    (*param_7)(param_8,0xe,local_res20);\r\n  }\r\n  return iVar11;\r\n}\r\n\r\n",
+    "signature": "int FUN_180034680(longlong param_1,undefined8 param_2,undefined8 param_3,longlong param_4,longlong param_5,longlong param_6,code *param_7,undefined8 param_8);"
+  },
+  "summary": "Pseudo-C for FUN_180034680 from the Deep engine (184 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x180034680"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

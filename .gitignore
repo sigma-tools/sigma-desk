@@ -1,0 +1,5 @@
+# Rust build output
+app/target/
+
+# Local environment
+.env

@@ -1,0 +1,45 @@
+{
+  "id": "ev_770c79c2d390103a4c198309dbb540144b858d7b0b95451fb61918a461e255f6",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x1800731f0"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x1800731f0",
+    "function": "FUN_1800731f0",
+    "pseudo_code": "\r\nbool FUN_1800731f0(longlong param_1,longlong param_2)\r\n\r\n{\r\n  char *pcVar1;\r\n  DWORD DVar2;\r\n  int iVar3;\r\n  undefined8 uVar4;\r\n  longlong lVar5;\r\n  longlong lVar6;\r\n  undefined8 uVar7;\r\n  longlong lVar8;\r\n  ulonglong uVar9;\r\n  undefined8 *puVar10;\r\n  WCHAR local_a08 [1280];\r\n  \r\n  FUN_18023a6e0(local_a08,0,0xa00);\r\n  DVar2 = GetModuleFileNameW((HMODULE)0x0,local_a08,0x500);\r\n  if (DVar2 == 0x500) {\r\n    DVar2 = GetLastError();\r\n    if (DVar2 == 0x7a) {\r\n      return false;\r\n    }\r\n  }\r\n  else if (DVar2 == 0) {\r\n    return false;\r\n  }\r\n  uVar4 = FUN_1800d5a20(local_a08);\r\n  *(undefined8 *)(param_1 + 0xda0) = uVar4;\r\n  pcVar1 = *(char **)(param_2 + 8);\r\n  if ((pcVar1 == (char *)0x0) || (*pcVar1 == '\\0')) {\r\n    uVar4 = FUN_1800d58e0(\"\\\"app_silent=1\\\"\");\r\n    *(undefined8 *)(param_1 + 0xda8) = uVar4;\r\n    uVar4 = FUN_1800d58e0(&DAT_180356d70);\r\n    *(undefined8 *)(param_1 + 0xdb0) = uVar4;\r\n  }\r\n  else {\r\n    lVar5 = FUN_1801f8f80(pcVar1,\"SERVICE_LAUNCHED_\");\r\n    if (((lVar5 != 0) ||\r\n        (lVar5 = FUN_1801f8f80(*(undefined8 *)(param_2 + 8),\"LOADER_V\"), lVar5 != 0)) ||\r\n       (lVar5 = FUN_1801f8f80(*(undefined8 *)(param_2 + 8),\"PARSEC_IPC_\"), lVar5 != 0)) {\r\n      uVar4 = FUN_1800d58e0(\"\\\"app_silent=1\\\"\");\r\n      *(undefined8 *)(param_1 + 0xda8) = uVar4;\r\n      uVar4 = FUN_1800d58e0(&DAT_180356d70);\r\n      *(undefined8 *)(param_1 + 0xdb0) = uVar4;\r\n      lVar5 = 1;\r\n      iVar3 = -1;\r\n      goto LAB_18007340a;\r\n    }\r\n    lVar5 = FUN_1800d58e0(*(undefined8 *)(param_2 + 8));\r\n    FUN_18004c790(lVar5);\r\n    lVar6 = -1;\r\n    lVar8 = -1;\r\n    do {\r\n      lVar8 = lVar8 + 1;\r\n    } while (*(char *)(*(longlong *)(param_2 + 8) + lVar8) != '\\0');\r\n    do {\r\n      lVar6 = lVar6 + 1;\r\n    } while (*(char *)(lVar5 + lVar6) != '\\0');\r\n    if (lVar6 != lVar8) {\r\n      *(undefined1 *)(param_1 + 0xdd4) = 0;\r\n    }\r\n    uVar4 = FUN_1800d5640(&DAT_180356d84,lVar5);\r\n    *(undefined8 *)(param_1 + 0xdb0) = uVar4;\r\n    uVar4 = FUN_1800d51c0(0x800,1);\r\n    if (lVar5 == 0) {\r\n      FUN_180002a30(uVar4,0x800,&DAT_18027f1c4);\r\n    }\r\n    else {\r\n      FUN_180002a30(uVar4,0x800,\"%s:%s\",lVar5,\"app_silent=1\");\r\n    }\r\n    uVar7 = FUN_1800d5640(&DAT_180356d84,uVar4);\r\n    *(undefined8 *)(param_1 + 0xda8) = uVar7;\r\n    thunk_FUN_18021a580(uVar4);\r\n    thunk_FUN_18021a580(lVar5);\r\n  }\r\n  lVar5 = 2;\r\n  iVar3 = -2;\r\nLAB_18007340a:\r\n  puVar10 = (undefined8 *)(param_2 + lVar5 * 8);\r\n  uVar9 = (ulonglong)(iVar3 + 0x80);\r\n  do {\r\n    if (((char *)*puVar10 != (char *)0x0) && (*(char *)*puVar10 != '\\0')) {\r\n      uVar4 = *(undefined8 *)(param_1 + 0xda8);\r\n      uVar7 = FUN_1800d5640(\"%s \\\"%s\\\"\",uVar4);\r\n      *(undefined8 *)(param_1 + 0xda8) = uVar7;\r\n      thunk_FUN_18021a580(uVar4);\r\n      uVar4 = *(undefined8 *)(param_1 + 0xdb0);\r\n      uVar7 = FUN_1800d5640(\"%s \\\"%s\\\"\",uVar4,*puVar10);\r\n      *(undefined8 *)(param_1 + 0xdb0) = uVar7;\r\n      thunk_FUN_18021a580(uVar4);\r\n    }\r\n    puVar10 = puVar10 + 1;\r\n    uVar9 = uVar9 - 1;\r\n  } while (uVar9 != 0);\r\n  uVar4 = *(undefined8 *)(param_1 + 0xda8);\r\n  uVar7 = FUN_1800d5640(\"%s \\\"%s\\\"\",uVar4,*(undefined8 *)(param_1 + 0xd98));\r\n  *(undefined8 *)(param_1 + 0xda8) = uVar7;\r\n  thunk_FUN_18021a580(uVar4);\r\n  uVar4 = *(undefined8 *)(param_1 + 0xdb0);\r\n  uVar7 = FUN_1800d5640(\"%s \\\"%s\\\"\",uVar4,*(undefined8 *)(param_1 + 0xd98));\r\n  *(undefined8 *)(param_1 + 0xdb0) = uVar7;\r\n  thunk_FUN_18021a580(uVar4);\r\n  return *(longlong *)(param_1 + 0xda8) != 0;\r\n}\r\n\r\n",
+    "signature": "bool FUN_1800731f0(longlong param_1,longlong param_2);"
+  },
+  "summary": "Pseudo-C for FUN_1800731f0 from the Deep engine (106 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x1800731f0"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

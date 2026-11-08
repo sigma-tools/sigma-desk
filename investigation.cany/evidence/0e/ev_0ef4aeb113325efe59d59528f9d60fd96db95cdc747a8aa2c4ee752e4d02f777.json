@@ -1,0 +1,457 @@
+{
+  "id": "ev_0ef4aeb113325efe59d59528f9d60fd96db95cdc747a8aa2c4ee752e4d02f777",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 100,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "^(players|max_players|online|self|public|mode|event_name|user|team_id|session_id|data|device_id|tfa|tfa_code|token|instance_id|host_peer_ids|guest_access|warp)$"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x180260b08",
+        "references": [
+          {
+            "from": "0x1801b5d6e",
+            "function": "sub_1801b5860"
+          }
+        ],
+        "section": ".rdata",
+        "text": "DATA"
+      },
+      {
+        "address": "0x18027f644",
+        "references": [
+          {
+            "from": "0x1800038cb",
+            "function": "sub_18000389c"
+          },
+          {
+            "from": "0x1800045fc",
+            "function": "sub_180004568"
+          },
+          {
+            "from": "0x180005fd2",
+            "function": "sub_180005f6e"
+          },
+          {
+            "from": "0x180006266",
+            "function": "sub_18000623c"
+          },
+          {
+            "from": "0x180006860",
+            "function": "sub_18000684c"
+          },
+          {
+            "from": "0x180006c68",
+            "function": "sub_180006c39"
+          },
+          {
+            "from": "0x180007242",
+            "function": "sub_1800071b7"
+          },
+          {
+            "from": "0x180007902",
+            "function": "sub_1800077c0"
+          },
+          {
+            "from": "0x180007cf5",
+            "function": "sub_180007c60"
+          },
+          {
+            "from": "0x180008da7",
+            "function": "sub_180008d30"
+          },
+          {
+            "from": "0x180036588",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x18008309a",
+            "function": "sub_180082a8a"
+          },
+          {
+            "from": "0x180083661",
+            "function": "sub_18008350c"
+          },
+          {
+            "from": "0x180084190",
+            "function": "sub_1800840c0"
+          },
+          {
+            "from": "0x18008494b",
+            "function": "sub_180084800"
+          },
+          {
+            "from": "0x18008533c",
+            "function": "sub_180085240"
+          },
+          {
+            "from": "0x18008c5bc",
+            "function": "sub_18008c4e0"
+          },
+          {
+            "from": "0x18008e936",
+            "function": "sub_18008e6b0"
+          },
+          {
+            "from": "0x18008edb4",
+            "function": "sub_18008e6b0"
+          },
+          {
+            "from": "0x180091f42",
+            "function": "sub_180091e63"
+          },
+          {
+            "from": "0x1800ae90f",
+            "function": "sub_1800ae070"
+          },
+          {
+            "from": "0x1800c5930",
+            "function": "sub_1800c57d0"
+          },
+          {
+            "from": "0x1800c5a0b",
+            "function": "sub_1800c5950"
+          },
+          {
+            "from": "0x1800c5aeb",
+            "function": "sub_1800c5a30"
+          },
+          {
+            "from": "0x1800c5b26",
+            "function": "sub_1800c5b10"
+          },
+          {
+            "from": "0x1800c5c62",
+            "function": "sub_1800c5b10"
+          },
+          {
+            "from": "0x1800c5cc8",
+            "function": "sub_1800c5c90"
+          },
+          {
+            "from": "0x1800c5cf1",
+            "function": "sub_1800c5ce0"
+          },
+          {
+            "from": "0x1800c5d63",
+            "function": "sub_1800c5ce0"
+          },
+          {
+            "from": "0x1800c5d97",
+            "function": "sub_1800c5d80"
+          },
+          {
+            "from": "0x1800c5dae",
+            "function": "sub_1800c5d80"
+          },
+          {
+            "from": "0x1800c5db5",
+            "function": "sub_1800c5d80"
+          }
+        ],
+        "section": ".rdata",
+        "text": "data"
+      },
+      {
+        "address": "0x18027f650",
+        "references": [
+          {
+            "from": "0x180003928",
+            "function": "sub_18000389c"
+          },
+          {
+            "from": "0x1800d041b",
+            "function": "sub_1800d0050"
+          }
+        ],
+        "section": ".rdata",
+        "text": "players"
+      },
+      {
+        "address": "0x18027f670",
+        "references": [
+          {
+            "from": "0x180003a37",
+            "function": "sub_18000389c"
+          }
+        ],
+        "section": ".rdata",
+        "text": "self"
+      },
+      {
+        "address": "0x18027f678",
+        "references": [
+          {
+            "from": "0x180003a5d",
+            "function": "sub_18000389c"
+          }
+        ],
+        "section": ".rdata",
+        "text": "guest_access"
+      },
+      {
+        "address": "0x18027f688",
+        "references": [
+          {
+            "from": "0x180003a85",
+            "function": "sub_18000389c"
+          }
+        ],
+        "section": ".rdata",
+        "text": "event_name"
+      },
+      {
+        "address": "0x18027f694",
+        "references": [
+          {
+            "from": "0x180003ac4",
+            "function": "sub_18000389c"
+          },
+          {
+            "from": "0x180006cb7",
+            "function": "sub_180006c39"
+          },
+          {
+            "from": "0x1800ced54",
+            "function": "sub_1800cebc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "user"
+      },
+      {
+        "address": "0x18027f6a0",
+        "references": [
+          {
+            "from": "0x180003b62",
+            "function": "sub_18000389c"
+          },
+          {
+            "from": "0x180004761",
+            "function": "sub_180004603"
+          },
+          {
+            "from": "0x1800c629c",
+            "function": "sub_1800c6278"
+          }
+        ],
+        "section": ".rdata",
+        "text": "team_id"
+      },
+      {
+        "address": "0x18027f750",
+        "references": [
+          {
+            "from": "0x18000407d",
+            "function": "sub_180003ffc"
+          },
+          {
+            "from": "0x180005c23",
+            "function": "sub_180005bec"
+          },
+          {
+            "from": "0x18001dc09",
+            "function": "sub_18001dbc0"
+          },
+          {
+            "from": "0x180037be9",
+            "function": "sub_180037bb0"
+          },
+          {
+            "from": "0x180037c20",
+            "function": "sub_180037bb0"
+          },
+          {
+            "from": "0x180037cd1",
+            "function": "sub_180037bb0"
+          },
+          {
+            "from": "0x180037d09",
+            "function": "sub_180037bb0"
+          },
+          {
+            "from": "0x18003b7e7",
+            "function": "sub_18003b7a0"
+          },
+          {
+            "from": "0x1800870e8",
+            "function": "sub_180086980"
+          },
+          {
+            "from": "0x1800933a1",
+            "function": "sub_180092cd0"
+          },
+          {
+            "from": "0x1800933b5",
+            "function": "sub_180092cd0"
+          },
+          {
+            "from": "0x1800933da",
+            "function": "sub_180092cd0"
+          },
+          {
+            "from": "0x180093d7a",
+            "function": "sub_180093d20"
+          },
+          {
+            "from": "0x1800966ba",
+            "function": "sub_180094b00"
+          },
+          {
+            "from": "0x1800c5f6c",
+            "function": "sub_1800c5f20"
+          },
+          {
+            "from": "0x1800c5fbd",
+            "function": "sub_1800c5f20"
+          },
+          {
+            "from": "0x1800c6064",
+            "function": "sub_1800c6020"
+          },
+          {
+            "from": "0x1800c63d3",
+            "function": "sub_1800c6278"
+          },
+          {
+            "from": "0x1800c67a2",
+            "function": "sub_1800c6730"
+          },
+          {
+            "from": "0x180333750",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "session_id"
+      },
+      {
+        "address": "0x18027f7e4",
+        "references": [
+          {
+            "from": "0x180004738",
+            "function": "sub_180004603"
+          },
+          {
+            "from": "0x180006d62",
+            "function": "sub_180006c39"
+          },
+          {
+            "from": "0x180007378",
+            "function": "sub_1800071b7"
+          }
+        ],
+        "section": ".rdata",
+        "text": "warp"
+      },
+      {
+        "address": "0x1802febf6",
+        "references": [],
+        "section": ".rdata",
+        "text": "WARP"
+      },
+      {
+        "address": "0x18034f6d8",
+        "references": [
+          {
+            "from": "0x18003b9ee",
+            "function": "sub_18003b840"
+          },
+          {
+            "from": "0x18003ba4c",
+            "function": "sub_18003b840"
+          },
+          {
+            "from": "0x1800d0340",
+            "function": "sub_1800d0050"
+          }
+        ],
+        "section": ".rdata",
+        "text": "device_id"
+      },
+      {
+        "address": "0x1803616f0",
+        "references": [
+          {
+            "from": "0x1800c9aa4",
+            "function": "sub_1800c9930"
+          },
+          {
+            "from": "0x1800cee02",
+            "function": "sub_1800cebc0"
+          },
+          {
+            "from": "0x1800d036d",
+            "function": "sub_1800d0050"
+          },
+          {
+            "from": "0x1800d0bcd",
+            "function": "sub_1800d0800"
+          }
+        ],
+        "section": ".rdata",
+        "text": "mode"
+      },
+      {
+        "address": "0x180362900",
+        "references": [
+          {
+            "from": "0x1800d03fd",
+            "function": "sub_1800d0050"
+          }
+        ],
+        "section": ".rdata",
+        "text": "max_players"
+      },
+      {
+        "address": "0x180362920",
+        "references": [
+          {
+            "from": "0x1800d043a",
+            "function": "sub_1800d0050"
+          }
+        ],
+        "section": ".rdata",
+        "text": "public"
+      },
+      {
+        "address": "0x1805945a9",
+        "references": [],
+        "section": ".data",
+        "text": "data"
+      }
+    ],
+    "total": 16
+  },
+  "summary": "16 strings match \"^(players|max_players|online|self|public|mode|event_name|user|team_id|session_id|data|device_id|tfa|tfa_code|token|instance_id|host_peer_ids|guest_access|warp)$\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 16,
+    "total": 16
+  },
+  "locations": [],
+  "links": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "unk_0d1e3f9c9c8f2c12",
+  "revision": 2,
+  "question": "How long does a Parsec host stay listed after it stops sending conn_update (server-side offline timeout)?",
+  "severity": "low",
+  "domain": "server",
+  "status": "blocked",
+  "probes": [
+    "Server-side only; would need a network capture of kessel-ws over time"
+  ],
+  "evidence_for": [],
+  "evidence_against": [],
+  "resolution": "Server-side behaviour, not in the client binary. SigmaDesk server marks a node offline after 90 s without a 30 s heartbeat (both estimated)."
+}

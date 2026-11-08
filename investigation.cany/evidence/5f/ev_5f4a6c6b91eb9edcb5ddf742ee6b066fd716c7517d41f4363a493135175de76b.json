@@ -1,0 +1,45 @@
+{
+  "id": "ev_5f4a6c6b91eb9edcb5ddf742ee6b066fd716c7517d41f4363a493135175de76b",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x18004c820"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x18004c820",
+    "function": "FUN_18004c820",
+    "pseudo_code": "\r\nvoid FUN_18004c820(void)\r\n\r\n{\r\n  char cVar1;\r\n  char cVar2;\r\n  char *pcVar3;\r\n  char *pcVar4;\r\n  uint uVar5;\r\n  ulonglong uVar6;\r\n  \r\n  pcVar3 = (char *)FUN_18004fa60(7,\"app_environment\",0);\r\n  uVar6 = 0;\r\n  do {\r\n    pcVar4 = pcVar3;\r\n    do {\r\n      cVar1 = *pcVar4;\r\n      cVar2 = pcVar4[(longlong)(\"parsec.app\" + (uVar6 * 0x144 - (longlong)pcVar3))];\r\n      if (cVar1 != cVar2) break;\r\n      pcVar4 = pcVar4 + 1;\r\n    } while (cVar2 != '\\0');\r\n    if (cVar1 == cVar2) goto LAB_18004c88a;\r\n    uVar5 = (int)uVar6 + 1;\r\n    uVar6 = (ulonglong)uVar5;\r\n  } while (uVar5 < 6);\r\n  pcVar3 = \"parsec.app\";\r\nLAB_18004c88a:\r\n  FUN_1800d5700(&DAT_18034c844,\"kessel-api.\",pcVar3);\r\n  return;\r\n}\r\n\r\n",
+    "signature": "void FUN_18004c820(void);"
+  },
+  "summary": "Pseudo-C for FUN_18004c820 from the Deep engine (31 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x18004c820"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

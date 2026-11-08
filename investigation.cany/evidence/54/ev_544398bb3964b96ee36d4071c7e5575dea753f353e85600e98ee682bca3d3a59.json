@@ -1,0 +1,42 @@
+{
+  "id": "ev_544398bb3964b96ee36d4071c7e5575dea753f353e85600e98ee682bca3d3a59",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_bytes_show",
+  "params": {
+    "address": "0x180362c10",
+    "length": 8
+  },
+  "result": {
+    "address": "0x180362c10",
+    "ascii": ".....L.@",
+    "file_offset": 3546128,
+    "hex": "00000000004ced40",
+    "length": 8
+  },
+  "summary": "8 bytes at 0x180362c10.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 8,
+    "total": 8
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x180362c10"
+    }
+  ],
+  "links": []
+}

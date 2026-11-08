@@ -1,0 +1,42 @@
+{
+  "id": "ev_9e65fc2037aa82b264df7908c103f68df1991f2d7aa29eb6c4ad6ed9b5ace519",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_bytes_show",
+  "params": {
+    "address": "0x18027f640",
+    "length": 96
+  },
+  "result": {
+    "address": "0x18027f640",
+    "ascii": "GET.data........players.name....peer_id.build...self....guest_access....event_name..user....id..",
+    "file_offset": 2614848,
+    "hex": "47455400646174610000000000000000706c6179657273006e616d6500000000706565725f6964006275696c6400000073656c660000000067756573745f616363657373000000006576656e745f6e616d650000757365720000000069640000",
+    "length": 96
+  },
+  "summary": "96 bytes at 0x18027f640.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 96,
+    "total": 96
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x18027f640"
+    }
+  ],
+  "links": []
+}

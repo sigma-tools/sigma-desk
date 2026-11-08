@@ -1,0 +1,45 @@
+{
+  "id": "ev_8cd70da754d0c211ccdace306d5eb85889a564c311c6a414cdfae6574be96d4f",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "sub_180050230"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x180050230",
+    "function": "FUN_180050230",
+    "pseudo_code": "\r\nundefined4 * FUN_180050230(undefined4 *param_1)\r\n\r\n{\r\n  undefined1 uVar1;\r\n  undefined4 uVar2;\r\n  undefined8 uVar3;\r\n  \r\n  FUN_18023a6e0(param_1,0,0x40c);\r\n  if ((DAT_1805a6370 != 0) && (DAT_1805a6378 != 0)) {\r\n    FUN_1800d79b0();\r\n    uVar2 = FUN_18004f9d0(7,\"network_cg_level\",0);\r\n    *param_1 = uVar2;\r\n    uVar3 = FUN_18004fa60(7,\"app_stun_address\",0);\r\n    FUN_180002a30(param_1 + 1,0x200,&DAT_18027f1c4,uVar3);\r\n    uVar3 = FUN_18004fa60(7,\"app_client_stun_address\",0);\r\n    FUN_180002a30(param_1 + 0x81,0x200,&DAT_18027f1c4,uVar3);\r\n    uVar2 = FUN_18004f9d0(7,\"app_force_relay\",0);\r\n    param_1[0x101] = uVar2;\r\n    uVar1 = FUN_18004fb10();\r\n    *(undefined1 *)(param_1 + 0x102) = uVar1;\r\n    uVar1 = FUN_18004fb10();\r\n    *(undefined1 *)((longlong)param_1 + 0x409) = uVar1;\r\n    FUN_1800d7a40(DAT_1805a6378);\r\n    return param_1;\r\n  }\r\n  FUN_1800d5090(\"CONFIG\",\"Attempted to access the config in a bad state (wscfg)\");\r\n  return param_1;\r\n}\r\n\r\n",
+    "signature": "undefined4 * FUN_180050230(undefined4 *param_1);"
+  },
+  "summary": "Pseudo-C for FUN_180050230 from the Deep engine (30 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x180050230"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "unk_3191f54973d6c672",
+  "revision": 2,
+  "question": "RustDesk command-line flags used by the engine bridge (--connect, --password, --get-id, --option) are from RustDesk's public behaviour, not from the Parsec evidence; they must be checked against the installed RustDesk version.",
+  "severity": "medium",
+  "domain": "engine",
+  "status": "open",
+  "probes": [
+    "Run rustdesk.exe --get-id on a machine with RustDesk installed"
+  ],
+  "evidence_for": [],
+  "evidence_against": [],
+  "resolution": "RustDesk is not installed on this computer, so the flags could not be tried. The app shows clear errors if a flag is refused, and lets the person type the RustDesk ID by hand."
+}

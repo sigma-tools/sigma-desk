@@ -1,0 +1,45 @@
+{
+  "id": "ev_20daf476800b8fa9244c64651b08f3fb4ce12d18c1a50d5f48d1234b038fe1dd",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x1800cf9c0"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x1800cf9c0",
+    "function": "FUN_1800cf9c0",
+    "pseudo_code": "\r\nundefined8 FUN_1800cf9c0(char *param_1)\r\n\r\n{\r\n  char cVar1;\r\n  undefined8 uVar2;\r\n  bool bVar3;\r\n  longlong lVar4;\r\n  short sVar5;\r\n  int iVar6;\r\n  int iVar7;\r\n  undefined4 uVar8;\r\n  undefined8 uVar9;\r\n  undefined1 *puVar10;\r\n  int iVar11;\r\n  uint uVar12;\r\n  uint uVar13;\r\n  short local_res8 [4];\r\n  longlong local_res10;\r\n  char *pcVar14;\r\n  short *psVar15;\r\n  char *pcVar16;\r\n  undefined8 *in_stack_fffffffffffff2a8;\r\n  undefined8 local_d48;\r\n  undefined8 uStack_d40;\r\n  undefined1 local_d38 [256];\r\n  undefined1 local_c38 [1024];\r\n  undefined1 local_838 [2048];\r\n  \r\n  iVar11 = 30000;\r\n  uVar9 = _calloc_base(0x4000,1);\r\n  if (param_1[0x34a] == '\\0') {\r\n    uVar12 = 0;\r\n    do {\r\n      uVar8 = (undefined4)((ulonglong)in_stack_fffffffffffff2a8 >> 0x20);\r\n      bVar3 = true;\r\n      FUN_1800d75e0(*(undefined8 *)(param_1 + 0x150));\r\n      FUN_180002a30(local_d38,0x100,&DAT_18027f1c4,param_1 + 0x1ba);\r\n      in_stack_fffffffffffff2a8 = (undefined8 *)CONCAT44(uVar8,0x60000);\r\n      pcVar16 = \"150-104a\";\r\n      pcVar14 = param_1 + 0x41;\r\n      FUN_180002a30(local_838,0x800,\"/?session_id=%s&role=%s&version=1&build=%s&sdk_version=%u\",\r\n                    param_1,param_1 + 0x41,\"150-104a\",in_stack_fffffffffffff2a8);\r\n      param_1[0x34b] = '\\x01';\r\n      cVar1 = *param_1;\r\n      FUN_1800d75f0(*(undefined8 *)(param_1 + 0x150));\r\n      if ((cVar1 == '\\0') || (param_1[0x34c] != '\\0')) {\r\n        FUN_1800d6120(100);\r\n        uVar13 = uVar12;\r\n      }\r\n      else {\r\n        FUN_18023a6e0(local_c38,0,0x400);\r\n        local_d48 = 0;\r\n        uStack_d40 = 0;\r\n        if (*(short *)(param_1 + 0x1b8) != 0) {\r\n          FUN_180002a30(&local_d48,0x10,&DAT_18027f380,*(short *)(param_1 + 0x1b8),pcVar14,pcVar16,\r\n                        in_stack_fffffffffffff2a8);\r\n        }\r\n        in_stack_fffffffffffff2a8 = &local_d48;\r\n        FUN_180002a30(local_c38,0x400,\"%s%s://%s%s%s\",&DAT_1803627f8,&DAT_18027f384,local_d38,\r\n                      in_stack_fffffffffffff2a8,local_838);\r\n        puVar10 = (undefined1 *)0x0;\r\n        local_res8[0] = 0;\r\n        if (DAT_1805a5d00 != '\\0') {\r\n          puVar10 = &DAT_1805a5d00;\r\n        }\r\n        psVar15 = local_res8;\r\n        local_res10 = FUN_1800e0950(local_c38,0,puVar10,10000,psVar15);\r\n        uVar8 = (undefined4)((ulonglong)psVar15 >> 0x20);\r\n        iVar7 = 0;\r\n        iVar6 = -0x17d5;\r\n        if (local_res10 != 0) {\r\n          bVar3 = false;\r\n          iVar11 = 30000;\r\n          uVar12 = 0;\r\n          if (*(code **)(param_1 + 0x178) != (code *)0x0) {\r\n            (**(code **)(param_1 + 0x178))(*(undefined8 *)(param_1 + 0x1b0));\r\n          }\r\n          uVar8 = (undefined4)((ulonglong)psVar15 >> 0x20);\r\n          if (param_1[0x34a] == '\\0') {\r\n            do {\r\n              uVar8 = (undefined4)((ulonglong)psVar15 >> 0x20);\r\n              if ((param_1[0x34b] == '\\0') || (param_1[0x34c] != '\\0')) goto LAB_1800cfc86;\r\n              iVar6 = FUN_1800cf8a0(param_1,local_res10);\r\n              lVar4 = local_res10;\r\n              uVar8 = (undefined4)((ulonglong)psVar15 >> 0x20);\r\n              if (iVar6 != 0) goto LAB_1800cfc9a;\r\n              iVar6 = FUN_1800e0ee0(local_res10,0x14,uVar9,0x4000);\r\n              uVar8 = (undefined4)((ulonglong)psVar15 >> 0x20);\r\n              if (iVar6 == 0) {\r\n                iVar7 = FUN_1800cee50(param_1,uVar9);\r\nLAB_1800cfc6c:\r\n                uVar8 = (undefined4)((ulonglong)psVar15 >> 0x20);\r\n                iVar6 = iVar7;\r\n                if (iVar7 != 0) goto LAB_1800cfc9a;\r\n              }\r\n              else {\r\n                if (iVar6 == 1) {\r\n                  sVar5 = FUN_1800e0e80(lVar4);\r\n                  iVar7 = -0x17d9;\r\n                  if ((sVar5 != 1000) && (iVar7 = -0x17d9, sVar5 == 0x3e9)) {\r\n                    iVar7 = -0xbc1;\r\n                  }\r\n                  goto LAB_1800cfc6c;\r\n                }\r\n                if (iVar6 == 3) {\r\n                  iVar6 = -0xbba;\r\n                  goto LAB_1800cfc9a;\r\n                }\r\n                iVar7 = 0;\r\n              }\r\n              uVar8 = (undefined4)((ulonglong)psVar15 >> 0x20);\r\n            } while (param_1[0x34a] == '\\0');\r\nLAB_1800cfc8a:\r\n            FUN_1800cf8a0(param_1,local_res10);\r\n            iVar6 = iVar7;\r\n          }\r\n          else {\r\nLAB_1800cfc86:\r\n            iVar6 = iVar7;\r\n            if (iVar7 == 0) goto LAB_1800cfc8a;\r\n          }\r\nLAB_1800cfc9a:\r\n          FUN_1800e0de0(&local_res10);\r\n        }\r\n        if (((iVar6 != 0) && (iVar6 != -0xbc1)) && (*(longlong *)(param_1 + 0x180) != 0)) {\r\n          if (local_res8[0] == 0x191) {\r\n            iVar6 = -0xbc0;\r\n          }\r\n          else if (local_res8[0] == 0x19c) {\r\n            iVar6 = -0x17db;\r\n          }\r\n          else if (local_res8[0] != 0) {\r\n            FUN_180068120(1,\"Websocket upgrade request returned status code %u\",local_res8[0]);\r\n          }\r\n          FUN_180068120(1,\"* %s[%d] = %d\",\"signal_thread\",0x25b,CONCAT44(uVar8,iVar6));\r\n          (**(code **)(param_1 + 0x180))(iVar6,*(undefined8 *)(param_1 + 0x1b0));\r\n        }\r\n        uVar13 = uVar12;\r\n        if (bVar3) {\r\n          uVar2 = *(undefined8 *)(param_1 + 0x168);\r\n          iVar6 = iVar11 * 2;\r\n          uVar8 = FUN_1800d14d0(iVar11,iVar6);\r\n          FUN_1800d7fc0(uVar2,uVar8);\r\n          uVar13 = uVar12 + 1;\r\n          if (uVar12 < 0x33) {\r\n            iVar11 = 300000;\r\n            if (iVar6 < 300000) {\r\n              iVar11 = iVar6;\r\n            }\r\n          }\r\n          else {\r\n            iVar11 = 3600000;\r\n          }\r\n        }\r\n      }\r\n      uVar12 = uVar13;\r\n    } while (param_1[0x34a] == '\\0');\r\n  }\r\n  thunk_FUN_18021a580(uVar9);\r\n  return 0;\r\n}\r\n\r\n",
+    "signature": "undefined8 FUN_1800cf9c0(char *param_1);"
+  },
+  "summary": "Pseudo-C for FUN_1800cf9c0 from the Deep engine (163 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x1800cf9c0"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

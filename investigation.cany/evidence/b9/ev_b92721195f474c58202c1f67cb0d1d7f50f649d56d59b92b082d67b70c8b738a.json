@@ -1,0 +1,45 @@
+{
+  "id": "ev_b92721195f474c58202c1f67cb0d1d7f50f649d56d59b92b082d67b70c8b738a",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x18009adc0"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x18009adc0",
+    "function": "FUN_18009adc0",
+    "pseudo_code": "\r\nvoid FUN_18009adc0(longlong param_1,undefined8 param_2,uint param_3,undefined1 param_4)\r\n\r\n{\r\n  char cVar1;\r\n  char cVar2;\r\n  uint uVar3;\r\n  int iVar4;\r\n  bool bVar5;\r\n  bool bVar6;\r\n  short sVar7;\r\n  int iVar8;\r\n  undefined8 uVar9;\r\n  longlong lVar10;\r\n  uint uVar11;\r\n  char *pcVar12;\r\n  char *pcVar13;\r\n  char *pcVar14;\r\n  undefined8 local_res8;\r\n  undefined8 local_48 [2];\r\n  \r\n  uVar3 = *(uint *)(param_1 + 0x14a8);\r\n  iVar4 = *(int *)(param_1 + 0x54);\r\n  *(undefined4 *)(param_1 + 0x14a8) = 0;\r\n  *(uint *)(param_1 + 0x54) = param_3;\r\n  bVar6 = false;\r\n  bVar5 = false;\r\n  *(undefined1 *)(param_1 + 0x50) = param_4;\r\n  uVar9 = FUN_1800d58e0(param_2);\r\n  local_48[0] = 0;\r\n  lVar10 = thunk_FUN_18020e210(uVar9,&DAT_180357868,local_48);\r\n  do {\r\n    if ((lVar10 == 0) || (0x13 < *(uint *)(param_1 + 0x14a8))) {\r\n      FUN_1800d5270(uVar9);\r\n      uVar11 = *(uint *)(param_1 + 0x14a8);\r\n      if ((uVar11 == 0) || ((uVar11 < 0x14 && (param_3 == 0)))) {\r\n        FUN_180002a30((ulonglong)uVar11 * 0x104 + 0x58 + param_1,0x100,&DAT_18027f1c4,\r\n                      \"stun.parsec.app\");\r\n        *(undefined2 *)((ulonglong)*(uint *)(param_1 + 0x14a8) * 0x104 + 0x15a + param_1) = 0xd96;\r\n        *(undefined1 *)((ulonglong)*(uint *)(param_1 + 0x14a8) * 0x104 + 0x158 + param_1) = 1;\r\n        *(int *)(param_1 + 0x14a8) = *(int *)(param_1 + 0x14a8) + 1;\r\n        uVar11 = *(uint *)(param_1 + 0x14a8);\r\n        *(undefined4 *)(param_1 + 0x54) = 0;\r\n      }\r\n      if (((uVar3 != uVar11) || ((uint)(iVar4 != 0) != *(uint *)(param_1 + 0x54))) || (bVar5)) {\r\n        if (*(int *)(param_1 + 0x54) == 0) {\r\n          pcVar14 = \" No relays set\";\r\n          pcVar12 = \"\";\r\n          pcVar13 = \"Force Relay Mode: Off%s\";\r\n        }\r\n        else {\r\n          param_3 = param_3 & 1;\r\n          pcVar14 = \"All connections\";\r\n          pcVar12 = \"WAN connections\";\r\n          pcVar13 = \"Force Relay Mode: %s\";\r\n        }\r\n        if (param_3 != 0) {\r\n          pcVar12 = pcVar14;\r\n        }\r\n        FUN_1800822c0(2,pcVar13,pcVar12);\r\n      }\r\n      return;\r\n    }\r\n    local_res8 = 0;\r\n    lVar10 = thunk_FUN_18020e210(lVar10,&DAT_180358bdc,&local_res8);\r\n    if (lVar10 != 0) {\r\n      pcVar14 = (char *)((ulonglong)*(uint *)(param_1 + 0x14a8) * 0x104 + 0x58 + param_1);\r\n      pcVar12 = pcVar14;\r\n      do {\r\n        cVar1 = *pcVar12;\r\n        cVar2 = pcVar12[lVar10 - (longlong)pcVar14];\r\n        if (cVar1 != cVar2) break;\r\n        pcVar12 = pcVar12 + 1;\r\n      } while (cVar2 != '\\0');\r\n      *(uint *)(param_1 + 0x14a8) = *(uint *)(param_1 + 0x14a8) + 1;\r\n      bVar5 = bVar6;\r\n      if (cVar1 != cVar2) {\r\n        bVar5 = true;\r\n      }\r\n      FUN_180002a30(pcVar14,0x100,&DAT_18027f1c4,lVar10);\r\n      lVar10 = thunk_FUN_18020e210(0,&DAT_180358bdc,&local_res8);\r\n      if (lVar10 == 0) {\r\n        sVar7 = 0xd96;\r\n      }\r\n      else {\r\n        sVar7 = FUN_1802069a4(lVar10);\r\n      }\r\n      *(short *)(pcVar14 + 0x102) = sVar7;\r\n      iVar8 = strcmp(pcVar14,\"stun.parsec.app\");\r\n      bVar6 = bVar5;\r\n      if ((iVar8 == 0) && (sVar7 == 0xd96)) {\r\n        *(int *)(param_1 + 0x14a8) = *(int *)(param_1 + 0x14a8) + -1;\r\n      }\r\n    }\r\n    lVar10 = thunk_FUN_18020e210(0,&DAT_180357868,local_48);\r\n  } while( true );\r\n}\r\n\r\n",
+    "signature": "void FUN_18009adc0(longlong param_1,undefined8 param_2,uint param_3,undefined1 param_4);"
+  },
+  "summary": "Pseudo-C for FUN_18009adc0 from the Deep engine (98 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x18009adc0"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

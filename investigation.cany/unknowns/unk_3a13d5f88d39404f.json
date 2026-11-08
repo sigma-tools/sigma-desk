@@ -1,0 +1,15 @@
+{
+  "id": "unk_3a13d5f88d39404f",
+  "revision": 1,
+  "question": "Is SigmaDesk actually installed and online on node 10.10.1.92? Only RDP (3389) answers from this computer (WinRM 5985/5986, SMB 445 and SSH 22 are closed), so the installer could not be run remotely from here.",
+  "severity": "high",
+  "domain": "deployment",
+  "status": "open",
+  "probes": [
+    "Run the admin console's two-line install command in an administrator PowerShell inside the RDP session on 10.10.1.92",
+    "Check the admin console node list shows address 10.10.1.92 as online",
+    "Or enable WinRM on 10.10.1.92 so the installer can be pushed remotely"
+  ],
+  "evidence_for": [],
+  "evidence_against": []
+}

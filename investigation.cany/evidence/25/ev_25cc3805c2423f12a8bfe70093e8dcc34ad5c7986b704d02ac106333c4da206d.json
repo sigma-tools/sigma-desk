@@ -1,0 +1,61 @@
+{
+  "id": "ev_25cc3805c2423f12a8bfe70093e8dcc34ad5c7986b704d02ac106333c4da206d",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_callers_list",
+  "params": {
+    "function": "0x180005d60"
+  },
+  "result": {
+    "address_taken": 0,
+    "callers": [
+      {
+        "caller": "0x18001bc56",
+        "name": "sub_18001bc56",
+        "site": "0x18001c608"
+      },
+      {
+        "caller": "0x18001bc56",
+        "name": "sub_18001bc56",
+        "site": "0x18001c84a"
+      },
+      {
+        "caller": "0x18001bc56",
+        "name": "sub_18001bc56",
+        "site": "0x18001cb81"
+      }
+    ],
+    "entry": "0x180005d60",
+    "function": "sub_180005d60"
+  },
+  "summary": "sub_180005d60 is called from 3 places.",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "direct_calls_only",
+      "message": "callers that reach it through function pointers are not listed (see address_taken)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 3,
+    "total": 3
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x180005d60"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,493 @@
+{
+  "id": "ev_bcd2491bea1155bd831e0af0a9dd39638f87178d489f46f36730e3051902a340",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 200,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "(https?|wss?)://"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x18025b1c0",
+        "references": [
+          {
+            "from": "0x180169ff0",
+            "function": "sub_180169f70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "<?xml version=\"1.0\"?>\r\n<s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\"><s:Body><u:%s xmlns:u=\"%s\"></u:%s></s:Body></s:Envelope>\r\n"
+      },
+      {
+        "address": "0x18025b290",
+        "references": [
+          {
+            "from": "0x18016a02f",
+            "function": "sub_180169f70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "<?xml version=\"1.0\"?>\r\n<s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\"><s:Body><u:%s xmlns:u=\"%s\">"
+      },
+      {
+        "address": "0x1802f89ef",
+        "references": [],
+        "section": ".rdata",
+        "text": "+http://www.l"
+      },
+      {
+        "address": "0x1802fe6d3",
+        "references": [],
+        "section": ".rdata",
+        "text": "|4ello project.http://f"
+      },
+      {
+        "address": "0x180345cc0",
+        "references": [
+          {
+            "from": "0x1800c5602",
+            "function": "sub_1800c5580"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://github.com/ViGEm/ViGEmBus"
+      },
+      {
+        "address": "0x1803460c0",
+        "references": [],
+        "section": ".rdata",
+        "text": "https://github.com/nefarius"
+      },
+      {
+        "address": "0x1803464c0",
+        "references": [],
+        "section": ".rdata",
+        "text": "https://github.com/snowcone-ltd/libmatoya"
+      },
+      {
+        "address": "0x1803468c0",
+        "references": [],
+        "section": ".rdata",
+        "text": "https://discord.gg/GxGfffY"
+      },
+      {
+        "address": "0x1803475b0",
+        "references": [
+          {
+            "from": "0x180009136",
+            "function": "sub_180009110"
+          },
+          {
+            "from": "0x18000e884",
+            "function": "sub_18000e610"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://parsecusercontent.com/cdn-cgi/image/w=%ld,h=%ld,fit=crop,background=white,q=90,f=jpeg/avatars/%u/avatar"
+      },
+      {
+        "address": "0x180347b98",
+        "references": [
+          {
+            "from": "0x180010be9",
+            "function": "sub_180010900"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://github.com/ViGEm/ViGEmBus"
+      },
+      {
+        "address": "0x180347c08",
+        "references": [
+          {
+            "from": "0x180010c4a",
+            "function": "sub_180010900"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://github.com/nefarius"
+      },
+      {
+        "address": "0x180347c50",
+        "references": [
+          {
+            "from": "0x180010b0c",
+            "function": "sub_180010900"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://github.com/snowcone-ltd/libmatoya"
+      },
+      {
+        "address": "0x180347d08",
+        "references": [
+          {
+            "from": "0x180010a38",
+            "function": "sub_180010900"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://parsec.app/config"
+      },
+      {
+        "address": "0x180347d50",
+        "references": [
+          {
+            "from": "0x1800110a4",
+            "function": "sub_180010cf0"
+          },
+          {
+            "from": "0x18002174a",
+            "function": "sub_1800212c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://dash.parsec.app/plan/?getWarp&utm_medium=native&utm_source=parsec&utm_campaign=2022_08_31-p-d-4-g-a-p_c-get_warp"
+      },
+      {
+        "address": "0x180348110",
+        "references": [
+          {
+            "from": "0x1800118f0",
+            "function": "sub_180011860"
+          },
+          {
+            "from": "0x180011a60",
+            "function": "sub_1800119d0"
+          },
+          {
+            "from": "0x180011b18",
+            "function": "sub_180011aa0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://builds.parsec.app/%s"
+      },
+      {
+        "address": "0x180348170",
+        "references": [
+          {
+            "from": "0x1800119a1",
+            "function": "sub_180011930"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/33164294687380-Yubikey-Passthrough"
+      },
+      {
+        "address": "0x180348258",
+        "references": [
+          {
+            "from": "0x180017b2c",
+            "function": "sub_180012c50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://parsec.app/downloads"
+      },
+      {
+        "address": "0x180348310",
+        "references": [],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32380350695956-Use-your-Microphone-with-Parsec"
+      },
+      {
+        "address": "0x1803483f0",
+        "references": [
+          {
+            "from": "0x180011e93",
+            "function": "sub_180011e20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32381705301908-Setup-Gamepad"
+      },
+      {
+        "address": "0x180348450",
+        "references": [
+          {
+            "from": "0x180011f35",
+            "function": "sub_180011ee0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32361282329364-Alpha-Channel"
+      },
+      {
+        "address": "0x18034c018",
+        "references": [
+          {
+            "from": "0x1800199dc",
+            "function": "sub_1800192e0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://dash.parsec.app"
+      },
+      {
+        "address": "0x18034c1f8",
+        "references": [
+          {
+            "from": "0x180019d52",
+            "function": "sub_180019a40"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://builds.parsec.app/data/versions.json"
+      },
+      {
+        "address": "0x18034c3b0",
+        "references": [
+          {
+            "from": "0x18001bec1",
+            "function": "sub_18001bc56"
+          },
+          {
+            "from": "0x18002fd03",
+            "function": "sub_18002f8aa"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://dash.parsec.app/forgot"
+      },
+      {
+        "address": "0x18034c418",
+        "references": [
+          {
+            "from": "0x18001c0fc",
+            "function": "sub_18001bc56"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://dash.parsec.app/signup"
+      },
+      {
+        "address": "0x18034c4a0",
+        "references": [
+          {
+            "from": "0x18001c49d",
+            "function": "sub_18001bc56"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32381606212500-Provision-Team-Computers"
+      },
+      {
+        "address": "0x18034c6a0",
+        "references": [
+          {
+            "from": "0x18001d995",
+            "function": "sub_18001bc56"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/"
+      },
+      {
+        "address": "0x18034c6c8",
+        "references": [
+          {
+            "from": "0x18001d9f1",
+            "function": "sub_18001bc56"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://parsec.app/terms"
+      },
+      {
+        "address": "0x18034c6f8",
+        "references": [
+          {
+            "from": "0x18001da5c",
+            "function": "sub_18001bc56"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://parsec.app/privacy"
+      },
+      {
+        "address": "0x18034caf0",
+        "references": [
+          {
+            "from": "0x18002152c",
+            "function": "sub_1800212c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://parsec.app/warp?utm_medium=native&utm_source=parsec&utm_campaign=2022_08_31-p-d-4-g-a-p_c-warp_features"
+      },
+      {
+        "address": "0x18034df00",
+        "references": [
+          {
+            "from": "0x18002bb95",
+            "function": "sub_18002aef9"
+          },
+          {
+            "from": "0x18002c191",
+            "function": "sub_18002aef9"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://parsec.gg/g/%s/%s/"
+      },
+      {
+        "address": "0x18034e878",
+        "references": [
+          {
+            "from": "0x1800311ea",
+            "function": "sub_180030f5e"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://parsec.app/changelog"
+      },
+      {
+        "address": "0x18034e930",
+        "references": [],
+        "section": ".rdata",
+        "text": "https://discord.gg/GxGfffY"
+      },
+      {
+        "address": "0x18034e958",
+        "references": [],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/requests/new"
+      },
+      {
+        "address": "0x18034ea80",
+        "references": [
+          {
+            "from": "0x18003359e",
+            "function": "sub_180033340"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://builds.parsec.app/package/parsec-update-executables.exe"
+      },
+      {
+        "address": "0x18034ed70",
+        "references": [
+          {
+            "from": "0x18002dc3c",
+            "function": "sub_18002d910"
+          },
+          {
+            "from": "0x180036943",
+            "function": "sub_1800365f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32381281333012-All-Error-Codes"
+      },
+      {
+        "address": "0x180352020",
+        "references": [
+          {
+            "from": "0x18004dbd8",
+            "function": "sub_18004d9ef"
+          },
+          {
+            "from": "0x180343af0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "# NOTICE: From Parsec 150-89, the advanced configuration has moved to config.json\n# The config.json file located in the same folder as config.txt.\n# You can still add configuration to this file (config.txt) for backwards compatibility.\n# When you save this file (config.txt) and restart the app, configuration will be migrated to config.json.\n# This file (config.txt) will be cleared once the setting(s) have been saved and migrated.\n# All configuration settings must appear on a new line.\n# All whitespace, besides the newline character '\\n', is ignored.\n# See https://parsec.app/config for more information.\n\n# Example:\n# encoder_bitrate = 10\n\n"
+      },
+      {
+        "address": "0x1803522b0",
+        "references": [
+          {
+            "from": "0x18004ce97",
+            "function": "sub_18004cda0"
+          },
+          {
+            "from": "0x18004ce9e",
+            "function": "sub_18004cda0"
+          },
+          {
+            "from": "0x180343af8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "See https://parsec.app/config for documentation and example. JSON must be valid before saving or file be will be erased."
+      },
+      {
+        "address": "0x1803581b0",
+        "references": [
+          {
+            "from": "0x18008a8ff",
+            "function": "sub_18008a7e5"
+          },
+          {
+            "from": "0x18008a993",
+            "function": "sub_18008a7e5"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32361372801172-4-4-4-Decoding-using-FFmpeg"
+      },
+      {
+        "address": "0x180361490",
+        "references": [
+          {
+            "from": "0x1800c55cc",
+            "function": "sub_1800c5580"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://"
+      },
+      {
+        "address": "0x1803614c8",
+        "references": [
+          {
+            "from": "0x1800c55e5",
+            "function": "sub_1800c5580"
+          }
+        ],
+        "section": ".rdata",
+        "text": "http://"
+      },
+      {
+        "address": "0x180620728",
+        "references": [],
+        "section": ".rsrc",
+        "text": "﻿<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\" xmlns:asmv3=\"urn:schemas-microsoft-com:asm.v3\"><dependency><dependentAssembly><assemblyIdentity type=\"win32\" name=\"Microsoft.Windows.Common-Controls\" version=\"6.0.0.0\" processorArchitecture=\"amd64\" publicKeyToken=\"6595b64144ccf1df\" language=\"*\"></assemblyIdentity></dependentAssembly></dependency><trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\"><security><requestedPrivileges><requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><asmv3:application><asmv3:windowsSettings xmlns=\"http://schemas.microsoft.com/SMI/2005/WindowsSettings\"><dpiAware>true/pm</dpiAware><dpiAwareness xmlns=\"http://schemas.microsoft.com/SMI/2016/WindowsSettings\">PerMonitorV2</dpiAwareness></asmv3:windowsSettings></asmv3:application><ms_compatibility:compatibility xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" xmlns=\"urn:schemas-microsoft-com:compatibility.v1\"><ms_compatibility:application xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\"><ms_compatibility:supportedOS xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" Id=\"{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}\"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" Id=\"{1f676c76-80e1-4239-95bb-83d0f6d0da78}\"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" Id=\"{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}\"></ms_compatibility:supportedOS><ms_compatibility:supportedOS xmlns:ms_compatibility=\"urn:schemas-microsoft-com:compatibility.v1\" Id=\"{35138b9a-5d96-4fbd-8e2d-a2440225f93a}\"></ms_compatibility:supportedOS></ms_compatibility:application></ms_compatibility:compatibility></assembly>"
+      }
+    ],
+    "total": 41
+  },
+  "summary": "41 strings match \"(https?|wss?)://\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 41,
+    "total": 41
+  },
+  "locations": [],
+  "links": []
+}

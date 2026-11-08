@@ -1,0 +1,42 @@
+{
+  "id": "ev_83bdf8ecf47c5e448751eccfb1575d009e7a91aa23938b60183806852b606407",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_bytes_show",
+  "params": {
+    "address": "0x180362400",
+    "length": 320
+  },
+  "result": {
+    "address": "0x180362400",
+    "ascii": "WTExtSet........PhysicalToLogicalPointForPerMonitorDPI..PhysicalToLogicalPoint..Wacom...Wintab context failed to initialize.....Wintab context successfully created.creds.......0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz..ice_pwd.ice_ufrag...aes256......fingerprint.to..action..ver_data........payload.",
+    "file_offset": 3544064,
+    "hex": "57544578745365740000000000000000506879736963616c546f4c6f676963616c506f696e74466f725065724d6f6e69746f724450490000506879736963616c546f4c6f676963616c506f696e7400005761636f6d00000057696e74616220636f6e74657874206661696c656420746f20696e697469616c697a65000000000057696e74616220636f6e74657874207375636365737366756c6c79206372656174656400637265647300000000000000303132333435363738394142434445464748494a4b4c4d4e4f505152535455565758595a6162636465666768696a6b6c6d6e6f707172737475767778797a00006963655f707764006963655f756672616700000061657332353600000000000066696e6765727072696e7400746f0000616374696f6e00007665725f6461746100000000000000007061796c6f616400",
+    "length": 320
+  },
+  "summary": "320 bytes at 0x180362400.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 320,
+    "total": 320
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x180362400"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,52 @@
+# SigmaDesk self-hosted stack:
+#   hbbs  - RustDesk ID / rendezvous server (plays Parsec's kessel-ws signalling + STUN)
+#   hbbr  - RustDesk relay server (plays Parsec's relay)
+#   sigmadesk-server - accounts, node list, user pages (/account), admin console (/admin),
+#                      share links (/g/...)
+# Start:  docker compose up -d --build      Stop:  docker compose down
+# Set PUBLIC_HOST in .env to the address other computers use to reach this one.
+name: sigmadesk
+
+services:
+  hbbs:
+    image: rustdesk/rustdesk-server:latest
+    command: hbbs
+    restart: unless-stopped
+    ports:
+      - "21115:21115"
+      - "21116:21116"
+      - "21116:21116/udp"
+      - "21118:21118"
+    volumes:
+      - rustdesk-data:/root
+    depends_on:
+      - hbbr
+
+  hbbr:
+    image: rustdesk/rustdesk-server:latest
+    command: hbbr
+    restart: unless-stopped
+    ports:
+      - "21117:21117"
+      - "21119:21119"
+    volumes:
+      - rustdesk-data:/root
+
+  sigmadesk-server:
+    build: .
+    restart: unless-stopped
+    environment:
+      PUBLIC_HOST: ${PUBLIC_HOST:-localhost}
+    ports:
+      - "21180:21180"
+    volumes:
+      - sigmadesk-data:/data
+      - rustdesk-data:/keys:ro
+      # Node installer files served at /download/ (sigmadesk.exe + install-node.ps1).
+      - ./deploy/package:/downloads:ro
+    depends_on:
+      - hbbs
+
+volumes:
+  rustdesk-data:
+  sigmadesk-data:

@@ -1,0 +1,372 @@
+{
+  "version": 1,
+  "values": [
+    {
+      "name": "hosts list refresh",
+      "group": "client",
+      "value": 20000,
+      "unit": "ms",
+      "source": "function 0x18002dd60 (reset value, double at 0x180362be0)"
+    },
+    {
+      "name": "max hosts in list",
+      "group": "client",
+      "value": 256,
+      "source": "function 0x18000389c"
+    },
+    {
+      "name": "hosts backoff factor",
+      "group": "client",
+      "value": 1.5,
+      "source": "function 0x18002dd60 (double at 0x180362aa0)"
+    },
+    {
+      "name": "hosts refresh max",
+      "group": "client",
+      "value": 60000,
+      "unit": "ms",
+      "source": "function 0x18002dd60 (double at 0x180362c10)"
+    },
+    {
+      "name": "rate limited status",
+      "group": "api",
+      "value": 429,
+      "source": "function 0x18002dd60 (0x1ad)"
+    },
+    {
+      "name": "login endpoint",
+      "group": "api",
+      "value": "POST /v2/auth",
+      "source": "function 0x180003d20"
+    },
+    {
+      "name": "hosts endpoint",
+      "group": "api",
+      "value": "GET /v2/hosts?mode=desktop",
+      "source": "function 0x18002dd85"
+    },
+    {
+      "name": "logout endpoint",
+      "group": "api",
+      "value": "DELETE /auth/sessions",
+      "source": "function 0x180031a60 (DELETE at 0x180031ec8)"
+    },
+    {
+      "name": "elevate endpoint",
+      "group": "api",
+      "value": "PATCH /auth/sessions/elevate",
+      "source": "function 0x18002f860"
+    },
+    {
+      "name": "elevate fields",
+      "group": "api",
+      "value": "password, tfa",
+      "source": "function 0x18002f860"
+    },
+    {
+      "name": "account display",
+      "group": "api",
+      "value": "name#id",
+      "source": "function 0x18002f860 (\"Log in as %s#%u\")"
+    },
+    {
+      "name": "machine registration endpoint",
+      "group": "provisioning",
+      "value": "POST /teams/<team>/machines",
+      "source": "function 0x180005d60 (\"/teams/%s/machines\")"
+    },
+    {
+      "name": "machine key header",
+      "group": "provisioning",
+      "value": "X-Machine-Key",
+      "source": "function 0x180005d60"
+    },
+    {
+      "name": "machine registration body",
+      "group": "provisioning",
+      "value": "name, team_guest_access=false",
+      "source": "function 0x180005d60"
+    },
+    {
+      "name": "attempt id random bytes",
+      "group": "connect",
+      "value": 24,
+      "source": "function 0x1800d0800 (0x18)"
+    },
+    {
+      "name": "attempt id format",
+      "group": "connect",
+      "value": "%08x-%08x-%08x-%08x-%08x-%08x",
+      "source": "function 0x1800d0800"
+    },
+    {
+      "name": "access link id length",
+      "group": "connect",
+      "value": 27,
+      "source": "function 0x1800d0800 (0x1b, base62 check)"
+    },
+    {
+      "name": "connect target is one-shot",
+      "group": "connect",
+      "value": true,
+      "source": "function 0x180034680 (peer_id/host_secret cleared after the attempt)"
+    },
+    {
+      "name": "control log entries kept",
+      "group": "server",
+      "value": 200,
+      "estimated": true
+    },
+    {
+      "name": "machine registration success status",
+      "group": "provisioning",
+      "value": 201,
+      "source": "function 0x180005f60 (0xc9)"
+    },
+    {
+      "name": "machine registration reply",
+      "group": "provisioning",
+      "value": "{\"data\": {\"id\": \"...\"}}",
+      "source": "function 0x180005f60 (keys at 0x18027f644, 0x18027f69c)"
+    },
+    {
+      "name": "session id max length",
+      "group": "api",
+      "value": 64,
+      "source": "function 0x1800c6220 (user.bin session_id buffer 0x41)"
+    },
+    {
+      "name": "no connection error code",
+      "group": "api",
+      "value": -800,
+      "source": "function 0x180005f60 (0xfffffce0)"
+    },
+    {
+      "name": "failed request advice",
+      "group": "api",
+      "value": "-800 check connection; 401/403 log out and in; 412 re-authenticate; else wait and retry",
+      "source": "function 0x180005f60"
+    },
+    {
+      "name": "silent start argument",
+      "group": "provisioning",
+      "value": "app_silent=1",
+      "source": "function 0x1800731f0"
+    },
+    {
+      "name": "per computer settings",
+      "group": "provisioning",
+      "value": "ProgramData",
+      "source": "installer setup.json {\"useProgramData\": true}"
+    },
+    {
+      "name": "silent start mode",
+      "group": "provisioning",
+      "value": "--host-service (Parsec: parsecd.exe app_silent=1)",
+      "source": "installer Run entry"
+    },
+    {
+      "name": "share secret min",
+      "group": "share",
+      "value": 2147483647,
+      "source": "function 0x18002ad10 (0x7fffffff)"
+    },
+    {
+      "name": "share secret max",
+      "group": "share",
+      "value": 4294967295,
+      "source": "function 0x18002ad10 (0xffffffff)"
+    },
+    {
+      "name": "share secret format",
+      "group": "share",
+      "value": "%x",
+      "source": "function 0x18002ad10 (string at 0x18034dfe8)"
+    },
+    {
+      "name": "share link copied notice",
+      "group": "share",
+      "value": 10000,
+      "unit": "ms",
+      "source": "function 0x18002ad10 (double 0x40c3880000000000)"
+    },
+    {
+      "name": "share link stopped notice",
+      "group": "share",
+      "value": 5000,
+      "unit": "ms",
+      "source": "function 0x18002ad10 (double 0x40b3880000000000)"
+    },
+    {
+      "name": "share link shape",
+      "group": "share",
+      "value": "/g/<peer_id>/<secret>/",
+      "source": "function 0x18002ad10 (\"https://parsec.gg/g/%s/%s/\")"
+    },
+    {
+      "name": "card captions",
+      "group": "client",
+      "value": "This Computer / Your Computer / Shared Computer / name#id",
+      "source": "function 0x18002ad10"
+    },
+    {
+      "name": "elevate lifetime",
+      "group": "server",
+      "value": 900000,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "session scopes",
+      "group": "api",
+      "value": "ws.host,ws.client,api.writer",
+      "source": "function 0x180003d20"
+    },
+    {
+      "name": "me poll min",
+      "group": "host",
+      "value": 1800000,
+      "unit": "ms",
+      "source": "function 0x180073500"
+    },
+    {
+      "name": "me poll max",
+      "group": "host",
+      "value": 2400000,
+      "unit": "ms",
+      "source": "function 0x180073500"
+    },
+    {
+      "name": "server connect timeout",
+      "group": "signal",
+      "value": 10000,
+      "unit": "ms",
+      "source": "function 0x1800cf9c0"
+    },
+    {
+      "name": "ws reconnect start",
+      "group": "signal",
+      "value": 30000,
+      "unit": "ms",
+      "source": "function 0x1800cf9c0"
+    },
+    {
+      "name": "ws reconnect long wait",
+      "group": "signal",
+      "value": 3600000,
+      "unit": "ms",
+      "source": "function 0x1800cf9c0"
+    },
+    {
+      "name": "ws reconnect cap",
+      "group": "signal",
+      "value": 300000,
+      "unit": "ms",
+      "source": "function 0x1800cf9c0 (0x493e0)"
+    },
+    {
+      "name": "ws reconnect doubling tries",
+      "group": "signal",
+      "value": 51,
+      "source": "function 0x1800cf9c0 (counter < 0x33)"
+    },
+    {
+      "name": "sdk version",
+      "group": "signal",
+      "value": 393216,
+      "source": "function 0x1800d0050"
+    },
+    {
+      "name": "stun port",
+      "group": "network",
+      "value": 3478,
+      "source": "function 0x18009c020"
+    },
+    {
+      "name": "stun magic cookie",
+      "group": "network",
+      "value": 554869826,
+      "source": "function 0x18009c020"
+    },
+    {
+      "name": "host start port base",
+      "group": "network",
+      "value": 21000,
+      "source": "function 0x180073500"
+    },
+    {
+      "name": "host start port range",
+      "group": "network",
+      "value": 2000,
+      "source": "function 0x180073500"
+    },
+    {
+      "name": "max relays",
+      "group": "network",
+      "value": 20,
+      "source": "function 0x18009adc0 (0x13 < count)"
+    },
+    {
+      "name": "relay list separator",
+      "group": "network",
+      "value": ",",
+      "source": "function 0x18009adc0 (byte at 0x180357868)"
+    },
+    {
+      "name": "relay host port separator",
+      "group": "network",
+      "value": "@",
+      "source": "function 0x18009adc0 (byte at 0x180358bdc)"
+    },
+    {
+      "name": "default relay",
+      "group": "network",
+      "value": "stun.parsec.app@3478",
+      "source": "function 0x18009adc0"
+    },
+    {
+      "name": "force relay modes",
+      "group": "network",
+      "value": "0 off, odd all connections, other WAN connections",
+      "source": "functions 0x180050230, 0x18009adc0"
+    },
+    {
+      "name": "heartbeat interval",
+      "group": "server",
+      "value": 30000,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "node offline after",
+      "group": "server",
+      "value": 90000,
+      "unit": "ms",
+      "estimated": true
+    },
+    {
+      "name": "registry server port",
+      "group": "server",
+      "value": 21180,
+      "estimated": true
+    },
+    {
+      "name": "rustdesk id server port",
+      "group": "server",
+      "value": 21116,
+      "estimated": true
+    },
+    {
+      "name": "rustdesk relay port",
+      "group": "server",
+      "value": 21117,
+      "estimated": true
+    },
+    {
+      "name": "peer id length",
+      "group": "protocol",
+      "value": 26,
+      "estimated": true
+    }
+  ]
+}

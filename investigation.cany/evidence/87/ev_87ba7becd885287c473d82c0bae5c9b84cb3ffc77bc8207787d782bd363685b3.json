@@ -1,0 +1,46 @@
+{
+  "id": "ev_87ba7becd885287c473d82c0bae5c9b84cb3ffc77bc8207787d782bd363685b3",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_strings_browse",
+  "params": {
+    "address": "0x18036256c",
+    "limit": 5000,
+    "offset": 0,
+    "section": ".rdata"
+  },
+  "result": {
+    "strings": [],
+    "total": 0
+  },
+  "summary": "0 strings (showing 0).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "strings are read from data sections; text built at run time or stored compressed isn't listed"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 0,
+    "total": 0
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x18036256c"
+    }
+  ],
+  "links": []
+}

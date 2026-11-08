@@ -1,0 +1,20 @@
+{
+  "id": "unk_24cf1b88dfd688fd",
+  "revision": 3,
+  "question": "Exact Parsec peer_id format/length (buffer is 32 bytes, base62 alphabet string exists near creds) and how host_secret is derived.",
+  "severity": "low",
+  "domain": "protocol",
+  "status": "resolved",
+  "probes": [
+    "Capture a real /v2/hosts response to see peer_id values"
+  ],
+  "evidence_for": [
+    "ev_c76f8e831640c204a786f9b0cb5d702d8472af7cb44b033ece778fa1d96993c1",
+    "ev_3de88836d7c6d73655f0f7a9d87aa8034bb431e6cd20a426f8edd1f7fa32a389"
+  ],
+  "evidence_against": [
+    "ev_7edea184dfbc1d93201048f854ad6596979fba89ff01c9410537fee39fcf24c2",
+    "ev_5cf923cc16cb64d9c3ae94b2e052a319720c0900f767d98f20beaca4cdfe1848"
+  ],
+  "resolution": "host_secret rule settled (FUN_1800d0800): a value of exactly 27 base62 characters is an access_link_id, anything else is a secret; FUN_180034680 stores peer_id/host_secret only for one attempt. The peer_id generator itself lives on the server (the client only stores and forwards it, buffer up to 31 chars), so SigmaDesk keeps its own 26-char base62 id (estimated) — no interop with Parsec ids is needed."
+}

@@ -1,0 +1,121 @@
+{
+  "id": "ev_662897911cd5eef59d01637f0c6af89137da4ae943ba524214fe797f63628aac",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_functions_decompile",
+  "params": {
+    "addresses": [
+      "sub_1800ceed0",
+      "sub_1800cf9c0",
+      "sub_18004c820",
+      "sub_18004c8b0"
+    ]
+  },
+  "result": {
+    "failed": 0,
+    "items": [
+      {
+        "entry": "0x1800ceed0",
+        "input": "sub_1800ceed0",
+        "limitations": [
+          "register_level",
+          "calling_convention_assumed",
+          "conditions_from_flags",
+          "unstructured_flow",
+          "inline_asm",
+          "indirect_jumps_unresolved"
+        ],
+        "ok": true,
+        "pseudo_code": "int32_t sub_1800ceed0()\n{\n    stack_4b0 = r12;\n    sub_180002a30(&stack_60, 0x20, &data_18027f1c4);\n    eax = edi;\n    rdx = &stack_60;\n    r8 = &data_1803625a4;\n    r12d = 4;\n    while (true) {\n        ecx = *(uint8_t*)(rdx + rax);\n        rax++;\n        if (cl != *(uint8_t*)(r8 + rax - 1)) {\n            break;\n        } else {\n            if (rax != r12) {\n                continue;\n            } else {\n                goto label_1800cef15;\n            }\n            break;\n        }\n        break;\n    }\nlabel_1800cef1a:\n    r15d = edi;\n    rdx = &stack_60;\n    __asm(\"sete r15b\");\n    r8 = \"close\";\n    rax = rdi;\n    while (true) {\n        ecx = *(uint8_t*)(rdx + rax);\n        rax++;\n        if (cl != *(uint8_t*)(r8 + rax - 1)) {\n            break;\n        } else {\n            if (rax != 6) {\n                continue;\n            } else {\n                goto label_1800cef44;\n            }\n            break;\n        }\n        break;\n    }\nlabel_1800cef49:\n    eax = 2;\n    r15d = eax;\n    eax = sub_18023b3f0(&stack_60, \"offer_relay\");\n    r15d = r13d;\n    eax = sub_18023b3f0(&stack_60, \"offer_cancel_relay\");\n    r15d = r12d;\n    eax = sub_18023b3f0(&stack_60, \"answer_relay\");\n    ecx = 5;\n    r15d = ecx;\n    eax = sub_18023b3f0(&stack_60, \"candex_relay\");\n    r12 = stack_4b0;\n    if (eax == 0) {\n        sub_18023a6e0(&var_80, 0, 0xa6);\n        eax = sub_1800d1c00(arg_3c0, \"payload\");\n        r14 = rax;\n        if (rax == 0) {\nlabel_1800cf75a:\n            ebx = 0xffffe0c0;\nlabel_1800cf75f:\n            if (*(uint64_t*)(rsi + 0x1a0) != rdi) {\n                sub_180068120(r13d, \"CANDEX ERR: %d\", ebx);\n            }\n            sub_1800d1960(&arg_3c0);\n            if (ebx != 0) {\n                stack_20 = ebx;\n                sub_180068120(1, \"* %s[%d] = %d\", \"signal_event_dispatch\", 0x1d3);\n            }\n        } else {\n            eax = sub_1800d1c00(rax, \"from\");\n            eax = sub_1800d29c0(rax);\n            if (rax == 0) {\n                goto label_1800cf75a;\n            } else {\n                sub_180002a30(&var_80, 0x20, &data_18027f1c4, rax);\n                eax = sub_1800d1c00(r14, \"data\");\n                rbx = rax;\n                if (rax == 0) {\n                    goto label_1800cf75a;\n                } else {\n                    eax = sub_1800d1c00(r14, \"attempt_id\");\n                    eax = sub_1800d29c0(rax);\n                    if (rax == 0) {\n                        goto label_1800cf75a;\n                    } else {\n                        sub_180002a30(&var_60, 0x38, &data_18027f1c4, rax);\n                        eax = sub_1800d1c00(rbx, &data_18036256c);\n                        eax = sub_1800d29c0(rax);\n                        if (rax == 0) {\n                            goto label_1800cf75a;\n                        } else {\n                            sub_180002a30(&var_28, 0x48, &data_18027f1c4, rax);\n                            eax = sub_1800d1c00(rbx, \"port\");\n                            eax = sub_1800d1a40(rax, &arg_20);\n                            if (al == 0) {\n                                goto label_1800cf75a;\n                            } else {\n                                eax = sub_1800d1c00(rbx, &data_18036257c);\n                                eax = sub_1800d1910(rax, &arg_22);\n                                if (al == 0) {\n                                    goto label_1800cf75a;\n                                } else {\n                                    eax = sub_1800d1c00(rbx, \"from_stun\");\n                                    eax = sub_1800d1910(rax, &arg_23);\n                                    if (al == 0) {\n                                        goto label_1800cf75a;\n                                    } else {\n                                        eax = sub_1800d1c00(rbx, \"sync\");\n                                        eax = sub_1800d1910(rax, &arg_24);\n                                        if (al == 0) {\n                                            goto label_1800cf75a;\n                                        } else {\n                                            ebx = edi;\n                                            if (*(uint64_t*)(rsi + 0x1a0) == rbx) {\n                                                goto label_1800cf75f;\n                                            } else {\n                                                rdx = &data_180358cb4;\n                                                eax = arg_20;\n                                                r8 = &data_180358cb8;\n                                                stack_20 = eax;\n                                                sub_180068120(r13d, \"CANDEX: %s %s:%d\", rdx, &var_28);\n                                                rax = *(uint64_t*)(rsi + 0x1b0);\n                                                r10 = *(uint64_t*)(rsi + 0x1a0);\n                                                stack_30 = rax;\n                                                eax = arg_24;\n                                                stack_28 = al;\n                                                eax = arg_23;\n                                                stack_20 = al;\n                                                (*r10)(&var_60, &var_28, arg_20, arg_22);\n                                                sub_1800d1960(&arg_3c0);\n                                            }\n                                        }\n                                    }\n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n        r11 = &stack_480;\n        eax = edi;\n        rbx = *(uint64_t*)(r11 + 0x38);\n        rsi = *(uint64_t*)(r11 + 0x48);\n        return eax;\n    } else {\n        rdx = &data_180000000;\n        rax = r15d;\n        ecx = *(uint32_t*)(rdx + rax * 4 + 0xcf878);\n        rcx += rdx;\n        goto *rcx; /* computed jump */\n    }\nlabel_1800cef15:\n    goto label_1800cef1a;\nlabel_1800cef44:\n    goto label_1800cef49;\n}\n",
+        "signature": "int32_t sub_1800ceed0()",
+        "structured": false
+      },
+      {
+        "entry": "0x1800cf9c0",
+        "input": "sub_1800cf9c0",
+        "limitations": [
+          "register_level",
+          "calling_convention_assumed",
+          "conditions_from_flags",
+          "unstructured_flow",
+          "inline_asm"
+        ],
+        "ok": true,
+        "pseudo_code": "int64_t sub_1800cf9c0(int64_t rcx)\n{\n    rdi = rcx;\n    r15d = 0;\n    r14d = 0x7530;\n    rax = sub_180205170(0x4000, 1);\n    stack_da0 = rbx;\n    rbx = \"150-104a\";\n    stack_d60 = rsi;\n    stack_d58 = r12;\n    stack_d50 = r13;\n    r13 = rdi + 0x41;\n    while (true) {\nlabel_1800cfa30:\n        sil = 1;\n        sub_1800d75e0(*(uint64_t*)(rdi + 0x150));\n        sub_180002a30(&stack_50, 0x100, &data_18027f1c4, rdi + 0x1ba);\n        stack_30 = 0x60000;\n        stack_28 = rbx;\n        stack_20 = r13;\n        sub_180002a30(&stack_550, 0x800, \"/?session_id=%s&role=%s&version=1&build=%s&sdk_version=%u\", rdi);\n        *(uint8_t*)(rdi + 0x34b) = sil;\n        ebx = *(uint8_t*)(rdi);\n        sub_1800d75f0(*(uint64_t*)(rdi + 0x150));\n        if (bl == 0) {\nlabel_1800cfd7a:\n            sub_1800d6120(0x64);\n        } else {\n            if (*(uint8_t*)(rdi + 0x34c) != 0) {\n                goto label_1800cfd7a;\n            } else {\n                sub_18023a6e0(&stack_150, 0, 0x400);\n                eax = *(uint16_t*)(rdi + 0x1b8);\n                __asm(\"xorps xmm0, xmm0\");\n                __asm(\"movups [rsp+0x40], xmm0\");\n                if (ax != 0) {\n                    sub_180002a30(&stack_40, 16, &data_18027f380, eax);\n                }\n                rax = &stack_550;\n                stack_38 = rax;\n                rax = &stack_40;\n                stack_30 = rax;\n                rax = &stack_50;\n                stack_28 = rax;\n                rax = &data_18027f384;\n                stack_20 = rax;\n                sub_180002a30(&stack_150, 0x400, \"%s%s://%s%s%s\", &data_1803627f8);\n                eax = 0;\n                r8d = eax;\n                stack_d90 = ax;\n                rax = &data_1805a5d00;\n                rax = &stack_d90;\n                stack_20 = rax;\n                rax = sub_1800e0950(&stack_150, 0, rax, 0x2710);\n                stack_d98 = rax;\n                ebx = 0xffffe82b;\n                ecx = 0;\n                ebx = ecx;\n                if (rax != 0) {\n                    rax = *(uint64_t*)(rdi + 0x178);\n                    sil = 0;\n                    r14d = 0x7530;\n                    r15d = ecx;\n                    if (rax != 0) {\n                        (*rax)(*(uint64_t*)(rdi + 0x1b0));\n                    }\n                    if (*(uint8_t*)(rdi + 0x34a) != sil) {\nlabel_1800cfc86:\n                        if (ebx == 0) {\nlabel_1800cfc8a:\n                            sub_1800cf8a0(rdi, stack_d98);\n                        }\n                    } else {\n                        while (true) {\n                            if (*(uint8_t*)(rdi + 0x34b) == sil) {\n                                goto label_1800cfc86;\n                            } else {\n                                if (*(uint8_t*)(rdi + 0x34c) != sil) {\n                                    goto label_1800cfc86;\n                                } else {\n                                    rax = sub_1800cf8a0(rdi, stack_d98);\n                                    ebx = eax;\n                                    if (eax != 0) {\n                                        break;\n                                    } else {\n                                        rbx = stack_d98;\n                                        rax = sub_1800e0ee0(rbx, 0x14, rbp, 0x4000);\n                                        if (eax == 0) {\n                                            rax = sub_1800cee50(rdi, rbp);\n                                            ebx = eax;\nlabel_1800cfc6c:\n                                            if (ebx != 0) {\n                                                break;\n                                            } else {\nlabel_1800cfc70:\n                                                if (*(uint8_t*)(rdi + 0x34a) == sil) {\n                                                    continue;\n                                                } else {\n                                                    goto label_1800cfc7d;\n                                                }\n                                                break;\n                                            }\n                                            break;\n                                        } else {\n                                            eax -= 1;\n                                            if (eax == 0) {\n                                                rax = sub_1800e0e80(rbx);\n                                                ecx = 0x3e8;\n                                                ebx = 0xffffe827;\n                                                if (ax != cx) {\n                                                    ecx = 0x3e9;\n                                                    eax = 0xfffff43f;\n                                                    ebx = eax;\n                                                }\n                                                goto label_1800cfc6c;\n                                            } else {\n                                                if (eax == 2) {\n                                                    goto label_1800cfc7f;\n                                                } else {\n                                                    ecx = 0;\n                                                    ebx = ecx;\n                                                    goto label_1800cfc70;\n                                                }\n                                                break;\n                                            }\n                                            break;\n                                        }\n                                        break;\n                                    }\n                                    break;\n                                }\n                                break;\n                            }\n                            break;\n                        }\n                    }\nlabel_1800cfc9a:\n                    sub_1800e0de0(&stack_d98);\n                }\n                if (ebx != 0) {\n                    eax = 0xfffff43f;\n                    if (ebx != eax) {\n                        if (*(uint64_t*)(rdi + 0x180) != 0) {\n                            edx = stack_d90;\n                            ecx = edx;\n                            r8d = edx;\n                            ecx -= 0x191;\n                            if (ecx == 0) {\n                                ebx = 0xfffff440;\n                            } else {\n                                if (ecx == 11) {\n                                    ebx = 0xffffe825;\n                                } else {\n                                    if (dx != 0) {\n                                        sub_180068120(1, \"Websocket upgrade request returned status code %u\");\n                                    }\n                                }\n                            }\n                            stack_20 = ebx;\n                            sub_180068120(1, \"* %s[%d] = %d\", \"signal_thread\", 0x25b);\n                            rax = *(uint64_t*)(rdi + 0x180);\n                            (*rax)(ebx, *(uint64_t*)(rdi + 0x1b0));\n                        }\n                    }\n                }\n                if (sil != 0) {\n                    rbx = *(uint64_t*)(rdi + 0x168);\n                    esi = r14 + r14;\n                    rax = sub_1800d14d0(r14d, esi);\n                    sub_1800d7fc0(rbx, eax);\n                    eax = r15d;\n                    r15d++;\n                    if (eax <= 0x32 /* unsigned */) {\n                        r14d = 0x493e0;\n                        r14d = esi;\n                    } else {\n                        r14d = 0x36ee80;\n                    }\n                }\n            }\n        }\n    }\n    r13 = stack_d50;\n    r12 = stack_d58;\n    rsi = stack_d60;\n    rbx = stack_da0;\nlabel_1800cfc7d:\n    goto label_1800cfc8a;\nlabel_1800cfc7f:\n    ebx = 0xfffff446;\n    goto label_1800cfc9a;\n    rbx = \"150-104a\";\n    if (*(uint8_t*)(rdi + 0x34a) == 0) {\n        goto label_1800cfa30;\n    }\n    r13 = stack_d50;\n    r12 = stack_d58;\n    rsi = stack_d60;\n    rbx = stack_da0;\n}\n",
+        "signature": "int64_t sub_1800cf9c0(int64_t rcx)",
+        "structured": false
+      },
+      {
+        "entry": "0x18004c820",
+        "input": "sub_18004c820",
+        "limitations": [
+          "register_level",
+          "calling_convention_assumed",
+          "conditions_from_flags",
+          "unstructured_flow"
+        ],
+        "ok": true,
+        "pseudo_code": "int64_t sub_18004c820()\n{\n    rax = sub_18004fa60(7, \"app_environment\", 0);\n    r10 = rax;\n    r11 = \"parsec.app\";\n    r9d = 0;\n    while (true) {\nlabel_18004c850:\n        eax = r9d;\n        r8 = rax * 0x144;\n        rax = r10;\n        r8 += r11;\n        r8 -= r10;\n    }\nlabel_18004c883:\n    r10 = \"parsec.app\";\n    return sub_1800d5700(\"%s%s\", \"kessel-api.\", r10); /* tail call */\n    while (true) {\n        edx = *(uint8_t*)(rax);\n        ecx = *(uint8_t*)(rax + r8);\n        edx -= ecx;\n        if (edx != 0) {\n            break;\n        } else {\n            rax++;\n            if (ecx == 0) break;\n            continue;\n        }\n        break;\n    }\n    if (edx != 0) {\n        r9d++;\n        if (r9d < 6 /* unsigned */) {\n            goto label_18004c850;\n        } else {\n            goto label_18004c883;\n        }\n    }\n    return sub_1800d5700(\"%s%s\", \"kessel-api.\", r10); /* tail call */\n}\n",
+        "signature": "int64_t sub_18004c820()",
+        "structured": false
+      },
+      {
+        "entry": "0x18004c8b0",
+        "input": "sub_18004c8b0",
+        "limitations": [
+          "register_level",
+          "calling_convention_assumed",
+          "conditions_from_flags",
+          "unstructured_flow"
+        ],
+        "ok": true,
+        "pseudo_code": "int64_t sub_18004c8b0()\n{\n    stack_8 = rbx;\n    stack_10 = rbp;\n    stack_18 = rsi;\n    stack_20 = rdi;\n    rax = sub_18004fa60(7, \"ws_host\", 0);\n    edi = 0;\n    r14 = \"parsec.app\";\n    if (*(uint8_t*)(rax) == dil) {\nlabel_18004c94d:\n        rbx = rdi;\n        if (*(uint64_t*)0x1805a6378 == rbx) {\nlabel_18004ca57:\n            sub_1800d5090(\"CONFIG\", \"Attempted to access the config before it was created\");\nlabel_18004ca6a:\n            rax = sub_1800d5700(&data_18027f1c4, &data_18027f1c2);\n            rbx = rax;\n        } else {\n            rcx = *(uint64_t*)0x1805a6370;\n            if (rcx == 0) {\n                goto label_18004ca57;\n            } else {\n                rax = sub_1800d63e0(rcx, \"app_environment\");\n                rsi = rax;\n                if (rax != 0) {\n                    if (*(uint32_t*)(rax + 8) == 3) {\n                        sub_1800d79b0(*(uint64_t*)0x1805a6378);\n                        edx = 6;\n                        rax = rsi + 0x1c0;\n                        ecx = edx;\n                        while (true) {\n                            if (*(uint8_t*)(rax) != bl) {\n                                break;\n                            } else {\n                                edx--;\n                                rcx--;\n                                rax -= 0x30;\n                                if (rcx <= 0) break;\n                                continue;\n                            }\n                            break;\n                        }\n                        rax = edx;\n                        rax = rax + rax * 2;\n                        rax <<= 4;\n                        rax += 0xa0;\n                        rax += rsi;\n                        if (rax != 0) {\n                            if (*(uint8_t*)(rax) != bl) {\n                                rdx = *(uint64_t*)(rax + 8);\n                                if (rdx != 0) {\n                                    rax = sub_1800d5700(&data_18027f1c4);\n                                    rbx = rax;\n                                }\n                            }\n                        }\n                        sub_1800d7a40(*(uint64_t*)0x1805a6378);\n                        if (rbx == 0) {\n                            goto label_18004ca6a;\n                        }\n                    } else {\n                        sub_1800d5090(\"CONFIG\", \"A bad type '%u' was used for key '%s'.\", 3, \"app_environment\");\n                        goto label_18004ca6a;\n                    }\n                } else {\n                    sub_1800d5090(\"CONFIG\", \"A bad key '%s' was provided.\", \"app_environment\");\n                    goto label_18004ca6a;\n                }\n            }\n        }\n        while (true) {\nlabel_18004ca80:\n            eax = edi;\n            r8 = rax * 0x144;\n            rax = rbx;\n            r8 += r14;\n            r8 -= rbx;\n        }\nlabel_18004cab0:\n        rbx = \"parsec.app\";\nlabel_18004cab7:\n        sub_1800d5700(\"%s%s\", \"kessel-ws.\", rbx);\n    } else {\n        esi = edi;\n        while (true) {\n            ecx = esi;\n            rdx = rcx * 0x144;\n            rdx += r14;\n            rax = sub_1800d5700(&data_180352534);\n            rbx = rax;\n            rax = sub_1801f8f80(rbp, rax);\n            if (rax == 0) {\nlabel_18004c946:\n                esi++;\n                if (esi < 6 /* unsigned */) {\n                    continue;\n                } else {\n                    goto label_18004c94d;\n                }\n                break;\n            } else {\n                rbx -= rax;\n                while (true) {\n                    edx = *(uint8_t*)(rax);\n                    ecx = *(uint8_t*)(rax + rbx);\n                    edx -= ecx;\n                    if (edx != 0) {\n                        break;\n                    } else {\n                        rax++;\n                        if (ecx == 0) break;\n                        continue;\n                    }\n                    break;\n                }\n                if (edx == 0) {\n                    goto label_18004c9a0;\n                } else {\n                    goto label_18004c946;\n                }\n                break;\n            }\n            break;\n        }\n    }\n    rbx = stack_30;\n    rsi = stack_40;\n    rdi = stack_48;\n    return rax;\nlabel_18004c9a0:\n    sub_1800d5700(&data_18027f1c4, rbp);\n    rbx = stack_30;\n    rsi = stack_40;\n    rdi = stack_48;\n    return rax;\n    while (true) {\n        edx = *(uint8_t*)(rax);\n        ecx = *(uint8_t*)(rax + r8);\n        edx -= ecx;\n        if (edx != 0) {\n            break;\n        } else {\n            rax++;\n            if (ecx == 0) break;\n            continue;\n        }\n        break;\n    }\n    if (edx != 0) {\n        edi++;\n        if (edi < 6 /* unsigned */) {\n            goto label_18004ca80;\n        } else {\n            goto label_18004cab0;\n        }\n    }\n    goto label_18004cab7;\n}\n",
+        "signature": "int64_t sub_18004c8b0()",
+        "structured": false
+      }
+    ],
+    "succeeded": 4
+  },
+  "summary": "Decompiled 4 of 4 functions.",
+  "confidence": "inferred",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "pseudo_code_inferred",
+      "message": "pseudo-C from the clean-room lifter is register-level and approximate"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 4,
+    "total": 4
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x1800ceed0"
+    },
+    {
+      "kind": "address",
+      "value": "0x1800cf9c0"
+    },
+    {
+      "kind": "address",
+      "value": "0x18004c820"
+    },
+    {
+      "kind": "address",
+      "value": "0x18004c8b0"
+    }
+  ],
+  "links": []
+}

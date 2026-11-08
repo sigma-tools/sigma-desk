@@ -1,0 +1,45 @@
+{
+  "id": "ev_6226f258ab2f02fc15e06dc5d1217cbeb3138f2ee814c5c13d31c4d390d1dd57",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x1800199dc"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x1800192e0",
+    "function": "FUN_1800192e0",
+    "pseudo_code": "\r\nvoid FUN_1800192e0(char param_1,char param_2,int *param_3)\r\n\r\n{\r\n  undefined4 uVar1;\r\n  char cVar2;\r\n  undefined8 uVar3;\r\n  float fVar4;\r\n  undefined4 uVar5;\r\n  float fVar6;\r\n  float local_res20;\r\n  undefined4 local_res24;\r\n  \r\n  uVar1 = DAT_180362e00;\r\n  if (param_1 != '\\0') {\r\n    fVar4 = (float)FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * DAT_180362b98);\r\n    uVar5 = FUN_1801e0320();\r\n    local_res20 = (float)FUN_1801e02f0();\r\n    local_res20 = local_res20 + fVar4;\r\n    local_res24 = uVar5;\r\n    FUN_1801eb750(&local_res20);\r\n    uVar3 = DAT_1805a6168;\r\n    if ((DAT_1805a6108 & 0x200000040000001) == 0x200000040000001) {\r\n      uVar3 = DAT_1805a6188;\r\n    }\r\n    FUN_1801e7ed0(uVar3);\r\n    cVar2 = FUN_18000b7d0(\"Client\",0,0);\r\n    if (cVar2 != '\\0') {\r\n      DAT_1805a6108 = 0x200000040000001;\r\n    }\r\n    cVar2 = FUN_1801e21c0(0);\r\n    if (cVar2 != '\\0') {\r\n      FUN_18000ae30(\"Settings that affect your connection to other computers or games.\",0,0,0);\r\n    }\r\n    FUN_1801e78e0();\r\n    FUN_1801eb0a0(0,uVar1);\r\n  }\r\n  cVar2 = FUN_1800a1c50();\r\n  fVar4 = DAT_180362ca4;\r\n  if (cVar2 != '\\0') {\r\n    fVar6 = (float)FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * DAT_180362ca4);\r\n    uVar5 = FUN_1801e0320();\r\n    local_res20 = (float)FUN_1801e02f0();\r\n    local_res20 = local_res20 + fVar6;\r\n    local_res24 = uVar5;\r\n    FUN_1801eb750(&local_res20);\r\n    uVar3 = DAT_1805a6168;\r\n    if ((DAT_1805a6108 & 0x200000040000002) == 0x200000040000002) {\r\n      uVar3 = DAT_1805a6188;\r\n    }\r\n    FUN_1801e7ed0(uVar3);\r\n    cVar2 = FUN_18000b7d0(&DAT_18034c07c,0,0);\r\n    if (cVar2 != '\\0') {\r\n      DAT_1805a6108 = 0x200000040000002;\r\n    }\r\n    cVar2 = FUN_1801e21c0(0);\r\n    if (cVar2 != '\\0') {\r\n      FUN_18000ae30(\"Settings that affect your computer while guests are connected to you.\\nThese settings take effect immediately, even while guests are connected.\"\r\n                    ,0,0,0);\r\n    }\r\n    FUN_1801e78e0();\r\n    FUN_1801eb0a0(0,uVar1);\r\n    fVar6 = (float)FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * fVar4);\r\n    uVar5 = FUN_1801e0320();\r\n    local_res20 = (float)FUN_1801e02f0();\r\n    local_res20 = local_res20 + fVar6;\r\n    local_res24 = uVar5;\r\n    FUN_1801eb750(&local_res20);\r\n    uVar3 = DAT_1805a6168;\r\n    if ((DAT_1805a6108 & 0x200000040000004) == 0x200000040000004) {\r\n      uVar3 = DAT_1805a6188;\r\n    }\r\n    FUN_1801e7ed0(uVar3);\r\n    cVar2 = FUN_18000b7d0(\"Approved Apps\",0,0);\r\n    if (cVar2 != '\\0') {\r\n      DAT_1805a6108 = 0x200000040000004;\r\n    }\r\n    cVar2 = FUN_1801e21c0(0);\r\n    if (cVar2 != '\\0') {\r\n      FUN_18000ae30(\"Allow guests to only see and interact with certain applications.\",0,0,0);\r\n    }\r\n    FUN_1801e78e0();\r\n    FUN_1801eb0a0(0,uVar1);\r\n  }\r\n  fVar6 = (float)FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * fVar4);\r\n  uVar5 = FUN_1801e0320();\r\n  local_res20 = (float)FUN_1801e02f0();\r\n  local_res20 = local_res20 + fVar6;\r\n  local_res24 = uVar5;\r\n  FUN_1801eb750(&local_res20);\r\n  uVar3 = DAT_1805a6168;\r\n  if ((DAT_1805a6108 & 0x200000040000008) == 0x200000040000008) {\r\n    uVar3 = DAT_1805a6188;\r\n  }\r\n  FUN_1801e7ed0(uVar3);\r\n  cVar2 = FUN_18000b7d0(\"Network\",0,0);\r\n  if (cVar2 != '\\0') {\r\n    DAT_1805a6108 = 0x200000040000008;\r\n  }\r\n  cVar2 = FUN_1801e21c0(0);\r\n  if (cVar2 != '\\0') {\r\n    FUN_18000ae30(\"Advanced network connectivity settings.\",0,0,0);\r\n  }\r\n  FUN_1801e78e0();\r\n  FUN_1801eb0a0(0,uVar1);\r\n  if (param_2 != '\\0') {\r\n    fVar6 = (float)FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * fVar4);\r\n    uVar5 = FUN_1801e0320();\r\n    local_res20 = (float)FUN_1801e02f0();\r\n    local_res20 = local_res20 + fVar6;\r\n    local_res24 = uVar5;\r\n    FUN_1801eb750(&local_res20);\r\n    uVar3 = DAT_1805a6168;\r\n    if ((DAT_1805a6108 & 0x200000040000010) == 0x200000040000010) {\r\n      uVar3 = DAT_1805a6188;\r\n    }\r\n    FUN_1801e7ed0(uVar3);\r\n    cVar2 = FUN_18000b7d0(\"Secret\",0,0);\r\n    if (cVar2 != '\\0') {\r\n      DAT_1805a6108 = 0x200000040000010;\r\n    }\r\n    FUN_1801e78e0();\r\n    FUN_1801eb0a0(0,uVar1);\r\n  }\r\n  fVar6 = (float)FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * fVar4);\r\n  uVar5 = FUN_1801e0320();\r\n  local_res20 = (float)FUN_1801e02f0();\r\n  local_res20 = local_res20 + fVar6;\r\n  local_res24 = uVar5;\r\n  FUN_1801eb750(&local_res20);\r\n  uVar3 = DAT_1805a6168;\r\n  if ((DAT_1805a6108 & 0x200000040000020) == 0x200000040000020) {\r\n    uVar3 = DAT_1805a6188;\r\n  }\r\n  FUN_1801e7ed0(uVar3);\r\n  cVar2 = FUN_18000b7d0(\"Hotkeys\",0,0);\r\n  if (cVar2 != '\\0') {\r\n    DAT_1805a6108 = 0x200000040000020;\r\n  }\r\n  FUN_1801e78e0();\r\n  FUN_1801eb0a0(0,uVar1);\r\n  if (*(int *)(DAT_1805a72d8 + 0x800) == 2) {\r\n    FUN_1801e8370(8,1);\r\n  }\r\n  if (param_1 != '\\0') {\r\n    fVar6 = (float)FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * fVar4);\r\n    uVar5 = FUN_1801e0320();\r\n    local_res20 = (float)FUN_1801e02f0();\r\n    local_res20 = local_res20 + fVar6;\r\n    local_res24 = uVar5;\r\n    FUN_1801eb750(&local_res20);\r\n    uVar3 = DAT_1805a6168;\r\n    if ((DAT_1805a6108 & 0x200000040000040) == 0x200000040000040) {\r\n      uVar3 = DAT_1805a6188;\r\n    }\r\n    FUN_1801e7ed0(uVar3);\r\n    cVar2 = FUN_18000b7d0(\"Gamepad\",0,0);\r\n    if (cVar2 != '\\0') {\r\n      DAT_1805a6108 = 0x200000040000040;\r\n    }\r\n    FUN_1801e78e0();\r\n    FUN_1801eb0a0(0,uVar1);\r\n  }\r\n  if (*(int *)(DAT_1805a72d8 + 0x800) == 2) {\r\n    FUN_1801e7a20();\r\n  }\r\n  if (*param_3 != 0) {\r\n    fVar6 = (float)FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * fVar4);\r\n    uVar5 = FUN_1801e0320();\r\n    local_res20 = (float)FUN_1801e02f0();\r\n    local_res20 = local_res20 + fVar6;\r\n    local_res24 = uVar5;\r\n    FUN_1801eb750(&local_res20);\r\n    uVar3 = DAT_1805a6168;\r\n    if ((DAT_1805a6108 & 0x200000040000080) == 0x200000040000080) {\r\n      uVar3 = DAT_1805a6188;\r\n    }\r\n    FUN_1801e7ed0(uVar3);\r\n    cVar2 = FUN_18000b7d0(\"Experimental\",0,0);\r\n    if (cVar2 != '\\0') {\r\n      DAT_1805a6108 = 0x200000040000080;\r\n    }\r\n    cVar2 = FUN_1801e21c0(0);\r\n    if (cVar2 != '\\0') {\r\n      FUN_18000ae30(\"Experimental settings.\",0,0,0);\r\n    }\r\n    FUN_1801e78e0();\r\n    FUN_1801eb0a0(0,uVar1);\r\n  }\r\n  FUN_1801e8370(8,1);\r\n  fVar4 = (float)FUN_180205190(*(float *)(DAT_1805a72d8 + 0x80) * fVar4);\r\n  uVar5 = FUN_1801e0320();\r\n  local_res20 = (float)FUN_1801e02f0();\r\n  local_res20 = local_res20 + fVar4;\r\n  local_res24 = uVar5;\r\n  FUN_1801eb750(&local_res20);\r\n  uVar3 = DAT_1805a6168;\r\n  if ((DAT_1805a6108 & 0x200000040000100) == 0x200000040000100) {\r\n    uVar3 = DAT_1805a6188;\r\n  }\r\n  FUN_1801e7ed0(uVar3);\r\n  cVar2 = FUN_18000b7d0(\"Account\",0,0);\r\n  if (cVar2 != '\\0') {\r\n    (**(code **)(DAT_1805a72e0 + 0x18))\r\n              (*(undefined8 *)(DAT_1805a72e0 + 0x20),0x15,\"https://dash.parsec.app\");\r\n  }\r\n  FUN_1801e78e0();\r\n  FUN_1801eb0a0(0,uVar1);\r\n  FUN_1801e7a20();\r\n  FUN_1801f4fd0();\r\n  return;\r\n}\r\n\r\n",
+    "signature": "void FUN_1800192e0(char param_1,char param_2,int *param_3);"
+  },
+  "summary": "Pseudo-C for FUN_1800192e0 from the Deep engine (213 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x1800192e0"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

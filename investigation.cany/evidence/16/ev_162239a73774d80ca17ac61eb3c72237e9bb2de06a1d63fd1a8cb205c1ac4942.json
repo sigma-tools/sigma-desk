@@ -1,0 +1,661 @@
+{
+  "id": "ev_162239a73774d80ca17ac61eb3c72237e9bb2de06a1d63fd1a8cb205c1ac4942",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "core_evidence_browse",
+  "params": {
+    "show": {
+      "fields": [
+        "text",
+        "address"
+      ],
+      "kind": "rows",
+      "limit": 150,
+      "list": "matches"
+    },
+    "source": {
+      "evidence_id": "ev_ce3c33a3ba975b5804e1608016d3b452f583cc355d04143b803051387ff68f6c",
+      "kind": "saved"
+    }
+  },
+  "result": {
+    "coverage": {
+      "at_end": true,
+      "examined": 150,
+      "next_offset": null,
+      "status": "page",
+      "total": 150
+    },
+    "from_evidence": "ev_ce3c33a3ba975b5804e1608016d3b452f583cc355d04143b803051387ff68f6c",
+    "from_tool": "native_strings_find",
+    "shown": {
+      "items": [
+        {
+          "address": "0x180243d30",
+          "text": "app_apply_mouse_ri"
+        },
+        {
+          "address": "0x180243d78",
+          "text": "app_apply_keyboard_state"
+        },
+        {
+          "address": "0x180243df8",
+          "text": "app_custom_hwnd_proc"
+        },
+        {
+          "address": "0x180243f08",
+          "text": "app_prep_wait"
+        },
+        {
+          "address": "0x180243f98",
+          "text": "app_set_rgba_cursor"
+        },
+        {
+          "address": "0x180244048",
+          "text": "app_unregister_global_hotkeys"
+        },
+        {
+          "address": "0x18027f720",
+          "text": "host_peer_id"
+        },
+        {
+          "address": "0x18027f7c8",
+          "text": "app_ui_channel"
+        },
+        {
+          "address": "0x18027f860",
+          "text": "app_config_v2"
+        },
+        {
+          "address": "0x18027fb18",
+          "text": "network_latency"
+        },
+        {
+          "address": "0x18027fc08",
+          "text": "client_peer_id"
+        },
+        {
+          "address": "0x18027fc28",
+          "text": "client_computer_name"
+        },
+        {
+          "address": "0x18027fc40",
+          "text": "host_computer_name"
+        },
+        {
+          "address": "0x18027fcb0",
+          "text": "client_user_id"
+        },
+        {
+          "address": "0x18027fcc0",
+          "text": "host_user_id"
+        },
+        {
+          "address": "0x18027fde0",
+          "text": "client_disconnect"
+        },
+        {
+          "address": "0x18027fe38",
+          "text": "host_ipc_state"
+        },
+        {
+          "address": "0x18027fe70",
+          "text": "host_disconnect"
+        },
+        {
+          "address": "0x180347888",
+          "text": "app_friends"
+        },
+        {
+          "address": "0x1803484a0",
+          "text": "client_bad_decoders"
+        },
+        {
+          "address": "0x1803488a8",
+          "text": "client_usb_passthrough"
+        },
+        {
+          "address": "0x180348948",
+          "text": "client_enhanced_pen"
+        },
+        {
+          "address": "0x180348a18",
+          "text": "client_overlay"
+        },
+        {
+          "address": "0x180348a68",
+          "text": "client_overlay_warnings"
+        },
+        {
+          "address": "0x180348ae0",
+          "text": "client_hid_compatibility"
+        },
+        {
+          "address": "0x180348b60",
+          "text": "client_macos_key_swap"
+        },
+        {
+          "address": "0x180348c68",
+          "text": "client_windowed"
+        },
+        {
+          "address": "0x180348d88",
+          "text": "client_automatic_displays"
+        },
+        {
+          "address": "0x180348dd8",
+          "text": "client_renderer"
+        },
+        {
+          "address": "0x180348ea0",
+          "text": "client_zero_copy"
+        },
+        {
+          "address": "0x180348eb8",
+          "text": "client_vsync"
+        },
+        {
+          "address": "0x180348f28",
+          "text": "client_decoder_index"
+        },
+        {
+          "address": "0x180348fe0",
+          "text": "client_decoder_h265"
+        },
+        {
+          "address": "0x1803490c0",
+          "text": "network_raw_audio"
+        },
+        {
+          "address": "0x1803491f0",
+          "text": "client_immersive"
+        },
+        {
+          "address": "0x1803492a0",
+          "text": "client_mic_passthrough"
+        },
+        {
+          "address": "0x180349358",
+          "text": "client_mic_id"
+        },
+        {
+          "address": "0x180349640",
+          "text": "client_usb_passthrough_id"
+        },
+        {
+          "address": "0x1803498b8",
+          "text": "client_wcam_passthrough"
+        },
+        {
+          "address": "0x180349980",
+          "text": "client_wcam_id"
+        },
+        {
+          "address": "0x180349a10",
+          "text": "app_host"
+        },
+        {
+          "address": "0x180349a90",
+          "text": "host_name"
+        },
+        {
+          "address": "0x180349b80",
+          "text": "host_rotated"
+        },
+        {
+          "address": "0x180349bf0",
+          "text": "encoder_bitrate"
+        },
+        {
+          "address": "0x180349cd0",
+          "text": "host_lock_desktop"
+        },
+        {
+          "address": "0x180349dc0",
+          "text": "host_protective_mode"
+        },
+        {
+          "address": "0x180349ea0",
+          "text": "host_virtual_monitors"
+        },
+        {
+          "address": "0x180349ff0",
+          "text": "host_privacy_mode"
+        },
+        {
+          "address": "0x18034a100",
+          "text": "host_virtual_monitor_fallback"
+        },
+        {
+          "address": "0x18034a160",
+          "text": "app_daisychaining"
+        },
+        {
+          "address": "0x18034a370",
+          "text": "encoder_fps"
+        },
+        {
+          "address": "0x18034a440",
+          "text": "host_full_fps"
+        },
+        {
+          "address": "0x18034a540",
+          "text": "host_idle_kick_time"
+        },
+        {
+          "address": "0x18034a620",
+          "text": "host_exclusive_input"
+        },
+        {
+          "address": "0x18034a6d8",
+          "text": "host_output"
+        },
+        {
+          "address": "0x18034a720",
+          "text": "host_audio_id"
+        },
+        {
+          "address": "0x18034a820",
+          "text": "host_audio_cancel"
+        },
+        {
+          "address": "0x18034aa40",
+          "text": "host_virtual_microphone"
+        },
+        {
+          "address": "0x18034ab70",
+          "text": "host_virtual_tablet"
+        },
+        {
+          "address": "0x18034ab88",
+          "text": "host_gamepad_mode"
+        },
+        {
+          "address": "0x18034ad08",
+          "text": "host_gamepad_type"
+        },
+        {
+          "address": "0x18034ad88",
+          "text": "host_virtual_mouse"
+        },
+        {
+          "address": "0x18034aed8",
+          "text": "host_virtual_usb_passthrough"
+        },
+        {
+          "address": "0x18034aef8",
+          "text": "host_virtual_camera"
+        },
+        {
+          "address": "0x18034b098",
+          "text": "encoder_min_qp"
+        },
+        {
+          "address": "0x18034b268",
+          "text": "host_require_whitelist"
+        },
+        {
+          "address": "0x18034b350",
+          "text": "app_client"
+        },
+        {
+          "address": "0x18034b360",
+          "text": "network_client_start_port"
+        },
+        {
+          "address": "0x18034b420",
+          "text": "network_server_start_port"
+        },
+        {
+          "address": "0x18034b4e8",
+          "text": "network_upnp"
+        },
+        {
+          "address": "0x18034b550",
+          "text": "network_cg_level"
+        },
+        {
+          "address": "0x18034b680",
+          "text": "app_channel"
+        },
+        {
+          "address": "0x18034b7b8",
+          "text": "app_debug"
+        },
+        {
+          "address": "0x18034b838",
+          "text": "app_environment"
+        },
+        {
+          "address": "0x18034be30",
+          "text": "client_decoder_10bit"
+        },
+        {
+          "address": "0x18034c368",
+          "text": "app_host_peer_id"
+        },
+        {
+          "address": "0x18034c720",
+          "text": "app_saml_team_id"
+        },
+        {
+          "address": "0x18034cc68",
+          "text": "client_mic_muted"
+        },
+        {
+          "address": "0x18034ccd8",
+          "text": "client_wcam_stopped"
+        },
+        {
+          "address": "0x18034d368",
+          "text": "client_decoder_444"
+        },
+        {
+          "address": "0x18034d8a0",
+          "text": "client_overlay_button_x"
+        },
+        {
+          "address": "0x18034d8b8",
+          "text": "client_overlay_button_y"
+        },
+        {
+          "address": "0x18034d9a0",
+          "text": "decoder_warning"
+        },
+        {
+          "address": "0x18034dd60",
+          "text": "app_watermark"
+        },
+        {
+          "address": "0x18034def0",
+          "text": "HOST_INFO_POPUP"
+        },
+        {
+          "address": "0x18034e440",
+          "text": "network_rfc6598_is_local"
+        },
+        {
+          "address": "0x18034e470",
+          "text": "app_client_stun_address"
+        },
+        {
+          "address": "0x18034e488",
+          "text": "app_stun_address"
+        },
+        {
+          "address": "0x18034e4a0",
+          "text": "app_force_relay"
+        },
+        {
+          "address": "0x18034e8a0",
+          "text": "app_changelog_ver"
+        },
+        {
+          "address": "0x18034e9a0",
+          "text": "app_can_logout"
+        },
+        {
+          "address": "0x18034ee30",
+          "text": "host_secret"
+        },
+        {
+          "address": "0x18034ee40",
+          "text": "client_png_cursor"
+        },
+        {
+          "address": "0x18034ee88",
+          "text": "client_web_ui"
+        },
+        {
+          "address": "0x180351b18",
+          "text": "app_flags"
+        },
+        {
+          "address": "0x180351b28",
+          "text": "app_run_level"
+        },
+        {
+          "address": "0x180351b98",
+          "text": "app_block_hash"
+        },
+        {
+          "address": "0x180351ba8",
+          "text": "app_custom_address"
+        },
+        {
+          "address": "0x180351bc0",
+          "text": "app_proxy"
+        },
+        {
+          "address": "0x180351bd0",
+          "text": "app_proxy_address"
+        },
+        {
+          "address": "0x180351be8",
+          "text": "app_proxy_path"
+        },
+        {
+          "address": "0x180351bf8",
+          "text": "app_proxy_port"
+        },
+        {
+          "address": "0x180351c08",
+          "text": "app_proxy_scheme"
+        },
+        {
+          "address": "0x180351c80",
+          "text": "app_copy_paste"
+        },
+        {
+          "address": "0x180351c90",
+          "text": "app_new_ui_prompt"
+        },
+        {
+          "address": "0x180351ca8",
+          "text": "app_visibility"
+        },
+        {
+          "address": "0x180351cb8",
+          "text": "app_filter_usb"
+        },
+        {
+          "address": "0x180351cc8",
+          "text": "app_no_crashhandler"
+        },
+        {
+          "address": "0x180351ce0",
+          "text": "app_write_minidump"
+        },
+        {
+          "address": "0x180351cf8",
+          "text": "app_alt_fs"
+        },
+        {
+          "address": "0x180351d08",
+          "text": "app_hid_keyboard"
+        },
+        {
+          "address": "0x180351d20",
+          "text": "app_silent"
+        },
+        {
+          "address": "0x180351d30",
+          "text": "app_log_level"
+        },
+        {
+          "address": "0x180351d40",
+          "text": "app_filter"
+        },
+        {
+          "address": "0x180351d50",
+          "text": "client_audio_max_buffer_ms"
+        },
+        {
+          "address": "0x180351d70",
+          "text": "client_audio_min_buffer_ms"
+        },
+        {
+          "address": "0x180351d90",
+          "text": "client_poll"
+        },
+        {
+          "address": "0x180351da0",
+          "text": "client_soft_button"
+        },
+        {
+          "address": "0x180351db8",
+          "text": "network_fast_relay_ping"
+        },
+        {
+          "address": "0x180351dd0",
+          "text": "client_resolution_x"
+        },
+        {
+          "address": "0x180351de8",
+          "text": "client_resolution_y"
+        },
+        {
+          "address": "0x180351e00",
+          "text": "network_video_container"
+        },
+        {
+          "address": "0x180351e18",
+          "text": "network_protocol"
+        },
+        {
+          "address": "0x180351e30",
+          "text": "client_audio_poll_rate"
+        },
+        {
+          "address": "0x180351e60",
+          "text": "host_capture_timeout"
+        },
+        {
+          "address": "0x180351e78",
+          "text": "encoder_vbv_max"
+        },
+        {
+          "address": "0x180351e88",
+          "text": "encoder_vbv_initial"
+        },
+        {
+          "address": "0x180351ea0",
+          "text": "encoder_vbv_multi"
+        },
+        {
+          "address": "0x180351eb8",
+          "text": "encoder_max_qp"
+        },
+        {
+          "address": "0x180351ec8",
+          "text": "host_encoder_min_bitrate"
+        },
+        {
+          "address": "0x180351ee8",
+          "text": "encoder_idr_interval"
+        },
+        {
+          "address": "0x180351f00",
+          "text": "encoder_slices"
+        },
+        {
+          "address": "0x180351f10",
+          "text": "host_audio_poll_rate"
+        },
+        {
+          "address": "0x180351f28",
+          "text": "host_audio_bitrate"
+        },
+        {
+          "address": "0x180351f40",
+          "text": "host_exclusive_timeout"
+        },
+        {
+          "address": "0x180351f70",
+          "text": "host_prevent_sleep"
+        },
+        {
+          "address": "0x180351f88",
+          "text": "host_privacy_kick"
+        },
+        {
+          "address": "0x180351fa0",
+          "text": "host_aspect_16x10"
+        },
+        {
+          "address": "0x180351fb8",
+          "text": "host_frame_flip"
+        },
+        {
+          "address": "0x180351fc8",
+          "text": "host_software_encode"
+        },
+        {
+          "address": "0x180351fe0",
+          "text": "encoder_allow_high_res"
+        },
+        {
+          "address": "0x180351ff8",
+          "text": "host_virtual_usb_tracing"
+        },
+        {
+          "address": "0x180359100",
+          "text": "network_sendmsg"
+        },
+        {
+          "address": "0x180359198",
+          "text": "network_recvmsg"
+        },
+        {
+          "address": "0x180359410",
+          "text": "host_audio_thread"
+        },
+        {
+          "address": "0x180359428",
+          "text": "host_msg_thread_cleanup"
+        },
+        {
+          "address": "0x180361550",
+          "text": "host_type"
+        },
+        {
+          "address": "0x180362660",
+          "text": "HOST_NOT_FOUND"
+        },
+        {
+          "address": "0x1803628e8",
+          "text": "app_v"
+        },
+        {
+          "address": "0x180594794",
+          "text": "app_log_"
+        }
+      ],
+      "list": "matches",
+      "offset": 0,
+      "total": 150
+    }
+  },
+  "summary": "Part of native_strings_find evidence (page).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 150,
+    "total": 150
+  },
+  "locations": [],
+  "links": [
+    "ev_ce3c33a3ba975b5804e1608016d3b452f583cc355d04143b803051387ff68f6c"
+  ]
+}

@@ -1,0 +1,1695 @@
+{
+  "id": "ev_bbbb2e01dc599d42caa3c17bbc848e69e9d1a7f118c231d41197328d97386954",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 300,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "^/(v\\d|me|hosts|auth|peers|teams|signal|session|computers|stun|relay|friends|v1|v2)|kessel|stun|turn|relay|signal|\\.parsec\\.app|websocket|Sec-WebSocket|attempt_id|peer_id"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x1802403a0",
+        "references": [
+          {
+            "from": "0x1800d6275",
+            "function": "sub_1800d6220"
+          }
+        ],
+        "section": ".rdata",
+        "text": "'WaitForSingleObject' returned %d"
+      },
+      {
+        "address": "0x180240408",
+        "references": [
+          {
+            "from": "0x1800d6101",
+            "function": "sub_1800d60f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "'timeBeginPeriod' returned %d"
+      },
+      {
+        "address": "0x180240440",
+        "references": [
+          {
+            "from": "0x1800d60d1",
+            "function": "sub_1800d60c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "'timeEndPeriod' returned %d"
+      },
+      {
+        "address": "0x180240ec0",
+        "references": [
+          {
+            "from": "0x1800d83ed",
+            "function": "sub_1800d83d3"
+          }
+        ],
+        "section": ".rdata",
+        "text": "\"audio_get_queued_frames\" returned 0x%X. Re-initializing audio device"
+      },
+      {
+        "address": "0x180240f20",
+        "references": [
+          {
+            "from": "0x1800d840f",
+            "function": "sub_1800d83d3"
+          }
+        ],
+        "section": ".rdata",
+        "text": "\"audio_reinit_device\" returned 0x%X, failed to re-initialize audio device"
+      },
+      {
+        "address": "0x1802447d0",
+        "references": [
+          {
+            "from": "0x1800e11c3",
+            "function": "sub_1800e1050"
+          }
+        ],
+        "section": ".rdata",
+        "text": "WebSocket error: dwResult:%u, dwError:0x%X"
+      },
+      {
+        "address": "0x180244810",
+        "references": [
+          {
+            "from": "0x1800e1168",
+            "function": "sub_1800e1050"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Unknown WebSocket callback 0x%X"
+      },
+      {
+        "address": "0x180244830",
+        "references": [
+          {
+            "from": "0x1800e0fb2",
+            "function": "sub_1800e0ee0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "WebSocket read buffer is not large enough for message + 1"
+      },
+      {
+        "address": "0x180244870",
+        "references": [
+          {
+            "from": "0x1800e0f78",
+            "function": "sub_1800e0ee0"
+          },
+          {
+            "from": "0x1800e0fb9",
+            "function": "sub_1800e0ee0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "MTY_WebSocketRead"
+      },
+      {
+        "address": "0x180244888",
+        "references": [
+          {
+            "from": "0x1800e0f71",
+            "function": "sub_1800e0ee0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "'WinHttpWebSocketReceive' failed with error 0x%X"
+      },
+      {
+        "address": "0x18024d980",
+        "references": [
+          {
+            "from": "0x1800f146f",
+            "function": "sub_1800f134c"
+          }
+        ],
+        "section": ".rdata",
+        "text": "'ID3D12CommandQueue_Signal' failed with HRESULT 0x%X"
+      },
+      {
+        "address": "0x18024dc70",
+        "references": [
+          {
+            "from": "0x1800f3ce4",
+            "function": "sub_1800f3cc0"
+          },
+          {
+            "from": "0x1800f3d66",
+            "function": "sub_1800f3d00"
+          },
+          {
+            "from": "0x1800f3ed4",
+            "function": "sub_1800f3de0"
+          },
+          {
+            "from": "0x1800f401d",
+            "function": "sub_1800f3f70"
+          },
+          {
+            "from": "0x180109f21",
+            "function": "sub_180109df0"
+          },
+          {
+            "from": "0x18010b157",
+            "function": "sub_18010a030"
+          },
+          {
+            "from": "0x18010b67e",
+            "function": "sub_18010b200"
+          },
+          {
+            "from": "0x18010b7f3",
+            "function": "sub_18010b720"
+          },
+          {
+            "from": "0x18010be4a",
+            "function": "sub_18010bd70"
+          },
+          {
+            "from": "0x18010d293",
+            "function": "sub_18010d030"
+          },
+          {
+            "from": "0x18010e23b",
+            "function": "sub_18010d330"
+          },
+          {
+            "from": "0x18010ea8f",
+            "function": "sub_18010e870"
+          },
+          {
+            "from": "0x18010ee56",
+            "function": "sub_18010ebe0"
+          },
+          {
+            "from": "0x180111410",
+            "function": "sub_180111180"
+          }
+        ],
+        "section": ".rdata",
+        "text": "function: %s (return)"
+      },
+      {
+        "address": "0x180250810",
+        "references": [
+          {
+            "from": "0x1800015fc",
+            "function": "sub_1800011d0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "VPPVideoSignalIn"
+      },
+      {
+        "address": "0x18025bb70",
+        "references": [
+          {
+            "from": "0x18017b259",
+            "function": "sub_18017b230"
+          }
+        ],
+        "section": ".rdata",
+        "text": "ERROR; return code from sctp_thread_create() is %d\n"
+      },
+      {
+        "address": "0x18026c228",
+        "references": [
+          {
+            "from": "0x18026bc70",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "`udt returning'"
+      },
+      {
+        "address": "0x18027f628",
+        "references": [
+          {
+            "from": "0x18002dfc1",
+            "function": "sub_18002dd85"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/v2/hosts?mode=desktop"
+      },
+      {
+        "address": "0x18027f660",
+        "references": [
+          {
+            "from": "0x1800039c1",
+            "function": "sub_18000389c"
+          },
+          {
+            "from": "0x1800346b4",
+            "function": "sub_180034680"
+          },
+          {
+            "from": "0x1800346d8",
+            "function": "sub_180034680"
+          },
+          {
+            "from": "0x1800346f4",
+            "function": "sub_180034680"
+          },
+          {
+            "from": "0x180034924",
+            "function": "sub_180034680"
+          },
+          {
+            "from": "0x1800349df",
+            "function": "sub_180034680"
+          },
+          {
+            "from": "0x180036a72",
+            "function": "sub_180036a40"
+          },
+          {
+            "from": "0x180036a96",
+            "function": "sub_180036a40"
+          },
+          {
+            "from": "0x180036ab2",
+            "function": "sub_180036a40"
+          },
+          {
+            "from": "0x180036d99",
+            "function": "sub_180036a40"
+          },
+          {
+            "from": "0x180037bcc",
+            "function": "sub_180037bb0"
+          },
+          {
+            "from": "0x180055d30",
+            "function": "sub_180055bb0"
+          },
+          {
+            "from": "0x1800c90d7",
+            "function": "sub_1800c9090"
+          },
+          {
+            "from": "0x1803361f0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "peer_id"
+      },
+      {
+        "address": "0x18027f6b8",
+        "references": [
+          {
+            "from": "0x180031ea3",
+            "function": "sub_180031a8d"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/auth/sessions"
+      },
+      {
+        "address": "0x18027f720",
+        "references": [
+          {
+            "from": "0x180003e26",
+            "function": "sub_180003d20"
+          },
+          {
+            "from": "0x180005af7",
+            "function": "sub_180005970"
+          },
+          {
+            "from": "0x1800083c6",
+            "function": "sub_180008370"
+          },
+          {
+            "from": "0x1800088c9",
+            "function": "sub_180008870"
+          }
+        ],
+        "section": ".rdata",
+        "text": "host_peer_id"
+      },
+      {
+        "address": "0x18027f738",
+        "references": [
+          {
+            "from": "0x180003f3e",
+            "function": "sub_180003d20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/v2/auth"
+      },
+      {
+        "address": "0x18027f788",
+        "references": [
+          {
+            "from": "0x180030036",
+            "function": "sub_18002fd5a"
+          },
+          {
+            "from": "0x18003098f",
+            "function": "sub_180030150"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/auth/sessions/elevate"
+      },
+      {
+        "address": "0x18027f8b8",
+        "references": [
+          {
+            "from": "0x18002e350",
+            "function": "sub_18002e220"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/me/send-confirmation-email"
+      },
+      {
+        "address": "0x18027f8d8",
+        "references": [
+          {
+            "from": "0x180004b4b",
+            "function": "sub_180004a50"
+          },
+          {
+            "from": "0x180004ccb",
+            "function": "sub_180004c70"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/v2/saml/login/%s"
+      },
+      {
+        "address": "0x18027f908",
+        "references": [
+          {
+            "from": "0x18000544d",
+            "function": "sub_180005400"
+          },
+          {
+            "from": "0x18002fe88",
+            "function": "sub_18002fd5a"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/v2/saml/elevate"
+      },
+      {
+        "address": "0x18027f920",
+        "references": [
+          {
+            "from": "0x180005a98",
+            "function": "sub_180005970"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/v2/saml/session"
+      },
+      {
+        "address": "0x18027f950",
+        "references": [
+          {
+            "from": "0x180005e75",
+            "function": "sub_180005d60"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/teams/%s/machines"
+      },
+      {
+        "address": "0x18027f988",
+        "references": [
+          {
+            "from": "0x18000675d",
+            "function": "sub_180006570"
+          },
+          {
+            "from": "0x18000d0d3",
+            "function": "sub_18000cfbe"
+          },
+          {
+            "from": "0x180032b00",
+            "function": "sub_180032319"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/friendships"
+      },
+      {
+        "address": "0x18027fad0",
+        "references": [
+          {
+            "from": "0x1800079f4",
+            "function": "sub_1800077c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/metrics"
+      },
+      {
+        "address": "0x18027fc08",
+        "references": [
+          {
+            "from": "0x1800083e5",
+            "function": "sub_180008370"
+          },
+          {
+            "from": "0x1800088e5",
+            "function": "sub_180008870"
+          }
+        ],
+        "section": ".rdata",
+        "text": "client_peer_id"
+      },
+      {
+        "address": "0x18027fc18",
+        "references": [
+          {
+            "from": "0x180008401",
+            "function": "sub_180008370"
+          },
+          {
+            "from": "0x180008904",
+            "function": "sub_180008870"
+          },
+          {
+            "from": "0x1800cec4c",
+            "function": "sub_1800cebc0"
+          },
+          {
+            "from": "0x1800cf5d6",
+            "function": "sub_1800ceed0"
+          },
+          {
+            "from": "0x1800d062b",
+            "function": "sub_1800d05b0"
+          },
+          {
+            "from": "0x1800d0ae3",
+            "function": "sub_1800d0800"
+          },
+          {
+            "from": "0x1800d0d7a",
+            "function": "sub_1800d0c4b"
+          },
+          {
+            "from": "0x1800d1052",
+            "function": "sub_1800d0e91"
+          }
+        ],
+        "section": ".rdata",
+        "text": "attempt_id"
+      },
+      {
+        "address": "0x18027ff78",
+        "references": [
+          {
+            "from": "0x18001aa27",
+            "function": "sub_18001a891"
+          },
+          {
+            "from": "0x18001abf5",
+            "function": "sub_18001a891"
+          }
+        ],
+        "section": ".rdata",
+        "text": "/me/app-config"
+      },
+      {
+        "address": "0x180346cc0",
+        "references": [],
+        "section": ".rdata",
+        "text": ".parsec.app"
+      },
+      {
+        "address": "0x180347d50",
+        "references": [
+          {
+            "from": "0x1800110a4",
+            "function": "sub_180010cf0"
+          },
+          {
+            "from": "0x18002174a",
+            "function": "sub_1800212c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://dash.parsec.app/plan/?getWarp&utm_medium=native&utm_source=parsec&utm_campaign=2022_08_31-p-d-4-g-a-p_c-get_warp"
+      },
+      {
+        "address": "0x180348110",
+        "references": [
+          {
+            "from": "0x1800118f0",
+            "function": "sub_180011860"
+          },
+          {
+            "from": "0x180011a60",
+            "function": "sub_1800119d0"
+          },
+          {
+            "from": "0x180011b18",
+            "function": "sub_180011aa0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://builds.parsec.app/%s"
+      },
+      {
+        "address": "0x180348170",
+        "references": [
+          {
+            "from": "0x1800119a1",
+            "function": "sub_180011930"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/33164294687380-Yubikey-Passthrough"
+      },
+      {
+        "address": "0x180348310",
+        "references": [],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32380350695956-Use-your-Microphone-with-Parsec"
+      },
+      {
+        "address": "0x1803483f0",
+        "references": [
+          {
+            "from": "0x180011e93",
+            "function": "sub_180011e20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32381705301908-Setup-Gamepad"
+      },
+      {
+        "address": "0x180348450",
+        "references": [
+          {
+            "from": "0x180011f35",
+            "function": "sub_180011ee0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32361282329364-Alpha-Channel"
+      },
+      {
+        "address": "0x180349000",
+        "references": [
+          {
+            "from": "0x180013f1e",
+            "function": "sub_180012c50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Attempt to stream using the next-generation H.265 video codec, falling back to H.264 if both computers don't support it. Turning this on may ignore the Decoder setting above."
+      },
+      {
+        "address": "0x18034b760",
+        "references": [
+          {
+            "from": "0x1800185ab",
+            "function": "sub_180012c50"
+          },
+          {
+            "from": "0x180018634",
+            "function": "sub_180012c50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Sets the channel returned by the /me request. Restart required."
+      },
+      {
+        "address": "0x18034b848",
+        "references": [
+          {
+            "from": "0x1800187d0",
+            "function": "sub_180012c50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Backend environment used for API and WebSocket requests."
+      },
+      {
+        "address": "0x18034be50",
+        "references": [
+          {
+            "from": "0x18001908c",
+            "function": "sub_180012c50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Attempt to stream using high bit depth (10-bit). This allows for better color accuracy at the cost of latency and network bandwidth. This setting will only be effective when HEVC is enabled. Turning this on may ignore your other decoder settings."
+      },
+      {
+        "address": "0x18034c018",
+        "references": [
+          {
+            "from": "0x1800199dc",
+            "function": "sub_1800192e0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://dash.parsec.app"
+      },
+      {
+        "address": "0x18034c1f8",
+        "references": [
+          {
+            "from": "0x180019d52",
+            "function": "sub_180019a40"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://builds.parsec.app/data/versions.json"
+      },
+      {
+        "address": "0x18034c368",
+        "references": [
+          {
+            "from": "0x18001bc5e",
+            "function": "sub_18001bc56"
+          },
+          {
+            "from": "0x18001e017",
+            "function": "sub_18001dce2"
+          },
+          {
+            "from": "0x180030ca3",
+            "function": "sub_180030b90"
+          },
+          {
+            "from": "0x180333370",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "app_host_peer_id"
+      },
+      {
+        "address": "0x18034c3b0",
+        "references": [
+          {
+            "from": "0x18001bec1",
+            "function": "sub_18001bc56"
+          },
+          {
+            "from": "0x18002fd03",
+            "function": "sub_18002f8aa"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://dash.parsec.app/forgot"
+      },
+      {
+        "address": "0x18034c418",
+        "references": [
+          {
+            "from": "0x18001c0fc",
+            "function": "sub_18001bc56"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://dash.parsec.app/signup"
+      },
+      {
+        "address": "0x18034c4a0",
+        "references": [
+          {
+            "from": "0x18001c49d",
+            "function": "sub_18001bc56"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32381606212500-Provision-Team-Computers"
+      },
+      {
+        "address": "0x18034c6a0",
+        "references": [
+          {
+            "from": "0x18001d995",
+            "function": "sub_18001bc56"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/"
+      },
+      {
+        "address": "0x18034d470",
+        "references": [
+          {
+            "from": "0x18002596d",
+            "function": "sub_18002420b"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Attempt to stream using high bit depth (10-bit).\n\nThis allows for better color accuracy at the cost of latency and network bandwidth.\nThis setting will only be effective when HEVC is enabled.\nTurning this on may ignore your other decoder settings."
+      },
+      {
+        "address": "0x18034e368",
+        "references": [
+          {
+            "from": "0x180007abf",
+            "function": "sub_180007a90"
+          },
+          {
+            "from": "0x180061987",
+            "function": "sub_180061570"
+          },
+          {
+            "from": "0x180098e0e",
+            "function": "sub_180098df2"
+          },
+          {
+            "from": "0x1800c66bd",
+            "function": "sub_1800c6687"
+          }
+        ],
+        "section": ".rdata",
+        "text": "public.parsec.app"
+      },
+      {
+        "address": "0x18034e460",
+        "references": [
+          {
+            "from": "0x18002ed2c",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ed4e",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ed84",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ee81",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002eea3",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002eed4",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x180035c38",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x180035c5a",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x180035c9f",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x180035caf",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x180035d05",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x180075841",
+            "function": "sub_180075789"
+          },
+          {
+            "from": "0x180075867",
+            "function": "sub_180075789"
+          },
+          {
+            "from": "0x18009aef4",
+            "function": "sub_18009adc0"
+          },
+          {
+            "from": "0x18009af72",
+            "function": "sub_18009adc0"
+          },
+          {
+            "from": "0x18009dfb6",
+            "function": "sub_18009df70"
+          },
+          {
+            "from": "0x18009dfdc",
+            "function": "sub_18009df70"
+          },
+          {
+            "from": "0x18033b7d8",
+            "function": null
+          },
+          {
+            "from": "0x18033b7e8",
+            "function": null
+          },
+          {
+            "from": "0x18033b7f8",
+            "function": null
+          },
+          {
+            "from": "0x18033b9c8",
+            "function": null
+          },
+          {
+            "from": "0x18033b9d8",
+            "function": null
+          },
+          {
+            "from": "0x18033b9e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "stun.parsec.app"
+      },
+      {
+        "address": "0x18034e470",
+        "references": [
+          {
+            "from": "0x18002ec7c",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ecbe",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ecd2",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ecf7",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ed9a",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x180035bcc",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x180035c00",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x180035cc5",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x1800502ae",
+            "function": "sub_180050230"
+          },
+          {
+            "from": "0x18033b920",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "app_client_stun_address"
+      },
+      {
+        "address": "0x18034e488",
+        "references": [
+          {
+            "from": "0x18002edd1",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ee13",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ee27",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002ee4c",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x18002eeea",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x180035ce4",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x180035d0f",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x180050282",
+            "function": "sub_180050230"
+          },
+          {
+            "from": "0x18033b730",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "app_stun_address"
+      },
+      {
+        "address": "0x18034e4a0",
+        "references": [
+          {
+            "from": "0x18002ef18",
+            "function": "sub_18002e460"
+          },
+          {
+            "from": "0x180035d28",
+            "function": "sub_1800354c0"
+          },
+          {
+            "from": "0x1800502dd",
+            "function": "sub_180050230"
+          },
+          {
+            "from": "0x18033bb10",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "app_force_relay"
+      },
+      {
+        "address": "0x18034e958",
+        "references": [],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/requests/new"
+      },
+      {
+        "address": "0x18034ea80",
+        "references": [
+          {
+            "from": "0x18003359e",
+            "function": "sub_180033340"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://builds.parsec.app/package/parsec-update-executables.exe"
+      },
+      {
+        "address": "0x18034ed70",
+        "references": [
+          {
+            "from": "0x18002dc3c",
+            "function": "sub_18002d910"
+          },
+          {
+            "from": "0x180036943",
+            "function": "sub_1800365f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32381281333012-All-Error-Codes"
+      },
+      {
+        "address": "0x180351db8",
+        "references": [
+          {
+            "from": "0x1800502f7",
+            "function": "sub_180050230"
+          },
+          {
+            "from": "0x18033bd00",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "network_fast_relay_ping"
+      },
+      {
+        "address": "0x180352528",
+        "references": [
+          {
+            "from": "0x18004c88d",
+            "function": "sub_18004c820"
+          },
+          {
+            "from": "0x180093e8d",
+            "function": "sub_180093d20"
+          }
+        ],
+        "section": ".rdata",
+        "text": "kessel-api."
+      },
+      {
+        "address": "0x180352538",
+        "references": [
+          {
+            "from": "0x18004caba",
+            "function": "sub_18004c8b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "kessel-ws."
+      },
+      {
+        "address": "0x180352a58",
+        "references": [
+          {
+            "from": "0x180055de4",
+            "function": "sub_180055bb0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "peer_id=%s:host_secret=%s:connection_name=%s"
+      },
+      {
+        "address": "0x180354160",
+        "references": [
+          {
+            "from": "0x1800601a1",
+            "function": "sub_180060040"
+          }
+        ],
+        "section": ".rdata",
+        "text": "deps.parsec.app"
+      },
+      {
+        "address": "0x1803557d0",
+        "references": [
+          {
+            "from": "0x1800661fc",
+            "function": "sub_180065966"
+          }
+        ],
+        "section": ".rdata",
+        "text": "'CODECAPI_AVEncMPVGOPSize' return value 0x%X"
+      },
+      {
+        "address": "0x180355800",
+        "references": [
+          {
+            "from": "0x180066237",
+            "function": "sub_180065966"
+          }
+        ],
+        "section": ".rdata",
+        "text": "'CODECAPI_AVEncNumWorkerThreads' return value 0x%X"
+      },
+      {
+        "address": "0x180356ba8",
+        "references": [
+          {
+            "from": "0x18007508d",
+            "function": "sub_180074ed0"
+          },
+          {
+            "from": "0x18007570d",
+            "function": "sub_180075540"
+          },
+          {
+            "from": "0x180075a69",
+            "function": "sub_18007592d"
+          },
+          {
+            "from": "0x180075ee4",
+            "function": "sub_180075adf"
+          },
+          {
+            "from": "0x1800760c4",
+            "function": "sub_180075f57"
+          },
+          {
+            "from": "0x1800762f9",
+            "function": "sub_1800761cf"
+          },
+          {
+            "from": "0x18007650d",
+            "function": "sub_180076350"
+          },
+          {
+            "from": "0x18007672d",
+            "function": "sub_180076570"
+          },
+          {
+            "from": "0x180076979",
+            "function": "sub_18007684f"
+          },
+          {
+            "from": "0x180076b44",
+            "function": "sub_1800769e1"
+          },
+          {
+            "from": "0x180076d04",
+            "function": "sub_180076baa"
+          },
+          {
+            "from": "0x180076ed4",
+            "function": "sub_180076d6e"
+          },
+          {
+            "from": "0x180077094",
+            "function": "sub_180076f3a"
+          },
+          {
+            "from": "0x18007729d",
+            "function": "sub_1800770e0"
+          },
+          {
+            "from": "0x1800774bd",
+            "function": "sub_180077300"
+          },
+          {
+            "from": "0x180077736",
+            "function": "sub_180077520"
+          },
+          {
+            "from": "0x18007798e",
+            "function": "sub_1800777c0"
+          },
+          {
+            "from": "0x180077b86",
+            "function": "sub_180077a00"
+          },
+          {
+            "from": "0x180077d77",
+            "function": "sub_180077c15"
+          },
+          {
+            "from": "0x1800781c9",
+            "function": "sub_180077de0"
+          },
+          {
+            "from": "0x18007820e",
+            "function": "sub_180077de0"
+          },
+          {
+            "from": "0x1800783d5",
+            "function": "sub_18007826b"
+          },
+          {
+            "from": "0x1800785c4",
+            "function": "sub_180078420"
+          },
+          {
+            "from": "0x1800787fd",
+            "function": "sub_180078630"
+          },
+          {
+            "from": "0x180078a1f",
+            "function": "sub_180078860"
+          },
+          {
+            "from": "0x180078c30",
+            "function": "sub_180078a80"
+          },
+          {
+            "from": "0x180078e04",
+            "function": "sub_180078c91"
+          },
+          {
+            "from": "0x18007900b",
+            "function": "sub_180078e7e"
+          },
+          {
+            "from": "0x180079216",
+            "function": "sub_180079080"
+          },
+          {
+            "from": "0x180079414",
+            "function": "sub_180079280"
+          },
+          {
+            "from": "0x1800795f4",
+            "function": "sub_18007949a"
+          },
+          {
+            "from": "0x1800797e8",
+            "function": "sub_180079672"
+          }
+        ],
+        "section": ".rdata",
+        "text": "hosting_send_ipc_message: Returned -1!"
+      },
+      {
+        "address": "0x1803581b0",
+        "references": [
+          {
+            "from": "0x18008a8ff",
+            "function": "sub_18008a7e5"
+          },
+          {
+            "from": "0x18008a993",
+            "function": "sub_18008a7e5"
+          }
+        ],
+        "section": ".rdata",
+        "text": "https://support.parsec.app/hc/en-us/articles/32361372801172-4-4-4-Decoding-using-FFmpeg"
+      },
+      {
+        "address": "0x180358560",
+        "references": [],
+        "section": ".rdata",
+        "text": "The screen has been closed with code [%d]. Please visit support.parsec.app for details."
+      },
+      {
+        "address": "0x1803586c0",
+        "references": [
+          {
+            "from": "0x18009221b",
+            "function": "sub_180091e63"
+          }
+        ],
+        "section": ".rdata",
+        "text": "peer_id="
+      },
+      {
+        "address": "0x180358bc0",
+        "references": [
+          {
+            "from": "0x18009bc48",
+            "function": "sub_18009bbd5"
+          },
+          {
+            "from": "0x18009c3b9",
+            "function": "sub_18009c020"
+          },
+          {
+            "from": "0x18009c5b7",
+            "function": "sub_18009c020"
+          },
+          {
+            "from": "0x180344d70",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "STUN_RFLX"
+      },
+      {
+        "address": "0x180358bd0",
+        "references": [
+          {
+            "from": "0x18009bf45",
+            "function": "sub_18009bbd5"
+          },
+          {
+            "from": "0x18009c809",
+            "function": "sub_18009c640"
+          },
+          {
+            "from": "0x180344d68",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "STUN_P2P"
+      },
+      {
+        "address": "0x180358c00",
+        "references": [
+          {
+            "from": "0x18009affc",
+            "function": "sub_18009adc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Force Relay Mode: %s"
+      },
+      {
+        "address": "0x180358c18",
+        "references": [
+          {
+            "from": "0x18009b005",
+            "function": "sub_18009adc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": " No relays set"
+      },
+      {
+        "address": "0x180358c28",
+        "references": [
+          {
+            "from": "0x18009b016",
+            "function": "sub_18009adc0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Force Relay Mode: Off%s"
+      },
+      {
+        "address": "0x180358c60",
+        "references": [
+          {
+            "from": "0x18009be09",
+            "function": "sub_18009bbd5"
+          }
+        ],
+        "section": ".rdata",
+        "text": "STUN reply from %s:%d"
+      },
+      {
+        "address": "0x180358d00",
+        "references": [
+          {
+            "from": "0x18009c11c",
+            "function": "sub_18009c020"
+          }
+        ],
+        "section": ".rdata",
+        "text": "stun6.parsec.app"
+      },
+      {
+        "address": "0x18035b668",
+        "references": [
+          {
+            "from": "0x1800aeb38",
+            "function": "sub_1800ae070"
+          }
+        ],
+        "section": ".rdata",
+        "text": "kessel-api.parsec.app"
+      },
+      {
+        "address": "0x18035b680",
+        "references": [
+          {
+            "from": "0x18009c36e",
+            "function": "sub_18009c020"
+          },
+          {
+            "from": "0x1800af9fa",
+            "function": "sub_1800af970"
+          },
+          {
+            "from": "0x1800aff73",
+            "function": "sub_1800afb60"
+          }
+        ],
+        "section": ".rdata",
+        "text": "stun_send"
+      },
+      {
+        "address": "0x18035b7f8",
+        "references": [
+          {
+            "from": "0x1800b08c6",
+            "function": "sub_1800b07b0"
+          },
+          {
+            "from": "0x1800b0acb",
+            "function": "sub_1800b07b0"
+          },
+          {
+            "from": "0x1800b6487",
+            "function": "sub_1800b6360"
+          },
+          {
+            "from": "0x1800b6703",
+            "function": "sub_1800b6360"
+          }
+        ],
+        "section": ".rdata",
+        "text": "builds.parsec.app"
+      },
+      {
+        "address": "0x18035d9b0",
+        "references": [
+          {
+            "from": "0x1800baf4a",
+            "function": "sub_1800bae7a"
+          }
+        ],
+        "section": ".rdata",
+        "text": "PCVUD_util_usb_device_cycle_port returned %d"
+      },
+      {
+        "address": "0x18035f0c0",
+        "references": [
+          {
+            "from": "0x1800ace52",
+            "function": "sub_1800acdf7"
+          }
+        ],
+        "section": ".rdata",
+        "text": "PCVUD_is_operable returned incompatible driver version 0.%u.%u.0."
+      },
+      {
+        "address": "0x1803616b0",
+        "references": [
+          {
+            "from": "0x1800c796c",
+            "function": "sub_1800c78d0"
+          },
+          {
+            "from": "0x1800c7b52",
+            "function": "sub_1800c7ad2"
+          },
+          {
+            "from": "0x1800c7cff",
+            "function": "sub_1800c7c8c"
+          },
+          {
+            "from": "0x1800c7ea0",
+            "function": "sub_1800c7db0"
+          },
+          {
+            "from": "0x1800c8026",
+            "function": "sub_1800c7f20"
+          },
+          {
+            "from": "0x1800c81a2",
+            "function": "sub_1800c80e0"
+          },
+          {
+            "from": "0x1800c8383",
+            "function": "sub_1800c82cb"
+          },
+          {
+            "from": "0x1800c857d",
+            "function": "sub_1800c84db"
+          },
+          {
+            "from": "0x1800c8795",
+            "function": "sub_1800c86db"
+          },
+          {
+            "from": "0x1800c8f97",
+            "function": "sub_1800c89e4"
+          }
+        ],
+        "section": ".rdata",
+        "text": "return"
+      },
+      {
+        "address": "0x180362590",
+        "references": [
+          {
+            "from": "0x1800cf68c",
+            "function": "sub_1800ceed0"
+          },
+          {
+            "from": "0x1800d06a1",
+            "function": "sub_1800d05b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "from_stun"
+      },
+      {
+        "address": "0x1803625a8",
+        "references": [
+          {
+            "from": "0x1800cef65",
+            "function": "sub_1800ceed0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "offer_cancel_relay"
+      },
+      {
+        "address": "0x1803625c0",
+        "references": [
+          {
+            "from": "0x1800cef4e",
+            "function": "sub_1800ceed0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "offer_relay"
+      },
+      {
+        "address": "0x1803625d0",
+        "references": [
+          {
+            "from": "0x1800cef93",
+            "function": "sub_1800ceed0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "candex_relay"
+      },
+      {
+        "address": "0x1803625e0",
+        "references": [
+          {
+            "from": "0x1800cef7c",
+            "function": "sub_1800ceed0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "answer_relay"
+      },
+      {
+        "address": "0x1803625f0",
+        "references": [
+          {
+            "from": "0x1800cf807",
+            "function": "sub_1800cee50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "signal_event_dispatch: action not found in JSON %s"
+      },
+      {
+        "address": "0x180362628",
+        "references": [
+          {
+            "from": "0x1800cf7aa",
+            "function": "sub_1800cee50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "signal_event_dispatch: Not a valid JSON String %s."
+      },
+      {
+        "address": "0x180362670",
+        "references": [
+          {
+            "from": "0x1800cf7fa",
+            "function": "sub_1800cee50"
+          }
+        ],
+        "section": ".rdata",
+        "text": "signal_event_dispatch: Unknown action: %s"
+      },
+      {
+        "address": "0x1803627d0",
+        "references": [
+          {
+            "from": "0x1800cf840",
+            "function": "sub_1800ceed0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "signal_event_dispatch"
+      },
+      {
+        "address": "0x180362840",
+        "references": [
+          {
+            "from": "0x1800cfd0a",
+            "function": "sub_1800cf9c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "signal_thread"
+      },
+      {
+        "address": "0x180362850",
+        "references": [
+          {
+            "from": "0x1800cfce1",
+            "function": "sub_1800cf9c0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Websocket upgrade request returned status code %u"
+      },
+      {
+        "address": "0x180362898",
+        "references": [
+          {
+            "from": "0x18008577c",
+            "function": "sub_1800856b0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Using websocket host '%s'"
+      },
+      {
+        "address": "0x18058ffe0",
+        "references": [],
+        "section": ".rdata",
+        "text": "WinHttpWebSocketCompleteUpgrade"
+      },
+      {
+        "address": "0x180590002",
+        "references": [],
+        "section": ".rdata",
+        "text": "WinHttpWebSocketSend"
+      },
+      {
+        "address": "0x18059001a",
+        "references": [],
+        "section": ".rdata",
+        "text": "WinHttpWebSocketReceive"
+      },
+      {
+        "address": "0x180590034",
+        "references": [],
+        "section": ".rdata",
+        "text": "WinHttpWebSocketClose"
+      },
+      {
+        "address": "0x18059004c",
+        "references": [],
+        "section": ".rdata",
+        "text": "WinHttpWebSocketQueryCloseStatus"
+      }
+    ],
+    "total": 99
+  },
+  "summary": "99 strings match \"^/(v\\d|me|hosts|auth|peers|teams|signal|session|computers|stun|relay|friends|v1|v2)|kessel|stun|turn|relay|signal|\\.parsec\\.app|websocket|Sec-WebSocket|attempt_id|peer_id\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 99,
+    "total": 99
+  },
+  "locations": [],
+  "links": []
+}

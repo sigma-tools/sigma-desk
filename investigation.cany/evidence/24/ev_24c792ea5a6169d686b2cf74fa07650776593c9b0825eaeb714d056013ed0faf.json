@@ -1,0 +1,45 @@
+{
+  "id": "ev_24c792ea5a6169d686b2cf74fa07650776593c9b0825eaeb714d056013ed0faf",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x18002e220"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x18002e220",
+    "function": "FUN_18002e220",
+    "pseudo_code": "\r\nvoid FUN_18002e220(longlong param_1)\r\n\r\n{\r\n  uint uVar1;\r\n  undefined1 *puVar2;\r\n  char *pcVar3;\r\n  longlong lVar4;\r\n  undefined1 *puVar5;\r\n  undefined8 uVar6;\r\n  char *pcVar7;\r\n  longlong lVar8;\r\n  undefined1 *puVar9;\r\n  char *pcVar10;\r\n  undefined8 local_res8;\r\n  undefined8 in_stack_fffffffffffffee8;\r\n  undefined4 uVar11;\r\n  undefined1 local_c8 [160];\r\n  \r\n  uVar11 = (undefined4)((ulonglong)in_stack_fffffffffffffee8 >> 0x20);\r\n  lVar4 = FUN_1800d3c50(local_c8);\r\n  pcVar10 = \"\";\r\n  pcVar3 = *(char **)(lVar4 + 0x20);\r\n  uVar1 = *(uint *)(lVar4 + 0x48);\r\n  puVar5 = *(undefined1 **)(lVar4 + 0x40);\r\n  if ((uVar1 & 0x20) == 0) {\r\n    if ((uVar1 & 0x10) == 0) {\r\n      puVar5 = &DAT_18027f1c2;\r\n    }\r\n    else {\r\n      puVar5 = (undefined1 *)\r\n               FUN_1800d5700(\"%d.%d.%d.%d\",*(ulonglong *)(lVar4 + 8),\r\n                             *(ulonglong *)(lVar4 + 8) >> 0x20,\r\n                             SUB168(*(undefined1 (*) [16])(lVar4 + 0x10),0),\r\n                             CONCAT44(uVar11,SUB164(*(undefined1 (*) [16])(lVar4 + 0x10),4)));\r\n    }\r\n  }\r\n  puVar9 = &DAT_18027f1c2;\r\n  puVar2 = &DAT_18027f1c2;\r\n  if ((undefined1 *)(param_1 + 0x400) != (undefined1 *)0x0) {\r\n    puVar9 = &DAT_18027f4bc;\r\n    pcVar10 = \"Authorization: Bearer \";\r\n    puVar2 = (undefined1 *)(param_1 + 0x400);\r\n  }\r\n  uVar6 = FUN_180003680();\r\n  pcVar7 = \"no-name\";\r\n  if ((uVar1 & 1) != 0) {\r\n    pcVar7 = pcVar3;\r\n  }\r\n  FUN_1800d5700(\"X-Parsec-OS: %s\\nX-Parsec-OS-Version: %s\\nX-Parsec-Platform: %s\\nX-Parsec-App-Version: %s\\nX-Parsec-Device-ID: %s\\n%s%s%s%s%s\"\r\n                ,pcVar7,puVar5,\"windows\",\"150-104a\",&DAT_1805a5cd0,uVar6,\r\n                \"Content-Type:application/json\\n\",pcVar10,puVar2,puVar9);\r\n  FUN_180002a30(param_1 + 0x920,0x400,\"/me/send-confirmation-email\");\r\n  local_res8 = FUN_1800d1bc0();\r\n  lVar4 = FUN_1800d2920(local_res8);\r\n  lVar8 = -1;\r\n  do {\r\n    lVar8 = lVar8 + 1;\r\n  } while (*(char *)(lVar4 + lVar8) != '\\0');\r\n  FUN_180003380(param_1 + 0x914,param_1);\r\n  thunk_FUN_18021a580(lVar4);\r\n  FUN_1800d1960(&local_res8);\r\n  return;\r\n}\r\n\r\n",
+    "signature": "void FUN_18002e220(longlong param_1);"
+  },
+  "summary": "Pseudo-C for FUN_18002e220 from the Deep engine (65 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x18002e220"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

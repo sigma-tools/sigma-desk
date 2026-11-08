@@ -1,0 +1,97 @@
+{
+  "id": "ev_8509912ff2045512f85d4ab3d1ee75875ba1a42d6931bcd8e0da99f7b394aa43",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8c8c4299ddf503b2c25c0905b0a0820f3e8238c252e9ace37bf25964ef4a8f6f",
+    "name": "b009_6207848.mz"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 200,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "^(TFA_REQUIRED|USER_UNCONFIRMED|INVALID_SESSION|NO_PERMISSION|TEAM_DEACTIVATED|OUT_OF_COMPLIANCE|HOST_NOT_FOUND|INVALID_MSG|ACCESSLINK_EXPIRED)$"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x180362660",
+        "references": [],
+        "section": ".rdata",
+        "text": "HOST_NOT_FOUND"
+      },
+      {
+        "address": "0x1803626a0",
+        "references": [],
+        "section": ".rdata",
+        "text": "TFA_REQUIRED"
+      },
+      {
+        "address": "0x1803626b0",
+        "references": [],
+        "section": ".rdata",
+        "text": "USER_UNCONFIRMED"
+      },
+      {
+        "address": "0x1803626c8",
+        "references": [],
+        "section": ".rdata",
+        "text": "INVALID_MSG"
+      },
+      {
+        "address": "0x1803626d8",
+        "references": [],
+        "section": ".rdata",
+        "text": "NO_PERMISSION"
+      },
+      {
+        "address": "0x180362730",
+        "references": [],
+        "section": ".rdata",
+        "text": "ACCESSLINK_EXPIRED"
+      },
+      {
+        "address": "0x180362748",
+        "references": [],
+        "section": ".rdata",
+        "text": "TEAM_DEACTIVATED"
+      },
+      {
+        "address": "0x180362778",
+        "references": [],
+        "section": ".rdata",
+        "text": "INVALID_SESSION"
+      },
+      {
+        "address": "0x180362788",
+        "references": [],
+        "section": ".rdata",
+        "text": "OUT_OF_COMPLIANCE"
+      }
+    ],
+    "total": 9
+  },
+  "summary": "9 strings match \"^(TFA_REQUIRED|USER_UNCONFIRMED|INVALID_SESSION|NO_PERMISSION|TEAM_DEACTIVATED|OUT_OF_COMPLIANCE|HOST_NOT_FOUND|INVALID_MSG|ACCESSLINK_EXPIRED)$\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.5.0",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 9,
+    "total": 9
+  },
+  "locations": [],
+  "links": []
+}
